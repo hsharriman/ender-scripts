@@ -1,0 +1,67 @@
+index,pageName,question,answer,condition,next,click,hover,mouse,pointer,score,key,delta,participant
+2024-07-24 20:16:51.395,Background Questions,0,20,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 20:16:51.395,Background Questions,1,2017,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 20:16:51.395,Background Questions,2,15,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 20:16:51.396,Background Questions,3,,undefined,1,0,0,0,0,,,0.001,pilotB
+2024-07-24 20:17:07.636,P1,qID-3,HJ,static,0,0,0,0,0,1.0,HJ,16.24,pilotB
+2024-07-24 20:17:29.604,P1,qID-2,MN,static,0,0,0,0,0,1.0,MN,21.968,pilotB
+2024-07-24 20:17:36.894,P1,qID-1,BC,static,0,0,0,0,0,1.0,BC,7.29,pilotB
+2024-07-24 20:17:45.955,P2,qID-2,Angle DEF,static,0,0,0,0,0,1.0,Angle DEF,9.061,pilotB
+2024-07-24 20:17:52.712,P2,qID-3,Angle NQP,static,0,0,0,0,0,1.0,Angle NQP,6.757,pilotB
+2024-07-24 20:17:59.965,P2,qID-1,Angle GHJ,static,0,0,0,0,0,1.0,Angle GHJ,7.253,pilotB
+2024-07-24 20:18:23.021,P5,qID-1,AAS (Angle-Angle-Side),static,0,0,0,0,0,1.0,AAS (Angle-Angle-Side),23.056,pilotB
+2024-07-24 20:18:25.166,P5,qID-13,No,static,0,0,0,0,0,1.0,No,2.145,pilotB
+2024-07-24 20:18:28.016,P5,qID-12,No,static,0,0,0,0,0,1.0,No,2.85,pilotB
+2024-07-24 20:18:54.762,P5,qID-11,"be the same shape and size, can be mirror images of each other",static,0,0,0,0,0,1.0,"be the same shape and size, can be mirror images of each other",26.746,pilotB
+2024-07-24 20:19:07.422,P7,qID-1,SSA (Side-Side-Angle),static,0,0,0,0,0,0.0,RHL (Right-Hypotenuse-Leg),12.66,pilotB
+2024-07-24 20:19:12.860,P6,qID-1,ASA (Angle-Side-Angle),static,0,0,0,0,0,1.0,ASA (Angle-Side-Angle),5.438,pilotB
+2024-07-24 20:19:25.828,P4,qID-1,SSS (Side-Side-Side),static,0,0,0,0,0,1.0,SSS (Side-Side-Side),12.968,pilotB
+2024-07-24 20:19:37.932,P3,qID-1,SAS (Side-Angle-Side),static,0,25,135,16,15,1.0,SAS (Side-Angle-Side),12.104,pilotB
+2024-07-24 20:24:09.006,TutorialProof1,qID-1,No,interactive,0,2,22,3,0,1.0,No,271.074,pilotB
+2024-07-24 20:25:33.633,TutorialProof1,qID-2,No,interactive,0,2,18,2,0,1.0,No,84.627,pilotB
+2024-07-24 20:26:19.009,TutorialProof2,qID-1,No,interactive,1,0,36,24,54,1.0,No,45.376,pilotB
+2024-07-24 20:31:57.682,T1_S1_IN3,qID-3,Yes,interactive,0,0,14,4,0,1.0,Yes,338.673,pilotB
+2024-07-24 20:32:32.969,T1_S1_IN3,qID-1,Yes,interactive,0,0,3,0,0,1.0,Yes,35.287,pilotB
+2024-07-24 20:32:39.649,T1_S1_IN3,qID-2,No,interactive,0,6,0,0,0,1.0,No,6.68,pilotB
+2024-07-24 20:34:10.775,T1_S1_C3,qID-1,Yes,static,0,0,0,0,0,1.0,Yes,91.126,pilotB
+2024-07-24 20:37:37.802,T1_S1_C3,qID-3,No,static,0,0,0,0,0,1.0,No,207.027,pilotB
+2024-07-24 20:37:51.173,T1_S1_C3,qID-4,Yes,static,0,0,0,0,0,1.0,Yes,13.371,pilotB
+2024-07-24 20:38:25.637,T1_S1_C3,qID-2,No,static,0,0,0,0,0,1.0,No,34.464,pilotB
+2024-07-24 20:40:41.869,T1_S1_IN1,qID-3,No,static,0,0,0,0,0,1.0,No,136.232,pilotB
+2024-07-24 20:41:10.422,T1_S1_IN1,qID-1,No,static,0,0,0,0,0,1.0,No,28.553,pilotB
+2024-07-24 20:42:04.986,T1_S1_IN1,qID-2,No,static,0,0,0,0,0,1.0,No,54.564,pilotB
+2024-07-24 20:44:44.913,T1_S1_C1,qID-1,Yes,static,0,0,0,0,0,1.0,Yes,159.927,pilotB
+2024-07-24 20:45:00.828,T1_S1_C1,qID-2,Yes,static,0,0,0,0,0,1.0,Yes,15.915,pilotB
+2024-07-24 20:45:45.985,T1_S1_C1,qID-3,No,static,0,1,51,7,9,1.0,No,45.157,pilotB
+2024-07-24 20:47:47.089,T1_S1_C2,qID-1,Yes,interactive,0,1,70,2,10,1.0,Yes,121.104,pilotB
+2024-07-24 20:49:55.149,T1_S1_C2,qID-4,Yes,interactive,0,1,26,0,1,1.0,Yes,128.06,pilotB
+2024-07-24 20:50:13.266,T1_S1_C2,qID-3,No,interactive,0,3,6,2,0,0.0,Yes,18.117,pilotB
+2024-07-24 20:50:42.704,T1_S1_C2,qID-2,Yes,interactive,0,3,48,2,10,1.0,Yes,29.438,pilotB
+2024-07-24 20:51:59.182,T1_S1_IN2,qID-1,Yes,interactive,0,0,40,0,0,1.0,Yes,76.478,pilotB
+2024-07-24 20:52:12.714,T1_S1_IN2,qID-2,No,interactive,1,0,0,0,0,1.0,No,13.532,pilotB
+2024-07-24 20:54:41.170,T1_S2_IN2,qID-1,No,static,0,0,0,0,0,0.0,Yes,148.456,pilotB
+2024-07-24 20:58:46.378,T1_S2_C2,qID-1,No,static,0,0,0,0,4,1.0,No,245.208,pilotB
+2024-07-24 21:00:13.335,T1_S2_C1,qID-1,No,interactive,0,14,232,26,26,1.0,No,86.957,pilotB
+2024-07-24 21:04:54.666,T1_S2_IN1,qID-1,Yes,interactive,0,2,0,0,0,1.0,Yes,281.331,pilotB
+2024-07-24 21:05:07.649,T1_S2_IN1,qID-2,Step 8,interactive,0,2,47,1,0,1.0,Step 8,12.983,pilotB
+2024-07-24 21:06:20.363,T1_S2_IN1,qID-3,There is not enough information to apply the theorem or definition,interactive,0,0,0,0,0,1.0,There is not enough information to apply the theorem or definition,72.714,pilotB
+2024-07-24 21:07:30.134,Static SUS,0,3,undefined,0,0,0,0,0,,,69.771,pilotB
+2024-07-24 21:07:30.134,Static SUS,1,2,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 21:07:30.135,Static SUS,4,4,undefined,0,0,0,0,0,,,0.001,pilotB
+2024-07-24 21:07:30.135,Static SUS,3,1,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 21:07:30.135,Static SUS,2,4,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 21:07:30.136,Static SUS,5,2,undefined,0,0,0,0,0,,,0.001,pilotB
+2024-07-24 21:07:30.136,Static SUS,6,4,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 21:07:30.137,Static SUS,7,2,undefined,0,0,0,0,0,,,0.001,pilotB
+2024-07-24 21:07:30.137,Static SUS,8,3,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 21:07:30.137,Static SUS,9,2,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 21:08:14.201,Interactive SUS,0,4,undefined,0,0,0,0,0,,,44.064,pilotB
+2024-07-24 21:08:14.202,Interactive SUS,1,2,undefined,0,0,0,0,0,,,0.001,pilotB
+2024-07-24 21:08:14.202,Interactive SUS,2,4,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 21:08:14.202,Interactive SUS,3,2,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 21:08:14.203,Interactive SUS,4,4,undefined,0,0,0,0,0,,,0.001,pilotB
+2024-07-24 21:08:14.203,Interactive SUS,5,2,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 21:08:14.204,Interactive SUS,6,4,undefined,0,0,0,0,0,,,0.001,pilotB
+2024-07-24 21:08:14.204,Interactive SUS,7,2,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 21:08:14.204,Interactive SUS,8,4,undefined,0,0,0,0,0,,,0.0,pilotB
+2024-07-24 21:08:14.205,Interactive SUS,9,2,undefined,0,0,0,0,0,,,0.001,pilotB

@@ -1,0 +1,71 @@
+index,pageName,question,answer,condition,next,click,hover,mouse,pointer,score,key,delta,participant
+2024-07-25 15:36:31.516,Background Questions,0,15,undefined,1,0,0,0,0,,,0.0,pb
+2024-07-25 15:36:31.516,Background Questions,1,2024,undefined,1,0,0,0,0,,,0.0,pb
+2024-07-25 15:36:31.516,Background Questions,2,10,undefined,1,0,0,0,0,,,0.0,pb
+2024-07-25 15:36:31.516,Background Questions,3,honors,undefined,1,0,0,0,0,,,0.0,pb
+2024-07-25 15:37:31.829,P1,qID-1,BC,static,0,0,0,0,0,1.0,BC,60.313,pb
+2024-07-25 15:37:43.461,P1,qID-3,HJ,static,0,0,0,0,0,1.0,HJ,11.632,pb
+2024-07-25 15:37:53.384,P1,qID-2,MN,static,0,0,0,0,0,1.0,MN,9.923,pb
+2024-07-25 15:38:01.791,P2,qID-3,Angle NQP,static,0,0,0,0,0,1.0,Angle NQP,8.407,pb
+2024-07-25 15:38:13.813,P2,qID-2,Angle DEF,static,0,0,0,0,0,1.0,Angle DEF,12.022,pb
+2024-07-25 15:38:23.976,P2,qID-1,Angle GHJ,static,0,0,0,0,0,1.0,Angle GHJ,10.163,pb
+2024-07-25 15:38:34.664,P3,qID-1,SAS (Side-Angle-Side),static,0,0,0,0,0,1.0,SAS (Side-Angle-Side),10.688,pb
+2024-07-25 15:39:10.343,P3,qID-11,"be the same shape, not necessarily the same size",static,0,0,0,0,0,0.0,"be the same shape and size, can be mirror images of each other",35.679,pb
+2024-07-25 15:39:14.725,P3,qID-12,No,static,0,0,0,0,0,1.0,No,4.382,pb
+2024-07-25 15:39:23.183,P3,qID-13,Yes,static,0,0,0,0,0,0.0,No,8.458,pb
+2024-07-25 15:40:06.361,P7,qID-1,SAS (Side-Angle-Side),static,0,0,0,0,0,0.0,RHL (Right-Hypotenuse-Leg),43.178,pb
+2024-07-25 15:40:13.254,P6,qID-1,ASA (Angle-Side-Angle),static,0,0,0,0,0,1.0,ASA (Angle-Side-Angle),6.893,pb
+2024-07-25 15:40:25.337,P5,qID-1,AAS (Angle-Angle-Side),static,0,0,0,0,0,1.0,AAS (Angle-Angle-Side),12.083,pb
+2024-07-25 15:40:31.270,P4,qID-1,SSS (Side-Side-Side),static,0,6,109,5,2,1.0,SSS (Side-Side-Side),5.933,pb
+2024-07-25 15:42:14.896,TutorialProof1,qID-1,Yes,interactive,0,3,44,2,5,0.0,No,103.626,pb
+2024-07-25 15:43:04.544,TutorialProof1,qID-2,Yes,interactive,0,2,16,3,0,0.0,No,49.648,pb
+2024-07-25 15:44:02.826,TutorialProof2,qID-1,No,interactive,1,4,29,8,0,1.0,No,58.282,pb
+2024-07-25 15:46:51.610,T1_S1_C1,qID-2,Yes,static,0,0,0,0,0,1.0,Yes,168.784,pb
+2024-07-25 15:46:55.368,T1_S1_C1,qID-3,Yes,static,0,0,0,0,0,0.0,No,3.758,pb
+2024-07-25 15:46:57.393,T1_S1_C1,qID-1,No,static,0,1,9,5,0,0.0,Yes,2.025,pb
+2024-07-25 15:48:02.889,T1_S1_C3,qID-3,No,interactive,0,0,12,1,0,1.0,No,65.496,pb
+2024-07-25 15:48:58.859,T1_S1_C3,qID-2,No,interactive,0,0,12,0,0,1.0,No,55.97,pb
+2024-07-25 15:49:18.944,T1_S1_C3,qID-4,Yes,interactive,0,0,0,0,0,1.0,Yes,20.085,pb
+2024-07-25 15:49:52.424,T1_S1_C3,qID-1,Yes,interactive,0,1,39,3,0,1.0,Yes,33.48,pb
+2024-07-25 15:51:36.296,T1_S1_C2,qID-2,Yes,interactive,0,0,4,0,0,1.0,Yes,103.872,pb
+2024-07-25 15:52:23.179,T1_S1_C2,qID-3,Yes,interactive,0,0,56,2,0,1.0,Yes,46.883,pb
+2024-07-25 15:53:29.505,T1_S1_C2,qID-4,No,interactive,0,0,0,0,0,0.0,Yes,66.326,pb
+2024-07-25 15:54:21.046,T1_S1_C2,qID-1,Yes,interactive,0,0,0,0,0,1.0,Yes,51.541,pb
+2024-07-25 15:55:20.034,T1_S1_IN1,qID-2,No,static,0,0,0,0,0,1.0,No,58.988,pb
+2024-07-25 15:56:08.830,T1_S1_IN1,qID-1,No,static,0,0,0,0,0,1.0,No,48.796,pb
+2024-07-25 15:56:19.712,T1_S1_IN1,qID-3,No,static,0,0,0,0,0,1.0,No,10.882,pb
+2024-07-25 15:57:13.093,T1_S1_IN3,qID-3,Yes,static,0,0,0,0,0,1.0,Yes,53.381,pb
+2024-07-25 15:57:57.381,T1_S1_IN3,qID-2,No,static,0,0,0,0,0,1.0,No,44.288,pb
+2024-07-25 15:59:50.768,T1_S1_IN3,qID-1,Yes,static,0,2,23,0,0,1.0,Yes,113.387,pb
+2024-07-25 16:00:44.192,T1_S1_IN2,qID-1,Yes,interactive,0,0,26,1,0,1.0,Yes,53.424,pb
+2024-07-25 16:01:16.097,T1_S1_IN2,qID-2,No,interactive,1,2,34,1,0,1.0,No,31.905,pb
+2024-07-25 16:02:51.302,T1_S2_C1,qID-1,Yes,interactive,0,0,0,0,0,0.0,No,95.205,pb
+2024-07-25 16:02:59.053,T1_S2_C1,qID-2,Step 4,interactive,0,0,4,0,0,,,7.751,pb
+2024-07-25 16:03:19.754,T1_S2_C1,qID-3,The step uses the wrong theorem or definition (ex: incorrectly uses ASA triangle congruence),interactive,0,0,0,0,0,,,20.701,pb
+2024-07-25 16:05:38.306,T1_S2_IN1,qID-1,Yes,static,0,0,0,0,0,1.0,Yes,138.552,pb
+2024-07-25 16:05:46.217,T1_S2_IN1,qID-2,Step 8,static,0,0,0,0,0,1.0,Step 8,7.911,pb
+2024-07-25 16:05:57.482,T1_S2_IN1,qID-3,There is not enough information to apply the theorem or definition,static,0,1,16,1,0,1.0,There is not enough information to apply the theorem or definition,11.265,pb
+2024-07-25 16:08:38.585,T1_S2_C2,qID-1,No,interactive,0,0,0,0,0,1.0,No,161.103,pb
+2024-07-25 16:11:01.389,T1_S2_IN2,qID-1,Yes,static,0,0,0,0,0,1.0,Yes,142.804,pb
+2024-07-25 16:11:05.454,T1_S2_IN2,qID-2,Step 8,static,0,0,0,0,0,0.0,Step 7,4.065,pb
+2024-07-25 16:11:13.464,T1_S2_IN2,qID-3,The step uses the wrong theorem or definition (ex: incorrectly uses ASA triangle congruence),static,0,0,0,0,0,0.0,The step says the wrong things are congruent to each other (ex: incorrectly says PA is congruent to AC),8.01,pb
+2024-07-25 16:13:28.787,Static SUS,0,5,undefined,0,0,0,0,0,,,135.323,pb
+2024-07-25 16:13:28.787,Static SUS,1,2,undefined,0,0,0,0,0,,,0.0,pb
+2024-07-25 16:13:28.788,Static SUS,3,1,undefined,0,0,0,0,0,,,0.001,pb
+2024-07-25 16:13:28.788,Static SUS,2,4,undefined,0,0,0,0,0,,,0.0,pb
+2024-07-25 16:13:28.789,Static SUS,4,4,undefined,0,0,0,0,0,,,0.001,pb
+2024-07-25 16:13:28.789,Static SUS,5,1,undefined,0,0,0,0,0,,,0.0,pb
+2024-07-25 16:13:28.789,Static SUS,6,5,undefined,0,0,0,0,0,,,0.0,pb
+2024-07-25 16:13:28.790,Static SUS,7,1,undefined,0,0,0,0,0,,,0.001,pb
+2024-07-25 16:13:28.790,Static SUS,8,4,undefined,0,0,0,0,0,,,0.0,pb
+2024-07-25 16:13:28.791,Static SUS,9,1,undefined,0,0,0,0,0,,,0.001,pb
+2024-07-25 16:14:56.124,Interactive SUS,0,4,undefined,0,0,0,0,0,,,87.333,pb
+2024-07-25 16:14:56.124,Interactive SUS,1,2,undefined,0,0,0,0,0,,,0.0,pb
+2024-07-25 16:14:56.125,Interactive SUS,2,5,undefined,0,0,0,0,0,,,0.001,pb
+2024-07-25 16:14:56.125,Interactive SUS,3,1,undefined,0,0,0,0,0,,,0.0,pb
+2024-07-25 16:14:56.126,Interactive SUS,4,4,undefined,0,0,0,0,0,,,0.001,pb
+2024-07-25 16:14:56.126,Interactive SUS,5,2,undefined,0,0,0,0,0,,,0.0,pb
+2024-07-25 16:14:56.127,Interactive SUS,6,5,undefined,0,0,0,0,0,,,0.001,pb
+2024-07-25 16:14:56.127,Interactive SUS,7,1,undefined,0,0,0,0,0,,,0.0,pb
+2024-07-25 16:14:56.128,Interactive SUS,8,4,undefined,0,0,0,0,0,,,0.001,pb
+2024-07-25 16:14:56.128,Interactive SUS,9,1,undefined,0,0,0,0,0,,,0.0,pb

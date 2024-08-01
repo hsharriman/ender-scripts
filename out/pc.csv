@@ -1,0 +1,71 @@
+index,pageName,question,answer,condition,next,click,hover,mouse,pointer,score,key,delta,participant
+2024-07-25 15:36:02.876,Background Questions,0,14,undefined,1,0,0,0,0,,,0.0,pc
+2024-07-25 15:36:02.876,Background Questions,1,2023-2024,undefined,1,0,0,0,0,,,0.0,pc
+2024-07-25 15:36:02.876,Background Questions,2,9,undefined,1,0,0,0,0,,,0.0,pc
+2024-07-25 15:36:02.876,Background Questions,3,regular,undefined,1,0,0,0,0,,,0.0,pc
+2024-07-25 15:36:16.797,P1,qID-1,BC,static,0,0,0,0,0,1.0,BC,13.921,pc
+2024-07-25 15:36:24.579,P1,qID-3,HJ,static,0,0,0,0,0,1.0,HJ,7.782,pc
+2024-07-25 15:36:32.529,P1,qID-2,MN,static,0,0,0,0,0,1.0,MN,7.95,pc
+2024-07-25 15:36:41.065,P2,qID-2,Angle DEF,static,0,0,0,0,0,1.0,Angle DEF,8.536,pc
+2024-07-25 15:36:47.418,P2,qID-1,Angle GHJ,static,0,0,0,0,0,1.0,Angle GHJ,6.353,pc
+2024-07-25 15:36:53.425,P2,qID-3,Angle NQP,static,0,0,0,0,0,1.0,Angle NQP,6.007,pc
+2024-07-25 15:37:03.416,P6,qID-1,ASA (Angle-Side-Angle),static,0,0,0,0,0,1.0,ASA (Angle-Side-Angle),9.991,pc
+2024-07-25 15:37:24.866,P6,qID-11,"be the same shape and size, can be mirror images of each other",static,0,0,0,0,0,1.0,"be the same shape and size, can be mirror images of each other",21.45,pc
+2024-07-25 15:37:28.361,P6,qID-13,No,static,0,0,0,0,0,1.0,No,3.495,pc
+2024-07-25 15:37:31.579,P6,qID-12,No,static,0,0,0,0,0,1.0,No,3.218,pc
+2024-07-25 15:38:01.999,P7,qID-1,RHL (Right-Hypotenuse-Leg),static,0,0,0,0,0,1.0,RHL (Right-Hypotenuse-Leg),30.42,pc
+2024-07-25 15:38:11.307,P4,qID-1,SSS (Side-Side-Side),static,0,0,0,0,0,1.0,SSS (Side-Side-Side),9.308,pc
+2024-07-25 15:38:22.123,P5,qID-1,AAS (Angle-Angle-Side),static,0,0,0,0,0,1.0,AAS (Angle-Angle-Side),10.816,pc
+2024-07-25 15:38:28.573,P3,qID-1,SAS (Side-Angle-Side),static,0,9,7,3,13,1.0,SAS (Side-Angle-Side),6.45,pc
+2024-07-25 15:39:47.277,TutorialProof1,qID-1,No,interactive,0,5,45,9,11,1.0,No,78.704,pc
+2024-07-25 15:40:54.321,TutorialProof1,qID-2,No,interactive,0,2,11,1,2,1.0,No,67.044,pc
+2024-07-25 15:41:23.002,TutorialProof2,qID-1,No,interactive,1,4,38,1,6,1.0,No,28.681,pc
+2024-07-25 15:42:40.790,T1_S1_C1,qID-2,Yes,interactive,0,5,7,0,0,1.0,Yes,77.788,pc
+2024-07-25 15:43:34.203,T1_S1_C1,qID-1,Yes,interactive,0,0,10,0,0,1.0,Yes,53.413,pc
+2024-07-25 15:43:46.143,T1_S1_C1,qID-3,No,interactive,0,0,0,0,0,1.0,No,11.94,pc
+2024-07-25 15:45:09.224,T1_S1_IN3,qID-3,Yes,static,0,0,0,0,0,1.0,Yes,83.081,pc
+2024-07-25 15:46:16.134,T1_S1_IN3,qID-2,No,static,0,0,0,0,0,1.0,No,66.91,pc
+2024-07-25 15:46:40.758,T1_S1_IN3,qID-1,Yes,static,0,0,0,0,0,1.0,Yes,24.624,pc
+2024-07-25 15:49:08.537,T1_S1_IN1,qID-3,No,static,0,0,0,0,0,1.0,No,147.779,pc
+2024-07-25 15:49:51.334,T1_S1_IN1,qID-2,No,static,0,0,0,0,0,1.0,No,42.797,pc
+2024-07-25 15:50:36.366,T1_S1_IN1,qID-1,No,static,0,5,13,0,0,1.0,No,45.032,pc
+2024-07-25 15:52:07.482,T1_S1_IN2,qID-2,No,interactive,0,1,9,0,0,1.0,No,91.116,pc
+2024-07-25 15:52:40.945,T1_S1_IN2,qID-1,Yes,interactive,0,3,11,1,0,1.0,Yes,33.463,pc
+2024-07-25 15:53:21.499,T1_S1_C2,qID-1,Yes,interactive,0,5,2,0,0,1.0,Yes,40.554,pc
+2024-07-25 15:54:03.455,T1_S1_C2,qID-4,No,interactive,0,1,0,0,0,0.0,Yes,41.956,pc
+2024-07-25 15:54:31.334,T1_S1_C2,qID-3,Yes,interactive,0,2,2,1,0,1.0,Yes,27.879,pc
+2024-07-25 15:54:49.410,T1_S1_C2,qID-2,Yes,interactive,0,0,0,0,0,1.0,Yes,18.076,pc
+2024-07-25 15:56:33.829,T1_S1_C3,qID-4,Yes,static,0,0,0,0,0,1.0,Yes,104.419,pc
+2024-07-25 15:56:47.893,T1_S1_C3,qID-2,No,static,0,0,0,0,0,1.0,No,14.064,pc
+2024-07-25 15:56:59.954,T1_S1_C3,qID-3,No,static,0,0,0,0,0,1.0,No,12.061,pc
+2024-07-25 15:57:11.684,T1_S1_C3,qID-1,Yes,static,1,0,0,0,0,1.0,Yes,11.73,pc
+2024-07-25 15:59:33.290,T1_S2_C1,qID-1,Yes,static,0,0,0,0,0,0.0,No,141.606,pc
+2024-07-25 15:59:51.073,T1_S2_C1,qID-2,Step 8,static,0,0,0,0,0,,,17.783,pc
+2024-07-25 16:00:02.263,T1_S2_C1,qID-3,There is not enough information to apply the theorem or definition,static,0,7,4,0,0,,,11.19,pc
+2024-07-25 16:01:09.179,T1_S2_IN2,qID-1,Yes,interactive,0,1,0,0,0,1.0,Yes,66.916,pc
+2024-07-25 16:01:32.875,T1_S2_IN2,qID-2,Step 7,interactive,0,0,0,0,0,1.0,Step 7,23.696,pc
+2024-07-25 16:01:43.624,T1_S2_IN2,qID-3,The step says the wrong things are congruent to each other (ex: incorrectly says PA is congruent to AC),interactive,0,10,4,0,0,1.0,The step says the wrong things are congruent to each other (ex: incorrectly says PA is congruent to AC),10.749,pc
+2024-07-25 16:03:01.087,T1_S2_C2,qID-1,No,interactive,0,0,0,0,0,1.0,No,77.463,pc
+2024-07-25 16:05:09.155,T1_S2_IN1,qID-1,Yes,static,0,0,0,0,0,1.0,Yes,128.068,pc
+2024-07-25 16:05:18.448,T1_S2_IN1,qID-2,Step 8,static,0,0,0,0,0,1.0,Step 8,9.293,pc
+2024-07-25 16:06:03.532,T1_S2_IN1,qID-3,There is not enough information to apply the theorem or definition,static,0,0,0,0,0,1.0,There is not enough information to apply the theorem or definition,45.084,pc
+2024-07-25 16:11:38.389,Static SUS,3,1,undefined,0,0,0,0,0,,,334.857,pc
+2024-07-25 16:11:38.389,Static SUS,2,5,undefined,0,0,0,0,0,,,0.0,pc
+2024-07-25 16:11:38.389,Static SUS,0,4,undefined,0,0,0,0,0,,,0.0,pc
+2024-07-25 16:11:38.389,Static SUS,1,1,undefined,0,0,0,0,0,,,0.0,pc
+2024-07-25 16:11:38.390,Static SUS,4,5,undefined,0,0,0,0,0,,,0.001,pc
+2024-07-25 16:11:38.390,Static SUS,5,1,undefined,0,0,0,0,0,,,0.0,pc
+2024-07-25 16:11:38.390,Static SUS,6,5,undefined,0,0,0,0,0,,,0.0,pc
+2024-07-25 16:11:38.390,Static SUS,7,1,undefined,0,0,0,0,0,,,0.0,pc
+2024-07-25 16:11:38.391,Static SUS,8,4,undefined,0,0,0,0,0,,,0.001,pc
+2024-07-25 16:11:38.391,Static SUS,9,2,undefined,0,0,0,0,0,,,0.0,pc
+2024-07-25 16:13:03.544,Interactive SUS,0,5,undefined,0,0,0,0,0,,,85.153,pc
+2024-07-25 16:13:03.544,Interactive SUS,1,1,undefined,0,0,0,0,0,,,0.0,pc
+2024-07-25 16:13:03.545,Interactive SUS,2,5,undefined,0,0,0,0,0,,,0.001,pc
+2024-07-25 16:13:03.545,Interactive SUS,3,1,undefined,0,0,0,0,0,,,0.0,pc
+2024-07-25 16:13:03.546,Interactive SUS,4,5,undefined,0,0,0,0,0,,,0.001,pc
+2024-07-25 16:13:03.546,Interactive SUS,5,1,undefined,0,0,0,0,0,,,0.0,pc
+2024-07-25 16:13:03.547,Interactive SUS,7,1,undefined,0,0,0,0,0,,,0.001,pc
+2024-07-25 16:13:03.547,Interactive SUS,8,5,undefined,0,0,0,0,0,,,0.0,pc
+2024-07-25 16:13:03.547,Interactive SUS,6,5,undefined,0,0,0,0,0,,,0.0,pc
+2024-07-25 16:13:03.548,Interactive SUS,9,2,undefined,0,0,0,0,0,,,0.001,pc

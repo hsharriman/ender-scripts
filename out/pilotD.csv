@@ -1,0 +1,71 @@
+index,pageName,question,answer,condition,next,click,hover,mouse,pointer,score,key,delta,participant
+2024-07-24 20:10:37.961,Background Questions,0,20,undefined,1,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:10:37.961,Background Questions,1,9th grade,undefined,1,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:10:37.961,Background Questions,2,College Junior,undefined,1,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:10:37.961,Background Questions,3,Honors,undefined,1,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:10:48.666,P1,qID-3,HJ,static,0,0,0,0,0,1.0,HJ,10.705,pilotD
+2024-07-24 20:11:14.932,P1,qID-1,BC,static,0,0,0,0,0,1.0,BC,26.266,pilotD
+2024-07-24 20:11:19.702,P1,qID-2,MN,static,0,0,0,0,0,1.0,MN,4.77,pilotD
+2024-07-24 20:11:26.740,P2,qID-1,Angle GHJ,static,0,0,0,0,0,1.0,Angle GHJ,7.038,pilotD
+2024-07-24 20:11:31.590,P2,qID-2,Angle DEF,static,0,0,0,0,0,1.0,Angle DEF,4.85,pilotD
+2024-07-24 20:11:39.908,P2,qID-3,Angle NQP,static,0,0,0,0,0,1.0,Angle NQP,8.318,pilotD
+2024-07-24 20:12:12.422,P5,qID-1,AAS (Angle-Angle-Side),static,0,0,0,0,0,1.0,AAS (Angle-Angle-Side),32.514,pilotD
+2024-07-24 20:12:15.355,P5,qID-12,No,static,0,0,0,0,0,1.0,No,2.933,pilotD
+2024-07-24 20:12:19.284,P5,qID-13,No,static,0,0,0,0,0,1.0,No,3.929,pilotD
+2024-07-24 20:12:37.232,P5,qID-11,"be the same shape and size, can be mirror images of each other",static,0,0,0,0,0,1.0,"be the same shape and size, can be mirror images of each other",17.948,pilotD
+2024-07-24 20:12:50.861,P3,qID-1,SAS (Side-Angle-Side),static,0,0,0,0,0,1.0,SAS (Side-Angle-Side),13.629,pilotD
+2024-07-24 20:13:12.994,P7,qID-1,RHL (Right-Hypotenuse-Leg),static,0,0,0,0,0,1.0,RHL (Right-Hypotenuse-Leg),22.133,pilotD
+2024-07-24 20:13:16.976,P4,qID-1,SSS (Side-Side-Side),static,0,0,0,0,0,1.0,SSS (Side-Side-Side),3.982,pilotD
+2024-07-24 20:13:21.987,P6,qID-1,ASA (Angle-Side-Angle),static,0,8,34,9,16,1.0,ASA (Angle-Side-Angle),5.011,pilotD
+2024-07-24 20:14:46.377,TutorialProof1,qID-1,Yes,interactive,0,3,47,16,36,0.0,No,84.39,pilotD
+2024-07-24 20:16:52.980,TutorialProof1,qID-2,Yes,interactive,0,2,40,7,0,0.0,No,126.603,pilotD
+2024-07-24 20:18:11.152,TutorialProof2,qID-1,No,interactive,1,0,0,0,0,1.0,No,78.172,pilotD
+2024-07-24 20:19:18.572,T1_S1_IN3,qID-2,No,static,0,0,0,0,0,1.0,No,67.42,pilotD
+2024-07-24 20:19:49.540,T1_S1_IN3,qID-1,Yes,static,0,0,0,0,0,1.0,Yes,30.968,pilotD
+2024-07-24 20:20:28.782,T1_S1_IN3,qID-3,Yes,static,0,3,28,5,12,1.0,Yes,39.242,pilotD
+2024-07-24 20:21:23.324,T1_S1_IN2,qID-1,Yes,interactive,0,4,67,8,2,1.0,Yes,54.542,pilotD
+2024-07-24 20:23:12.437,T1_S1_IN2,qID-2,No,interactive,0,7,21,10,16,1.0,No,109.113,pilotD
+2024-07-24 20:24:33.395,T1_S1_C3,qID-3,Yes,interactive,0,1,8,2,4,0.0,No,80.958,pilotD
+2024-07-24 20:24:51.178,T1_S1_C3,qID-1,Yes,interactive,0,1,7,1,0,1.0,Yes,17.783,pilotD
+2024-07-24 20:25:00.305,T1_S1_C3,qID-2,Yes,interactive,0,1,16,2,0,0.0,No,9.127,pilotD
+2024-07-24 20:25:23.459,T1_S1_C3,qID-4,Yes,interactive,0,6,54,13,20,1.0,Yes,23.154,pilotD
+2024-07-24 20:26:34.196,T1_S1_C2,qID-4,Yes,interactive,0,2,6,6,6,1.0,Yes,70.737,pilotD
+2024-07-24 20:27:01.211,T1_S1_C2,qID-2,Yes,interactive,0,5,0,4,0,1.0,Yes,27.015,pilotD
+2024-07-24 20:27:31.280,T1_S1_C2,qID-3,Yes,interactive,0,1,4,2,0,1.0,Yes,30.069,pilotD
+2024-07-24 20:27:40.812,T1_S1_C2,qID-1,Yes,interactive,0,0,0,0,0,1.0,Yes,9.532,pilotD
+2024-07-24 20:29:22.142,T1_S1_C1,qID-2,Yes,static,0,0,0,0,0,1.0,Yes,101.33,pilotD
+2024-07-24 20:31:03.350,T1_S1_C1,qID-3,No,static,0,1,0,0,0,1.0,No,101.208,pilotD
+2024-07-24 20:32:46.068,T1_S1_C1,qID-1,No,static,0,0,0,0,0,0.0,Yes,102.718,pilotD
+2024-07-24 20:34:31.230,T1_S1_IN1,qID-3,No,static,0,0,0,0,0,1.0,No,105.162,pilotD
+2024-07-24 20:35:15.564,T1_S1_IN1,qID-1,No,static,0,0,0,0,0,1.0,No,44.334,pilotD
+2024-07-24 20:35:54.446,T1_S1_IN1,qID-2,No,static,2,2,0,0,0,1.0,No,38.882,pilotD
+2024-07-24 20:39:30.161,T1_S2_C1,qID-1,Yes,static,0,0,0,0,0,0.0,No,215.715,pilotD
+2024-07-24 20:39:33.439,T1_S2_C1,qID-2,Step 8,static,0,0,0,0,0,,,3.278,pilotD
+2024-07-24 20:39:37.714,T1_S2_C1,qID-3,There is not enough information to apply the theorem or definition,static,0,10,168,24,20,,,4.275,pilotD
+2024-07-24 20:41:26.253,T1_S2_C2,qID-1,No,interactive,0,8,45,16,20,1.0,No,108.539,pilotD
+2024-07-24 20:42:41.644,T1_S2_IN2,qID-1,Yes,interactive,0,0,0,0,0,1.0,Yes,75.391,pilotD
+2024-07-24 20:42:49.009,T1_S2_IN2,qID-2,Step 8,interactive,0,0,3,0,0,0.0,Step 7,7.365,pilotD
+2024-07-24 20:43:00.672,T1_S2_IN2,qID-3,The step uses the wrong theorem or definition (ex: incorrectly uses ASA triangle congruence),interactive,0,0,0,0,0,0.0,The step says the wrong things are congruent to each other (ex: incorrectly says PA is congruent to AC),11.663,pilotD
+2024-07-24 20:44:20.964,T1_S2_IN1,qID-1,Yes,static,0,0,0,0,0,1.0,Yes,80.292,pilotD
+2024-07-24 20:45:51.627,T1_S2_IN1,qID-2,Step 8,static,0,0,0,0,0,1.0,Step 8,90.663,pilotD
+2024-07-24 20:46:40.050,T1_S2_IN1,qID-3,The step says the wrong things are congruent to each other (ex: incorrectly says PA is congruent to AC),static,0,0,0,0,0,0.0,There is not enough information to apply the theorem or definition,48.423,pilotD
+2024-07-24 20:47:48.634,Static SUS,0,1,undefined,0,0,0,0,0,,,68.584,pilotD
+2024-07-24 20:47:48.635,Static SUS,3,2,undefined,0,0,0,0,0,,,0.001,pilotD
+2024-07-24 20:47:48.635,Static SUS,2,3,undefined,0,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:47:48.635,Static SUS,1,3,undefined,0,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:47:48.636,Static SUS,4,2,undefined,0,0,0,0,0,,,0.001,pilotD
+2024-07-24 20:47:48.636,Static SUS,5,1,undefined,0,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:47:48.636,Static SUS,6,3,undefined,0,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:47:48.637,Static SUS,7,4,undefined,0,0,0,0,0,,,0.001,pilotD
+2024-07-24 20:47:48.637,Static SUS,8,2,undefined,0,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:47:48.638,Static SUS,9,3,undefined,0,0,0,0,0,,,0.001,pilotD
+2024-07-24 20:48:30.784,Interactive SUS,2,4,undefined,0,0,0,0,0,,,42.146,pilotD
+2024-07-24 20:48:30.784,Interactive SUS,1,2,undefined,0,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:48:30.784,Interactive SUS,0,5,undefined,0,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:48:30.785,Interactive SUS,3,1,undefined,0,0,0,0,0,,,0.001,pilotD
+2024-07-24 20:48:30.785,Interactive SUS,4,5,undefined,0,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:48:30.786,Interactive SUS,5,2,undefined,0,0,0,0,0,,,0.001,pilotD
+2024-07-24 20:48:30.786,Interactive SUS,6,5,undefined,0,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:48:30.787,Interactive SUS,7,1,undefined,0,0,0,0,0,,,0.001,pilotD
+2024-07-24 20:48:30.787,Interactive SUS,8,4,undefined,0,0,0,0,0,,,0.0,pilotD
+2024-07-24 20:48:30.787,Interactive SUS,9,1,undefined,0,0,0,0,0,,,0.0,pilotD

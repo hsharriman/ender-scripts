@@ -1,0 +1,68 @@
+index,pageName,question,answer,condition,next,click,hover,mouse,pointer,score,key,delta,participant
+2024-07-19 23:38:45.573,Background Questions,0,25,undefined,1,0,0,0,0,,,0.0,corey
+2024-07-19 23:38:45.573,Background Questions,1,2015,undefined,1,0,0,0,0,,,0.0,corey
+2024-07-19 23:38:45.573,Background Questions,2,3 degrees gradient,undefined,1,0,0,0,0,,,0.0,corey
+2024-07-19 23:39:31.589,P1,qID-3,HJ,static,0,0,0,0,0,1.0,HJ,46.016,corey
+2024-07-19 23:39:57.440,P1,qID-2,MN,static,0,0,0,0,0,1.0,MN,25.851,corey
+2024-07-19 23:40:05.488,P1,qID-1,BC,static,0,0,0,0,0,1.0,BC,8.048,corey
+2024-07-19 23:40:21.908,P2,qID-3,Angle NQP,static,0,0,0,0,0,1.0,Angle NQP,16.42,corey
+2024-07-19 23:40:32.164,P2,qID-2,Angle DEF,static,0,0,0,0,0,1.0,Angle DEF,10.256,corey
+2024-07-19 23:40:39.288,P2,qID-1,Angle GHJ,static,0,0,0,0,0,1.0,Angle GHJ,7.124,corey
+2024-07-19 23:40:51.493,P7,qID-1,SAS (Side-Angle-Side),static,0,0,0,0,0,0.0,RHL (Right-Hypotenuse-Leg),12.205,corey
+2024-07-19 23:41:21.899,P7,qID-12,Yes,static,0,0,0,0,0,0.0,No,30.406,corey
+2024-07-19 23:42:57.532,P7,qID-11,each have two segments with the same number of tick marks,static,0,0,0,0,0,0.0,"be the same shape and size, can be mirror images of each other",95.633,corey
+2024-07-19 23:43:06.079,P7,qID-13,Yes,static,0,0,0,0,0,0.0,No,8.547,corey
+2024-07-19 23:43:17.818,P4,qID-1,SSS (Side-Side-Side),static,0,0,0,0,0,1.0,SSS (Side-Side-Side),11.739,corey
+2024-07-19 23:43:27.490,P6,qID-1,ASA (Angle-Side-Angle),static,0,0,0,0,0,1.0,ASA (Angle-Side-Angle),9.672,corey
+2024-07-19 23:43:56.698,P5,qID-1,AAS (Angle-Angle-Side),static,0,0,0,0,0,1.0,AAS (Angle-Angle-Side),29.208,corey
+2024-07-19 23:44:04.256,P3,qID-1,SAS (Side-Angle-Side),static,0,34,203,9,17,1.0,SAS (Side-Angle-Side),7.558,corey
+2024-07-19 23:47:28.114,TutorialProof1,qID-1,No,interactive,0,5,40,22,47,1.0,No,203.858,corey
+2024-07-19 23:49:01.595,TutorialProof1,qID-2,No,interactive,0,1,15,0,0,1.0,No,93.481,corey
+2024-07-19 23:49:41.494,TutorialProof2,qID-1,No,interactive,0,0,0,0,0,1.0,No,39.899,corey
+2024-07-19 23:50:26.662,T1_S1_C3,qID-2,No,static,0,0,0,0,0,1.0,No,45.168,corey
+2024-07-19 23:51:00.225,T1_S1_C3,qID-4,Yes,static,0,0,0,0,0,1.0,Yes,33.563,corey
+2024-07-19 23:51:14.903,T1_S1_C3,qID-1,Yes,static,0,0,0,0,0,1.0,Yes,14.678,corey
+2024-07-19 23:51:57.859,T1_S1_C3,qID-3,No,static,0,0,0,0,0,1.0,No,42.956,corey
+2024-07-19 23:52:36.204,T1_S1_IN1,qID-1,Yes,static,0,0,0,0,0,0.0,No,38.345,corey
+2024-07-19 23:52:50.984,T1_S1_IN1,qID-2,Yes,static,0,0,0,0,0,0.0,No,14.78,corey
+2024-07-19 23:53:25.493,T1_S1_IN1,qID-3,No,static,0,3,5,0,0,1.0,No,34.509,corey
+2024-07-19 23:53:57.360,T1_S1_IN2,qID-1,Yes,interactive,0,2,25,0,0,1.0,Yes,31.867,corey
+2024-07-19 23:54:28.050,T1_S1_IN2,qID-2,No,interactive,0,0,0,0,0,1.0,No,30.69,corey
+2024-07-19 23:55:36.219,T1_S1_C2,qID-4,Yes,static,0,0,0,0,0,1.0,Yes,68.169,corey
+2024-07-19 23:55:48.990,T1_S1_C2,qID-3,Yes,static,0,0,0,0,0,1.0,Yes,12.771,corey
+2024-07-19 23:56:19.929,T1_S1_C2,qID-1,Yes,static,0,0,0,0,0,1.0,Yes,30.939,corey
+2024-07-19 23:56:49.029,T1_S1_C2,qID-2,Yes,static,0,4,11,0,7,1.0,Yes,29.1,corey
+2024-07-19 23:57:49.746,T1_S1_IN3,qID-2,No,interactive,0,2,3,0,0,1.0,No,60.717,corey
+2024-07-19 23:58:28.462,T1_S1_IN3,qID-1,Yes,interactive,0,0,13,0,0,1.0,Yes,38.716,corey
+2024-07-19 23:58:42.549,T1_S1_IN3,qID-3,Yes,interactive,0,5,3,0,0,1.0,Yes,14.087,corey
+2024-07-19 23:59:00.823,T1_S1_C1,qID-3,Yes,interactive,0,5,4,0,0,0.0,No,18.274,corey
+2024-07-19 23:59:20.891,T1_S1_C1,qID-2,No,interactive,0,28,11,3,20,0.0,Yes,20.068,corey
+2024-07-20 00:01:54.219,T1_S1_C1,qID-1,Yes,interactive,0,25,36,12,12,1.0,Yes,153.328,corey
+2024-07-20 00:04:55.622,T1_S2_IN2,qID-1,Yes,interactive,0,0,0,0,0,1.0,Yes,181.403,corey
+2024-07-20 00:04:59.295,T1_S2_IN2,qID-2,Step 7,interactive,0,0,2,0,0,1.0,Step 7,3.673,corey
+2024-07-20 00:05:14.611,T1_S2_IN2,qID-3,The step says the wrong things are congruent to each other (ex: incorrectly says PA is congruent to AC),interactive,0,5,34,18,32,1.0,The step says the wrong things are congruent to each other (ex: incorrectly says PA is congruent to AC),15.316,corey
+2024-07-20 00:07:04.618,T1_S2_C2,qID-1,No,interactive,0,0,0,0,0,1.0,No,110.007,corey
+2024-07-20 00:08:46.704,T1_S2_C1,qID-1,No,static,0,0,0,0,0,1.0,No,102.086,corey
+2024-07-20 00:12:22.976,T1_S2_IN1,qID-1,Yes,static,0,0,0,0,0,1.0,Yes,216.272,corey
+2024-07-20 00:12:27.636,T1_S2_IN1,qID-2,Step 8,static,0,0,0,0,0,1.0,Step 8,4.66,corey
+2024-07-20 00:12:34.652,T1_S2_IN1,qID-3,There is not enough information to apply the theorem or definition,static,0,0,0,0,0,1.0,There is not enough information to apply the theorem or definition,7.016,corey
+2024-07-20 00:13:56.463,Static SUS,9,1,undefined,0,0,0,0,0,,,81.811,corey
+2024-07-20 00:13:56.463,Static SUS,8,5,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:13:56.463,Static SUS,7,3,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:13:56.463,Static SUS,6,2,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:13:56.463,Static SUS,5,1,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:13:56.463,Static SUS,3,1,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:13:56.463,Static SUS,2,4,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:13:56.463,Static SUS,1,1,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:13:56.463,Static SUS,0,2,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:13:56.463,Static SUS,4,3,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:14:34.473,Interactive SUS,0,5,undefined,0,0,0,0,0,,,38.01,corey
+2024-07-20 00:14:34.473,Interactive SUS,1,1,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:14:34.473,Interactive SUS,2,5,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:14:34.473,Interactive SUS,3,1,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:14:34.473,Interactive SUS,4,5,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:14:34.473,Interactive SUS,5,1,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:14:34.473,Interactive SUS,6,4,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:14:34.474,Interactive SUS,8,5,undefined,0,0,0,0,0,,,0.001,corey
+2024-07-20 00:14:34.474,Interactive SUS,7,1,undefined,0,0,0,0,0,,,0.0,corey
+2024-07-20 00:14:34.474,Interactive SUS,9,1,undefined,0,0,0,0,0,,,0.0,corey

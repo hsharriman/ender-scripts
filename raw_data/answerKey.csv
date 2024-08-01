@@ -1,0 +1,45 @@
+pageName,question,answer
+P1,qID-1,BC
+P1,qID-2,MN
+P1,qID-3,HJ
+P2,qID-1,Angle GHJ
+P2,qID-3,Angle NQP
+P2,qID-2,Angle DEF
+P5,qID-1,AAS (Angle-Angle-Side)
+P5,qID-11,"be the same shape and size, can be mirror images of each other"
+P5,qID-12,No
+P5,qID-13,No
+P3,qID-1,SAS (Side-Angle-Side)
+P7,qID-1,RHL (Right-Hypotenuse-Leg)
+P4,qID-1,SSS (Side-Side-Side)
+P6,qID-1,ASA (Angle-Side-Angle)
+TutorialProof1,qID-1,No
+TutorialProof1,qID-2,No
+TutorialProof2,qID-1,No
+T1_S1_C1,qID-2,Yes
+T1_S1_C1,qID-3,No
+T1_S1_C1,qID-1,Yes
+T1_S1_C2,qID-4,Yes
+T1_S1_C2,qID-2,Yes
+T1_S1_C2,qID-1,Yes
+T1_S1_C2,qID-3,Yes
+T1_S1_IN1,qID-1,No
+T1_S1_IN1,qID-2,No
+T1_S1_IN1,qID-3,No
+T1_S1_IN3,qID-2,No
+T1_S1_IN3,qID-3,Yes
+T1_S1_IN3,qID-1,Yes
+T1_S1_IN2,qID-2,No
+T1_S1_IN2,qID-1,Yes
+T1_S1_C3,qID-2,No
+T1_S1_C3,qID-4,Yes
+T1_S1_C3,qID-1,Yes
+T1_S1_C3,qID-3,No
+T1_S2_C2,qID-1,No
+T1_S2_C1,qID-1,No
+T1_S2_IN1,qID-1,Yes
+T1_S2_IN1,qID-2,Step 8
+T1_S2_IN1,qID-3,There is not enough information to apply the theorem or definition
+T1_S2_IN2,qID-1,Yes
+T1_S2_IN2,qID-2,Step 7
+T1_S2_IN2,qID-3,The step says the wrong things are congruent to each other (ex: incorrectly says PA is congruent to AC)
