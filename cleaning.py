@@ -1,10 +1,14 @@
 import pandas as pd
+import numpy as np
 
 def load_answer_key():
     #answer key cleaning/setup
-    answer_key = pd.read_csv("raw_data/answerKey.csv")
-    answer_key = answer_key[answer_key["pageName"] != "Background Questions"]
+    answer_key = pd.read_csv("./answerKey.csv")
     return answer_key
+
+def load_raw_answers(participant, is_pilot):
+    folder = "pilot-data" if is_pilot else "study-data"
+    return  pd.read_csv(f'{folder}/answers-{participant}.csv')
 
 def event_logs_cleaning(participant):
     event_logs_df = pd.read_csv(f'raw_data/eventLogs-{participant}.csv')
@@ -19,187 +23,200 @@ def event_logs_cleaning(participant):
     event_logs_df = event_logs_df.sort_values(by='time')
     return event_logs_df
 
-def tally_events(answers_df, event_logs_df):
-    # Merge each event log with the corresponding answer based on time interval
-    merged_df = pd.merge_asof(event_logs_df, answers_df, on='time', direction='backward')
-   
-    event_count_dict = {}
+def update_openended(df, proofs):
+    for k, v in proofs.items():
+        df.loc[(df["pageName"] == k) & (df["question"] == "qID-13"), "answer"] = v
+    return df
 
-    # Define event types
-    event_types = ['n', 'c', 'h', 'm', 'p']
+def add_participant_timing(participant, answers_df, is_pilot, overwrite=False):
+    filename = "./out/study/per_question.csv"
+    df = pd.read_csv(filename)
 
-    # Iterate through each answer to count events between time intervals
-    for _, row in answers_df.iterrows():
-        answer_time = row['time']
-        next_time = row['next_time'] if not pd.isnull(row['next_time']) else pd.Timestamp.max
-        
-        # Select events that fall within the time interval
-        filtered_events = merged_df[(merged_df['time'] >= answer_time) & (merged_df['time'] < next_time)]
-        
-        # Filter out "hover" events (h) that occur within 0.01 second of another event [debounce]
-        filtered_events = filtered_events[~((filtered_events['event'] == 'h') &
-                                        (filtered_events['time'].diff().dt.total_seconds() <= 0.01))]
-        
-        # Count occurrences of each event type
-        event_counts = filtered_events['event'].value_counts()
-        
-        # Initialize counts for all event types
-        counts = {event: event_counts.get(event, 0) for event in event_types}
-        
-        # Store the counts in the dictionary
-        event_count_dict[answer_time] = counts
-    return event_count_dict
+    #convert answers of participant into appropriate format
+    answers_df = answers_df.rename(columns={'participant': 'id'})
+    answers_df = answers_df.rename(columns={'pageName': 'proof'})
+    answers_df = answers_df.rename(columns={'delta': 'time_elapsed'})
+    answers_df = answers_df.drop(columns=["key", "answer", "time"])
+    answers_df = answers_df[(answers_df.proof != "Background Questions") & (answers_df.proof != "SUS") & (~answers_df.proof.str.startswith("Tutorial"))]
+    answers_df["pilot"] = [1 if is_pilot else 0 for x in range(len(answers_df))]
+    if overwrite:
+        df = df[df["id"] != participant]
+    if df[df["id"] == participant].empty:
+        df = pd.concat([df, answers_df], ignore_index=True)
+        df = df.drop_duplicates()
+
+    df = df.reset_index(drop=True)
+    df.to_csv(filename, index=False)
+    return df
 
 def sus_score(df):
-    def add_scores(df):
-        even, odd = 0, 0
-        for idx, row in df.iterrows():
-            if (idx + 1) % 2 == 0:
-                even += 5 - int(row['answer'])
-            else:
-                odd += int(row['answer']) - 1
-        return even, odd
-    static_sus_df = df.loc[df['pageName'] == "Static SUS"]
-    even_s, odd_s = add_scores(static_sus_df)
-    print(even_s, odd_s, "static")
-    inter_sus_df = df.loc[df['pageName'] == "Interactive SUS"]
-    even_i, odd_i = add_scores(inter_sus_df)
-    print(even_i, odd_i, "interactive")
+    # separate the SUS scores into a new df
+    df_sus = df[df['pageName'] == "SUS"]
+    df_sus = df_sus.drop(columns=["time", "version"])
+    df_sus["score"] = np.zeros(len(df_sus))
+    for _, row in df_sus.iterrows():
+        # question indices are 0-indexed
+        q, a = int(row["question"]), int(row["answer"])
+        df_sus.loc[(df_sus["question"] == row["question"]),"score"] = (a - 1) if q % 2 == 0 else (5-a)
+    sus_score = df_sus["score"].sum() * 2.5
+    return sus_score
 
-    def calculate_sus(even, odd):
-        return 2.5 * odd + even
-    return calculate_sus(even_s, odd_s), calculate_sus(even_i, odd_i)
+def clean_single_df(participant, proofs, is_pilot=False):
+    answers_df = load_raw_answers(participant, is_pilot)
 
-def clean_single_df(participant):
-    answer_key = load_answer_key()
-
-    answers_df = pd.read_csv(f'raw_data/answers-{participant}.csv')
-    # Convert the 'time' columns to datetime format
+    # Sort DataFrame by the 'time' column
+    answers_df = answers_df.sort_values(by='time')
     answers_df['time'] = pd.to_datetime(answers_df['time'], unit='ms')
 
-    # Sort by the 'time' column
-    answers_df = answers_df.sort_values(by='time')
-    event_logs_df = event_logs_cleaning(participant)
+    #reindex
+    answers_df = answers_df.reset_index(drop=True)
 
-    # Merge the DataFrames based on the 'time' column
-    merged_df = pd.concat([answers_df, event_logs_df]).sort_values(by='time').reset_index(drop=True)
+    #Drop unused, stale answers to questions. Anything that occurred before background questions
+    background_index = answers_df[answers_df['pageName'] == 'Background Questions'].index[0]
+    answers_df = answers_df.loc[answers_df.index >= background_index]
 
-    # Add a new column to answers_df to indicate the next answer time
-    answers_df['next_time'] = answers_df['time'].shift(-1)
+    #reindex again
+    answers_df = answers_df.reset_index(drop=True)
 
-    # Tally the events for each answer
-    event_count_dict = tally_events(answers_df, event_logs_df)
+    # Replace values in the 'type' column
+    answers_df['version'] = answers_df['version'].replace({'static': 'B', 'interactive': 'A'})
 
-    # Convert the event count dictionary into a DataFrame
-    event_counts_df = pd.DataFrame.from_dict(event_count_dict, orient='index').fillna(0)
+    # update scores for open-ended problems
+    update_openended(answers_df, proofs)
 
-    # Join the event counts with the answers_df
-    final_df = pd.concat([answers_df.set_index('time'), event_counts_df], axis=1).reset_index()
+    return answers_df
 
-    # Drop the next_time column as it's no longer needed
-    final_df = final_df.drop(columns=['next_time'])
-
-    # rename version to condition column
-    final_df = final_df.rename(columns={"version" : "condition"})
-
-    # Rename columns
-    final_df.rename(columns={'n': 'next'}, inplace=True)
-    final_df.rename(columns={'c': 'click'}, inplace=True)
-    final_df.rename(columns={'m': 'mouse'}, inplace=True)
-    final_df.rename(columns={'h': 'hover'}, inplace=True)
-    final_df.rename(columns={'p': 'pointer'}, inplace=True)
-
+def score_test(df, participant):
+    answer_key = load_answer_key()
     # Score the test
-    scores, answers = [], []
+    scores, aks = [], []
     valid_ids = set(["qID-11", "qID-12", "qID-13"])
-    pretest, p_answer = 0, 0
-    p_age = final_df[(final_df['pageName']=="Background Questions") & (final_df['question'] == "0")]['answer'].values[0]
-    year_taken = final_df[(final_df['pageName']=="Background Questions") & (final_df['question'] == "1")]['answer'].values[0]
-    grade = final_df[(final_df['pageName']=="Background Questions") & (final_df['question'] == "2")]['answer'].values[0]
-    track = final_df[(final_df['pageName']=="Background Questions") & (final_df['question'] == "3")]['answer']
-    track = track.values[0] if len(track) > 0 else "N/A"
-    for _, row in final_df.iterrows():
+    correct_proof_ids = set(["T1_S1_C1", "T1_S1_C2", "T1_S2_C2"])
+
+    for _, row in df.iterrows():
         question, proof = row['question'], row['pageName']
         a = row.loc['answer']
+
         # page is not included in the answer key
-        if not proof in set(answer_key['pageName']):
-            scores.append(0)
-            answers.append(None)
+        if not proof in set(answer_key['pageName']) or proof.startswith("Tutorial"):
+            scores.append(None)
+            aks.append(None)
             continue
         
         #special case for pretest where some questions are inserted at the 1st question about triangle congruence
-        if question in valid_ids:
-            ans_row = answer_key.loc[(answer_key.question==question)]
+        if proof.startswith("P") and question in valid_ids:
+            ans_row = answer_key.loc[(answer_key.pageName=="P5") & (answer_key.question==question)]
         else:
             # find the proof and the question being scored in answer key
             ans_row = answer_key.loc[(answer_key.question==question) & (answer_key.pageName==proof)]
+            
         # this question/proof combination is not in the answer key
         if len(ans_row) == 0:
             scores.append(0)
-            answers.append(None)
+            aks.append(None)
             continue
 
-        # add score to list
-        correct = ans_row['answer'].values[0] == a
-
-        #tally score for pretest and tutorial separately
-        if proof.startswith("P") or proof.startswith("T"):
-            pretest += int(1 if correct else 0)
-            p_answer += 1
-        scores.append(int(1 if correct else 0))
-        answers.append(ans_row['answer'].values[0])
+        if proof in correct_proof_ids and question == "qID-11" and a == "No":
+            #student correctly said there was no mistake 
+            scores.append(3)
+        else:
+            # add score to list
+            correct = ans_row['answer'].values[0] == a
+            scores.append(1 if correct else 0)
+        aks.append(ans_row['answer'].values[0])
 
     # add columns to answer dataframe
-    final_df["score"] = pd.Series(scores).values
-    final_df["key"] = pd.Series(answers).values
+    df["score"] = pd.Series(scores).values
+    df["key"] = pd.Series(aks).values
 
     # add time elapsed column
-    final_df['delta'] = (final_df['index']-final_df['index'].shift()).dt.total_seconds().fillna(0)
-
-    #drop rows from background questions, add their answers as column instead
-    final_df["age"] = pd.Series([p_age for i in range(len(final_df))]).values
-    final_df["year_taken"] = pd.Series([year_taken for i in range(len(final_df))]).values
-    final_df["grade"] = pd.Series([grade for i in range(len(final_df))]).values
-    final_df["track"] = pd.Series([track for i in range(len(final_df))]).values
-    final_df["pretest"] = pd.Series([pretest/p_answer for i in range(len(final_df))]).values
-
-    #replace "static" with 0 and "interactive" with 1
-    final_df["condition"] = final_df["condition"].replace("static", 0).replace("interactive", 1)
-
-    # TODO calculate SUS score for each condition, store in separate df
-    static_sus, inter_sus = sus_score(final_df)
-    final_df["static_sus"] = pd.Series([static_sus for i in range(len(final_df))]).values
-    final_df["inter_sus"] = pd.Series([inter_sus for i in range(len(final_df))]).values
+    df['delta'] = df['time'].diff().dt.total_seconds().fillna(0)
 
     # add participant id column
-    final_df["participant"] = pd.Series([participant for i in range(len(final_df))]).values
+    df["participant"] = pd.Series([participant for i in range(len(df))]).values
 
-    #drop rows with questions that are not part of procedure
-    # SUS, pretest, tutorial, background
-    final_df.drop(final_df.loc[final_df['pageName']=="Static SUS"].index, inplace=True)
-    final_df.drop(final_df.loc[final_df['pageName']=="Interactive SUS"].index, inplace=True)
-    final_df.drop(final_df.loc[final_df['pageName']=="Background Questions"].index, inplace=True)
-    final_df.drop(final_df.loc[final_df['pageName'].isin([f"P{i+1}" for i in range(7)])].index, inplace=True)
-    final_df.drop(final_df.loc[final_df['pageName'].isin(["TutorialProof1", "TutorialProof2"])].index, inplace=True)
+    #store the combined CSV
+    df.to_csv(f"./study-data/processed/{participant}.csv", index=False)
 
-    return final_df
+    return df
 
-def r_df(participants):
-    for i in range(len(participants)):
-        if i == 0:
-            df = clean_single_df(participants[i])
-        else:
-            df = pd.concat([df, clean_single_df(participants[i-1])])
-        print("participant df: ", len(df.index))
-    save_df(df, "concat_df")
-    print("final df: ", len(df.index))
+def total_score_participant(df, participant, is_pilot, overwrite=False):
+    # score the participant by pretest, activity, SUS
+    answer_key = load_answer_key()
 
-def save_df(df, participant):
-    #save the dataframe
-    df.to_csv(f"out/{participant}.csv", index=False)
+    # separate the SUS scores into a new df
+    sus = sus_score(df)
+
+    # separate out the background questions to new df
+    df = df[(df['pageName'] != "Background Questions") & (df['pageName'] != "SUS")]
+
+    # max score for pretest
+    mask = lambda df: df[df["pageName"].str.startswith('P')]
+    pretest_max_score = len(mask(answer_key))
+    #score pretest
+    pre = mask(df)
+    pre_score = pre["score"].sum()
+
+    # max score for activity
+    mask = lambda df: df[~df['pageName'].str.startswith('P')]
+    activity_df = mask(answer_key)
+    #score activity
+    act = mask(df)
+    act_score = act["score"].sum()
+
+    # when proof is correct, add 2 to score (because the "which step is wrong?" and "explain how to correct" questions are skipped)
+    # There are 3 correct proofs so add 6 points to total for the answer key
+    activity_max_score = len(activity_df) + 6
+
+    print(f"pretest: {pre_score}/{pretest_max_score},\nactivity: {act_score}/{activity_max_score},\nsus: {sus}")
+
+    # store answer in compiled CSV
+    # dataframe to collect scores only, 1 new row per participant, include boolean flag if the data came from a pilot
+    filename = "./out/study/scores_df.csv"
+    score_df = pd.read_csv(filename)
+    row = pd.DataFrame({
+        "id": participant, 
+        "version": df.loc[(df["pageName"] == "T1_S1_C1") & (df["question"] == "qID-0"),"version"].values[0], 
+        "sus": sus, 
+        "pretest": float("%.2f" % round(pre_score / pretest_max_score, 2)), 
+        "score": float("%.2f" % round(act_score / activity_max_score, 2)), 
+        "pilot": 1 if is_pilot else 0
+    }, index=[0])
+
+    if overwrite:
+        score_df = score_df[score_df["id"] != participant]
+    if score_df[score_df["id"] == participant].empty:
+        score_df = pd.concat([score_df, row], ignore_index=True)
+        score_df = score_df.drop_duplicates()
+        score_df.dropna(inplace=True)
+
+    score_df.to_csv(filename, index=False)
+
+    return score_df
+
 
 if __name__ == "__main__":
-    participants = ["pa", "pb", "pc", "pilotB", "pilotD", "corey"]
-    r_df(participants)
+    # scoring question where student explains how to correct
+    CR = "Open-ended Correct"
+    INCR = "Open-ended Incorrect"
 
+    # change these before adding each new student
+    participant = "pD"
+    is_pilot = True
+    proofs = {
+        "T1_S1_C1" : CR, 
+        "T1_S1_C2" : CR, 
+        "T1_S1_IN1": CR, 
+        "T1_S1_IN2": INCR, 
+        "T1_S1_IN3" : INCR, 
+        "T1_S2_C2": CR,
+        "T1_S2_IN1": CR,
+        "T1_S2_IN2": CR,
+    }
+
+    print(f"Scoring {participant}:")
+    df = clean_single_df(participant, proofs, is_pilot)
+    df = score_test(df, participant)
+    score_df_compiled = total_score_participant(df, participant, is_pilot, overwrite=True)
+    timing_df_compiled = add_participant_timing(participant, df, is_pilot, overwrite=True)
 
