@@ -1,0 +1,75 @@
+pageName,question,answer,time,version,score,key,delta,participant
+Background Questions,0,24,2024-12-05 01:12:24.847,undefined,,,0.0,pA
+Background Questions,1,14,2024-12-05 01:12:24.847,undefined,,,0.0,pA
+Background Questions,2,,2024-12-05 01:12:24.847,undefined,,,0.0,pA
+Background Questions,3,Honors,2024-12-05 01:12:24.847,undefined,,,0.0,pA
+P1,qID-1,BC,2024-12-05 01:16:14.110,B,1.0,BC,229.263,pA
+P1,qID-2,MN,2024-12-05 01:16:33.417,B,1.0,MN,19.307,pA
+P1,qID-3,HJ,2024-12-05 01:16:57.292,B,1.0,HJ,23.875,pA
+P2,qID-2,Angle DEF,2024-12-05 01:17:18.847,B,1.0,Angle DEF,21.555,pA
+P2,qID-1,Angle GHJ,2024-12-05 01:17:49.087,B,1.0,Angle GHJ,30.24,pA
+P2,qID-3,Angle NQP,2024-12-05 01:17:58.840,B,1.0,Angle NQP,9.753,pA
+P5,qID-1,AAS (Angle-Angle-Side),2024-12-05 01:18:29.214,B,1.0,AAS (Angle-Angle-Side),30.374,pA
+P5,qID-13,Yes,2024-12-05 01:18:47.270,B,0.0,No,18.056,pA
+P5,qID-12,No,2024-12-05 01:18:50.030,B,1.0,No,2.76,pA
+P5,qID-11,"be the same shape and size, can be mirror images of each other",2024-12-05 01:19:36.445,B,1.0,"be the same shape and size, can be mirror images of each other",46.415,pA
+P6,qID-1,ASA (Angle-Side-Angle),2024-12-05 01:19:46.649,B,1.0,ASA (Angle-Side-Angle),10.204,pA
+P7,qID-1,RHL (Right-Hypotenuse-Leg),2024-12-05 01:20:44.913,B,1.0,RHL (Right-Hypotenuse-Leg),58.264,pA
+P4,qID-1,SSS (Side-Side-Side),2024-12-05 01:21:30.540,B,1.0,SSS (Side-Side-Side),45.627,pA
+P3,qID-1,SAS (Side-Angle-Side),2024-12-05 01:21:41.834,B,1.0,SAS (Side-Angle-Side),11.294,pA
+TutorialProof1,qID-1,No,2024-12-05 01:26:20.338,A,,,278.504,pA
+TutorialProof1,qID-2,No,2024-12-05 01:26:46.620,A,,,26.282,pA
+TutorialProof2,qID-1,No,2024-12-05 01:28:12.421,A,,,85.801,pA
+T1_S1_C1,qID-0,Continue,2024-12-05 01:29:49.823,A,1.0,Continue,97.402,pA
+T1_S1_C1,qID-11,No,2024-12-05 01:31:31.515,A,3.0,No,101.692,pA
+T1_S1_C1,qID-13,Open-ended Correct,2024-12-05 01:31:55.656,A,0.0,,24.141,pA
+T1_S1_C1,qID-3,No,2024-12-05 01:32:35.753,A,1.0,No,40.097,pA
+T1_S1_C1,qID-2,Yes,2024-12-05 01:33:27.052,A,1.0,Yes,51.299,pA
+T1_S1_C2,qID-0,Continue,2024-12-05 01:35:08.893,A,1.0,Continue,101.841,pA
+T1_S1_C2,qID-11,Yes,2024-12-05 01:36:47.863,A,0.0,No,98.97,pA
+T1_S1_C2,qID-12,Step 6,2024-12-05 01:37:02.971,A,0.0,,15.108,pA
+T1_S1_C2,qID-13,Open-ended Correct,2024-12-05 01:38:05.569,A,0.0,,62.598,pA
+T1_S1_C2,qID-3,Yes,2024-12-05 01:38:23.689,A,1.0,Yes,18.12,pA
+T1_S1_C2,qID-4,No,2024-12-05 01:38:28.066,A,0.0,Yes,4.377,pA
+T1_S1_IN1,qID-0,Continue,2024-12-05 01:38:31.682,A,1.0,Continue,3.616,pA
+T1_S1_IN1,qID-11,Yes,2024-12-05 01:39:16.349,A,1.0,Yes,44.667,pA
+T1_S1_IN1,qID-12,Step 4,2024-12-05 01:39:25.412,A,1.0,Step 4,9.063,pA
+T1_S1_IN1,qID-13,Open-ended Correct,2024-12-05 01:40:06.519,A,1.0,Open-ended Correct,41.107,pA
+T1_S1_IN1,qID-2,No,2024-12-05 01:42:28.013,A,1.0,No,141.494,pA
+T1_S1_IN1,qID-3,No,2024-12-05 01:42:52.798,A,1.0,No,24.785,pA
+T1_S1_IN2,qID-0,Continue,2024-12-05 01:43:48.510,A,1.0,Continue,55.712,pA
+T1_S1_IN2,qID-11,Yes,2024-12-05 01:44:17.337,A,1.0,Yes,28.827,pA
+T1_S1_IN2,qID-12,Step 5,2024-12-05 01:45:16.261,A,1.0,Step 5,58.924,pA
+T1_S1_IN2,qID-13,Open-ended Correct,2024-12-05 01:46:06.193,A,1.0,Open-ended Correct,49.932,pA
+T1_S1_IN2,qID-1,Yes,2024-12-05 01:46:58.481,A,1.0,Yes,52.288,pA
+T1_S1_IN2,qID-2,No,2024-12-05 01:47:22.706,A,1.0,No,24.225,pA
+T1_S1_IN3,qID-0,Continue,2024-12-05 01:48:53.866,A,1.0,Continue,91.16,pA
+T1_S1_IN3,qID-11,No,2024-12-05 01:49:04.214,A,0.0,Yes,10.348,pA
+T1_S1_IN3,qID-13,Open-ended Correct,2024-12-05 01:49:07.252,A,1.0,Open-ended Correct,3.038,pA
+T1_S1_IN3,qID-3,Yes,2024-12-05 01:49:18.549,A,1.0,Yes,11.297,pA
+T1_S2_IN1,qID-0,Continue,2024-12-05 01:51:19.651,A,1.0,Continue,121.102,pA
+T1_S2_IN1,qID-11,Yes,2024-12-05 01:51:22.617,A,1.0,Yes,2.966,pA
+T1_S2_IN1,qID-12,Step 8,2024-12-05 01:51:29.570,A,1.0,Step 8,6.953,pA
+T1_S2_IN1,qID-13,Open-ended Incorrect,2024-12-05 01:54:42.164,A,0.0,Open-ended Correct,192.594,pA
+T1_S2_IN1,qID-2,No,2024-12-05 01:54:54.459,A,1.0,No,12.295,pA
+T1_S2_C2,qID-0,Continue,2024-12-05 01:54:57.994,A,1.0,Continue,3.535,pA
+T1_S2_C2,qID-11,No,2024-12-05 01:56:54.430,A,3.0,No,116.436,pA
+T1_S2_C2,qID-13,Open-ended Correct,2024-12-05 01:56:56.309,A,0.0,,1.879,pA
+T1_S2_C2,qID-1,No,2024-12-05 01:57:30.602,A,1.0,No,34.293,pA
+T1_S2_C2,qID-2,No,2024-12-05 01:57:58.871,A,1.0,No,28.269,pA
+T1_S2_IN2,qID-0,Continue,2024-12-05 01:59:47.556,A,1.0,Continue,108.685,pA
+T1_S2_IN2,qID-11,Yes,2024-12-05 01:59:49.543,A,1.0,Yes,1.987,pA
+T1_S2_IN2,qID-12,Step 7,2024-12-05 01:59:59.894,A,1.0,Step 7,10.351,pA
+T1_S2_IN2,qID-13,Open-ended Correct,2024-12-05 02:00:16.242,A,1.0,Open-ended Correct,16.348,pA
+T1_S2_IN2,qID-2,No,2024-12-05 02:00:37.721,A,1.0,No,21.479,pA
+T1_S2_IN2,qID-1,No,2024-12-05 02:01:26.089,A,1.0,No,48.368,pA
+SUS,7,2,2024-12-05 02:02:42.950,undefined,,,76.861,pA
+SUS,6,4,2024-12-05 02:02:42.950,undefined,,,0.0,pA
+SUS,5,1,2024-12-05 02:02:42.950,undefined,,,0.0,pA
+SUS,4,4,2024-12-05 02:02:42.950,undefined,,,0.0,pA
+SUS,0,4,2024-12-05 02:02:42.950,undefined,,,0.0,pA
+SUS,2,4,2024-12-05 02:02:42.950,undefined,,,0.0,pA
+SUS,1,2,2024-12-05 02:02:42.950,undefined,,,0.0,pA
+SUS,8,5,2024-12-05 02:02:42.950,undefined,,,0.0,pA
+SUS,3,2,2024-12-05 02:02:42.950,undefined,,,0.0,pA
+SUS,9,2,2024-12-05 02:02:42.950,undefined,,,0.0,pA

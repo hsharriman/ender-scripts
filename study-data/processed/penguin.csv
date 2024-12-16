@@ -1,0 +1,68 @@
+pageName,question,answer,time,version,score,key,delta,participant
+Background Questions,0,16,2024-12-11 21:13:02.309,undefined,,,0.0,penguin
+Background Questions,1,2023,2024-12-11 21:13:02.309,undefined,,,0.0,penguin
+Background Questions,2,10,2024-12-11 21:13:02.309,undefined,,,0.0,penguin
+Background Questions,3,regular,2024-12-11 21:13:02.309,undefined,,,0.0,penguin
+P1,qID-2,MN,2024-12-11 21:14:59.565,B,1.0,MN,117.256,penguin
+P1,qID-1,BC,2024-12-11 21:15:14.843,B,1.0,BC,15.278,penguin
+P1,qID-3,HJ,2024-12-11 21:15:26.033,B,1.0,HJ,11.19,penguin
+P2,qID-3,Angle NQP,2024-12-11 21:15:37.718,B,1.0,Angle NQP,11.685,penguin
+P2,qID-2,Angle DEF,2024-12-11 21:15:57.129,B,1.0,Angle DEF,19.411,penguin
+P2,qID-1,Angle GHJ,2024-12-11 21:16:09.149,B,1.0,Angle GHJ,12.02,penguin
+P7,qID-1,SSA (Side-Side-Angle),2024-12-11 21:16:37.020,B,0.0,RHL (Right-Hypotenuse-Leg),27.871,penguin
+P7,qID-11,"be the same shape and size, can be mirror images of each other",2024-12-11 21:17:04.201,B,1.0,"be the same shape and size, can be mirror images of each other",27.181,penguin
+P7,qID-12,Yes,2024-12-11 21:17:12.895,B,0.0,No,8.694,penguin
+P7,qID-13,Yes,2024-12-11 21:17:16.402,B,0.0,No,3.507,penguin
+P4,qID-1,SSS (Side-Side-Side),2024-12-11 21:17:29.297,B,1.0,SSS (Side-Side-Side),12.895,penguin
+P6,qID-1,ASA (Angle-Side-Angle),2024-12-11 21:17:37.538,B,1.0,ASA (Angle-Side-Angle),8.241,penguin
+P3,qID-1,SAS (Side-Angle-Side),2024-12-11 21:18:05.790,B,1.0,SAS (Side-Angle-Side),28.252,penguin
+P5,qID-1,AAS (Angle-Angle-Side),2024-12-11 21:18:18.532,B,1.0,AAS (Angle-Angle-Side),12.742,penguin
+TutorialProof1,qID-1,Yes,2024-12-11 21:19:59.071,B,,,100.539,penguin
+TutorialProof1,qID-2,No,2024-12-11 21:20:15.362,B,,,16.291,penguin
+TutorialProof2,qID-1,No,2024-12-11 21:21:08.103,B,,,52.741,penguin
+T1_S1_C1,qID-0,Continue,2024-12-11 21:23:22.209,B,1.0,Continue,134.106,penguin
+T1_S1_C1,qID-11,Yes,2024-12-11 21:23:40.388,B,0.0,No,18.179,penguin
+T1_S1_C1,qID-12,Step 5,2024-12-11 21:24:17.513,B,0.0,,37.125,penguin
+T1_S1_C1,qID-13,Open-ended Incorrect,2024-12-11 21:25:51.382,B,0.0,,93.869,penguin
+T1_S1_C1,qID-2,Yes,2024-12-11 21:26:22.209,B,1.0,Yes,30.827,penguin
+T1_S1_C1,qID-3,No,2024-12-11 21:27:00.156,B,1.0,No,37.947,penguin
+T1_S1_C2,qID-0,Continue,2024-12-11 21:28:59.129,B,1.0,Continue,118.973,penguin
+T1_S1_C2,qID-11,Yes,2024-12-11 21:29:42.816,B,0.0,No,43.687,penguin
+T1_S1_C2,qID-12,Step 3,2024-12-11 21:30:30.981,B,0.0,,48.165,penguin
+T1_S1_C2,qID-13,Open-ended Correct,2024-12-11 21:30:45.538,B,0.0,,14.557,penguin
+T1_S1_C2,qID-3,Yes,2024-12-11 21:31:27.988,B,1.0,Yes,42.45,penguin
+T1_S1_C2,qID-4,Yes,2024-12-11 21:31:40.348,B,1.0,Yes,12.36,penguin
+T1_S1_IN3,qID-0,Continue,2024-12-11 21:33:01.597,B,1.0,Continue,81.249,penguin
+T1_S1_IN3,qID-11,No,2024-12-11 21:33:18.224,B,0.0,Yes,16.627,penguin
+T1_S1_IN3,qID-3,Yes,2024-12-11 21:34:01.998,B,1.0,Yes,43.774,penguin
+T1_S1_IN2,qID-0,Continue,2024-12-11 21:35:23.103,B,1.0,Continue,81.105,penguin
+T1_S1_IN2,qID-11,No,2024-12-11 21:35:25.592,B,0.0,Yes,2.489,penguin
+T1_S1_IN2,qID-2,No,2024-12-11 21:36:00.837,B,1.0,No,35.245,penguin
+T1_S1_IN2,qID-1,No,2024-12-11 21:36:29.853,B,0.0,Yes,29.016,penguin
+T1_S1_IN1,qID-0,Continue,2024-12-11 21:37:16.040,B,1.0,Continue,46.187,penguin
+T1_S1_IN1,qID-11,No,2024-12-11 21:37:19.795,B,0.0,Yes,3.755,penguin
+T1_S1_IN1,qID-2,No,2024-12-11 21:38:05.807,B,1.0,No,46.012,penguin
+T1_S1_IN1,qID-3,No,2024-12-11 21:38:30.965,B,1.0,No,25.158,penguin
+T1_S2_IN1,qID-0,Continue,2024-12-11 21:42:04.116,B,1.0,Continue,213.151,penguin
+T1_S2_IN1,qID-11,Yes,2024-12-11 21:42:06.598,B,1.0,Yes,2.482,penguin
+T1_S2_IN1,qID-12,Step 6,2024-12-11 21:42:12.546,B,0.0,Step 8,5.948,penguin
+T1_S2_IN1,qID-13,Open-ended Incorrect,2024-12-11 21:43:04.039,B,0.0,Open-ended Correct,51.493,penguin
+T1_S2_IN1,qID-2,Yes,2024-12-11 21:43:16.092,B,0.0,No,12.053,penguin
+T1_S2_IN2,qID-0,Continue,2024-12-11 21:46:40.934,B,1.0,Continue,204.842,penguin
+T1_S2_IN2,qID-11,No,2024-12-11 21:46:45.446,B,0.0,Yes,4.512,penguin
+T1_S2_IN2,qID-2,No,2024-12-11 21:47:33.199,B,1.0,No,47.753,penguin
+T1_S2_IN2,qID-1,No,2024-12-11 21:47:51.789,B,1.0,No,18.59,penguin
+T1_S2_C2,qID-0,Continue,2024-12-11 21:50:13.663,B,1.0,Continue,141.874,penguin
+T1_S2_C2,qID-11,No,2024-12-11 21:50:15.827,B,3.0,No,2.164,penguin
+T1_S2_C2,qID-1,Yes,2024-12-11 21:50:26.761,B,0.0,No,10.934,penguin
+T1_S2_C2,qID-2,No,2024-12-11 21:50:42.193,B,1.0,No,15.432,penguin
+SUS,0,3,2024-12-11 21:52:43.474,undefined,,,121.281,penguin
+SUS,1,2,2024-12-11 21:52:43.474,undefined,,,0.0,penguin
+SUS,2,5,2024-12-11 21:52:43.474,undefined,,,0.0,penguin
+SUS,3,1,2024-12-11 21:52:43.474,undefined,,,0.0,penguin
+SUS,4,4,2024-12-11 21:52:43.474,undefined,,,0.0,penguin
+SUS,5,1,2024-12-11 21:52:43.474,undefined,,,0.0,penguin
+SUS,6,5,2024-12-11 21:52:43.474,undefined,,,0.0,penguin
+SUS,7,1,2024-12-11 21:52:43.475,undefined,,,0.001,penguin
+SUS,8,4,2024-12-11 21:52:43.475,undefined,,,0.0,penguin
+SUS,9,1,2024-12-11 21:52:43.475,undefined,,,0.0,penguin

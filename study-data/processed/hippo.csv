@@ -1,0 +1,70 @@
+pageName,question,answer,time,version,score,key,delta,participant
+Background Questions,0,15,2024-12-15 20:41:01.689,undefined,,,0.0,hippo
+Background Questions,1,2024,2024-12-15 20:41:01.689,undefined,,,0.0,hippo
+Background Questions,2,10,2024-12-15 20:41:01.689,undefined,,,0.0,hippo
+Background Questions,3,regular,2024-12-15 20:41:01.689,undefined,,,0.0,hippo
+P1,qID-2,MN,2024-12-15 20:42:36.840,B,1.0,MN,95.151,hippo
+P1,qID-1,BC,2024-12-15 20:42:59.669,B,1.0,BC,22.829,hippo
+P1,qID-3,HJ,2024-12-15 20:43:11.649,B,1.0,HJ,11.98,hippo
+P2,qID-2,Angle DEF,2024-12-15 20:43:19.396,B,1.0,Angle DEF,7.747,hippo
+P2,qID-1,Angle GHJ,2024-12-15 20:43:26.111,B,1.0,Angle GHJ,6.715,hippo
+P2,qID-3,Angle NQP,2024-12-15 20:43:33.537,B,1.0,Angle NQP,7.426,hippo
+P5,qID-1,AAS (Angle-Angle-Side),2024-12-15 20:43:47.408,B,1.0,AAS (Angle-Angle-Side),13.871,hippo
+P5,qID-12,Yes,2024-12-15 20:43:59.439,B,0.0,No,12.031,hippo
+P5,qID-13,Yes,2024-12-15 20:44:03.077,B,0.0,No,3.638,hippo
+P5,qID-11,"be the same shape, not necessarily the same size",2024-12-15 20:44:37.856,B,0.0,"be the same shape and size, can be mirror images of each other",34.779,hippo
+P3,qID-1,SAS (Side-Angle-Side),2024-12-15 20:44:50.593,B,1.0,SAS (Side-Angle-Side),12.737,hippo
+P4,qID-1,SSS (Side-Side-Side),2024-12-15 20:45:00.659,B,1.0,SSS (Side-Side-Side),10.066,hippo
+P6,qID-1,ASA (Angle-Side-Angle),2024-12-15 20:45:10.763,B,1.0,ASA (Angle-Side-Angle),10.104,hippo
+P7,qID-1,RHL (Right-Hypotenuse-Leg),2024-12-15 20:45:43.462,B,1.0,RHL (Right-Hypotenuse-Leg),32.699,hippo
+TutorialProof1,qID-1,No,2024-12-15 20:47:59.142,B,,,135.68,hippo
+TutorialProof1,qID-2,No,2024-12-15 20:48:14.044,B,,,14.902,hippo
+TutorialProof2,qID-1,No,2024-12-15 20:48:37.265,B,,,23.221,hippo
+T1_S1_IN2,qID-0,Continue,2024-12-15 20:50:17.763,B,1.0,Continue,100.498,hippo
+T1_S1_IN2,qID-11,Yes,2024-12-15 20:50:21.132,B,1.0,Yes,3.369,hippo
+T1_S1_IN2,qID-12,Step 5,2024-12-15 20:51:16.007,B,1.0,Step 5,54.875,hippo
+T1_S1_IN2,qID-13,Open-ended Incorrect,2024-12-15 20:51:49.394,B,0.0,Open-ended Correct,33.387,hippo
+T1_S1_IN2,qID-2,No,2024-12-15 20:52:01.458,B,1.0,No,12.064,hippo
+T1_S1_IN2,qID-1,Yes,2024-12-15 20:52:26.534,B,1.0,Yes,25.076,hippo
+T1_S1_C1,qID-0,Continue,2024-12-15 20:55:55.792,B,1.0,Continue,209.258,hippo
+T1_S1_C1,qID-11,No,2024-12-15 20:56:22.485,B,3.0,No,26.693,hippo
+T1_S1_C1,qID-3,No,2024-12-15 20:56:38.722,B,1.0,No,16.237,hippo
+T1_S1_C1,qID-2,Yes,2024-12-15 20:57:01.508,B,1.0,Yes,22.786,hippo
+T1_S1_IN1,qID-0,Continue,2024-12-15 20:57:43.705,B,1.0,Continue,42.197,hippo
+T1_S1_IN1,qID-11,Yes,2024-12-15 21:00:03.726,B,1.0,Yes,140.021,hippo
+T1_S1_IN1,qID-12,Step 5,2024-12-15 21:00:07.276,B,0.0,Step 4,3.55,hippo
+T1_S1_IN1,qID-13,Open-ended Incorrect,2024-12-15 21:01:02.763,B,0.0,Open-ended Correct,55.487,hippo
+T1_S1_IN1,qID-2,No,2024-12-15 21:01:18.198,B,1.0,No,15.435,hippo
+T1_S1_IN1,qID-3,No,2024-12-15 21:01:40.506,B,1.0,No,22.308,hippo
+T1_S1_IN3,qID-0,Continue,2024-12-15 21:02:24.755,B,1.0,Continue,44.249,hippo
+T1_S1_IN3,qID-11,No,2024-12-15 21:04:10.504,B,0.0,Yes,105.749,hippo
+T1_S1_IN3,qID-3,Yes,2024-12-15 21:04:30.813,B,1.0,Yes,20.309,hippo
+T1_S1_C2,qID-0,Continue,2024-12-15 21:04:59.127,B,1.0,Continue,28.314,hippo
+T1_S1_C2,qID-11,Yes,2024-12-15 21:05:49.146,B,0.0,No,50.019,hippo
+T1_S1_C2,qID-12,Step 3,2024-12-15 21:05:54.087,B,0.0,,4.941,hippo
+T1_S1_C2,qID-13,Open-ended Incorrect,2024-12-15 21:06:26.157,B,0.0,,32.07,hippo
+T1_S1_C2,qID-3,Yes,2024-12-15 21:07:42.856,B,1.0,Yes,76.699,hippo
+T1_S1_C2,qID-4,Yes,2024-12-15 21:08:08.275,B,1.0,Yes,25.419,hippo
+T1_S2_IN1,qID-0,Continue,2024-12-15 21:14:03.441,B,1.0,Continue,355.166,hippo
+T1_S2_IN1,qID-11,No,2024-12-15 21:14:10.285,B,0.0,Yes,6.844,hippo
+T1_S2_IN1,qID-2,Yes,2024-12-15 21:14:17.781,B,0.0,No,7.496,hippo
+T1_S2_IN2,qID-0,Continue,2024-12-15 21:18:02.520,B,1.0,Continue,224.739,hippo
+T1_S2_IN2,qID-11,No,2024-12-15 21:18:04.390,B,0.0,Yes,1.87,hippo
+T1_S2_IN2,qID-2,Yes,2024-12-15 21:18:11.460,B,0.0,No,7.07,hippo
+T1_S2_IN2,qID-1,No,2024-12-15 21:19:07.353,B,1.0,No,55.893,hippo
+T1_S2_C2,qID-0,Continue,2024-12-15 21:20:29.223,B,1.0,Continue,81.87,hippo
+T1_S2_C2,qID-11,Yes,2024-12-15 21:21:44.167,B,0.0,No,74.944,hippo
+T1_S2_C2,qID-12,Step 7,2024-12-15 21:21:52.411,B,0.0,,8.244,hippo
+T1_S2_C2,qID-13,Open-ended Incorrect,2024-12-15 21:22:09.195,B,0.0,,16.784,hippo
+T1_S2_C2,qID-1,No,2024-12-15 21:22:46.022,B,1.0,No,36.827,hippo
+T1_S2_C2,qID-2,No,2024-12-15 21:24:49.312,B,1.0,No,123.29,hippo
+SUS,3,1,2024-12-15 21:30:52.274,undefined,,,362.962,hippo
+SUS,2,4,2024-12-15 21:30:52.274,undefined,,,0.0,hippo
+SUS,1,2,2024-12-15 21:30:52.274,undefined,,,0.0,hippo
+SUS,0,3,2024-12-15 21:30:52.274,undefined,,,0.0,hippo
+SUS,4,3,2024-12-15 21:30:52.275,undefined,,,0.001,hippo
+SUS,5,2,2024-12-15 21:30:52.275,undefined,,,0.0,hippo
+SUS,6,4,2024-12-15 21:30:52.275,undefined,,,0.0,hippo
+SUS,7,2,2024-12-15 21:30:52.275,undefined,,,0.0,hippo
+SUS,8,4,2024-12-15 21:30:52.275,undefined,,,0.0,hippo
+SUS,9,1,2024-12-15 21:30:52.275,undefined,,,0.0,hippo

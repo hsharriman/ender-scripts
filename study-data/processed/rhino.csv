@@ -1,0 +1,64 @@
+pageName,question,answer,time,version,score,key,delta,participant
+Background Questions,0,15,2024-12-15 21:45:17.349,undefined,,,0.0,rhino
+Background Questions,1,2025,2024-12-15 21:45:17.349,undefined,,,0.0,rhino
+Background Questions,2,10,2024-12-15 21:45:17.349,undefined,,,0.0,rhino
+Background Questions,3,regular,2024-12-15 21:45:17.349,undefined,,,0.0,rhino
+P1,qID-2,MN,2024-12-15 21:46:55.718,B,1.0,MN,98.369,rhino
+P1,qID-3,HJ,2024-12-15 21:47:05.908,B,1.0,HJ,10.19,rhino
+P1,qID-1,BC,2024-12-15 21:47:22.865,B,1.0,BC,16.957,rhino
+P2,qID-2,Angle DEF,2024-12-15 21:47:29.787,B,1.0,Angle DEF,6.922,rhino
+P2,qID-1,Angle GHJ,2024-12-15 21:47:36.650,B,1.0,Angle GHJ,6.863,rhino
+P2,qID-3,Angle NQP,2024-12-15 21:47:42.613,B,1.0,Angle NQP,5.963,rhino
+P5,qID-1,AAS (Angle-Angle-Side),2024-12-15 21:48:29.514,B,1.0,AAS (Angle-Angle-Side),46.901,rhino
+P5,qID-11,each have two segments with the same number of tick marks,2024-12-15 21:48:51.810,B,0.0,"be the same shape and size, can be mirror images of each other",22.296,rhino
+P5,qID-13,No,2024-12-15 21:48:56.562,B,1.0,No,4.752,rhino
+P5,qID-12,Yes,2024-12-15 21:49:00.491,B,0.0,No,3.929,rhino
+P4,qID-1,SSS (Side-Side-Side),2024-12-15 21:49:08.983,B,1.0,SSS (Side-Side-Side),8.492,rhino
+P7,qID-1,SSA (Side-Side-Angle),2024-12-15 21:49:16.423,B,0.0,RHL (Right-Hypotenuse-Leg),7.44,rhino
+P3,qID-1,SAS (Side-Angle-Side),2024-12-15 21:49:22.458,B,1.0,SAS (Side-Angle-Side),6.035,rhino
+P6,qID-1,ASA (Angle-Side-Angle),2024-12-15 21:49:27.509,B,1.0,ASA (Angle-Side-Angle),5.051,rhino
+TutorialProof1,qID-1,Yes,2024-12-15 21:52:22.424,A,,,174.915,rhino
+TutorialProof1,qID-2,No,2024-12-15 21:53:11.088,A,,,48.664,rhino
+TutorialProof2,qID-1,No,2024-12-15 21:54:15.204,A,,,64.116,rhino
+T1_S1_IN3,qID-0,Continue,2024-12-15 21:56:05.007,A,1.0,Continue,109.803,rhino
+T1_S1_IN3,qID-11,No,2024-12-15 21:56:10.908,A,0.0,Yes,5.901,rhino
+T1_S1_IN3,qID-3,Yes,2024-12-15 21:56:35.826,A,1.0,Yes,24.918,rhino
+T1_S1_IN2,qID-0,Continue,2024-12-15 21:57:51.241,A,1.0,Continue,75.415,rhino
+T1_S1_IN2,qID-11,Yes,2024-12-15 21:57:54.872,A,1.0,Yes,3.631,rhino
+T1_S1_IN2,qID-12,Step 4,2024-12-15 21:58:22.928,A,0.0,Step 5,28.056,rhino
+T1_S1_IN2,qID-13,Open-ended Incorrect,2024-12-15 21:59:38.854,A,0.0,Open-ended Correct,75.926,rhino
+T1_S1_IN2,qID-1,Yes,2024-12-15 21:59:51.626,A,1.0,Yes,12.772,rhino
+T1_S1_IN2,qID-2,No,2024-12-15 22:00:07.699,A,1.0,No,16.073,rhino
+T1_S1_C2,qID-0,Continue,2024-12-15 22:00:24.589,A,1.0,Continue,16.89,rhino
+T1_S1_C2,qID-11,No,2024-12-15 22:00:37.910,A,3.0,No,13.321,rhino
+T1_S1_C2,qID-3,Yes,2024-12-15 22:01:50.770,A,1.0,Yes,72.86,rhino
+T1_S1_C2,qID-4,Yes,2024-12-15 22:02:16.544,A,1.0,Yes,25.774,rhino
+T1_S1_IN1,qID-0,Continue,2024-12-15 22:02:41.428,A,1.0,Continue,24.884,rhino
+T1_S1_IN1,qID-11,No,2024-12-15 22:03:25.909,A,0.0,Yes,44.481,rhino
+T1_S1_IN1,qID-3,Yes,2024-12-15 22:03:40.804,A,0.0,No,14.895,rhino
+T1_S1_IN1,qID-2,No,2024-12-15 22:03:51.263,A,1.0,No,10.459,rhino
+T1_S1_C1,qID-0,Continue,2024-12-15 22:04:14.905,A,1.0,Continue,23.642,rhino
+T1_S1_C1,qID-11,No,2024-12-15 22:04:21.420,A,3.0,No,6.515,rhino
+T1_S1_C1,qID-2,No,2024-12-15 22:04:39.423,A,0.0,Yes,18.003,rhino
+T1_S1_C1,qID-3,Yes,2024-12-15 22:05:29.928,A,0.0,No,50.505,rhino
+T1_S2_IN2,qID-0,Continue,2024-12-15 22:05:43.690,A,1.0,Continue,13.762,rhino
+T1_S2_IN2,qID-11,No,2024-12-15 22:06:02.408,A,0.0,Yes,18.718,rhino
+T1_S2_IN2,qID-1,Yes,2024-12-15 22:06:43.323,A,0.0,No,40.915,rhino
+T1_S2_IN2,qID-2,Yes,2024-12-15 22:07:28.795,A,0.0,No,45.472,rhino
+T1_S2_C2,qID-0,Continue,2024-12-15 22:07:37.570,A,1.0,Continue,8.775,rhino
+T1_S2_C2,qID-11,No,2024-12-15 22:07:39.912,A,3.0,No,2.342,rhino
+T1_S2_C2,qID-1,No,2024-12-15 22:08:16.698,A,1.0,No,36.786,rhino
+T1_S2_C2,qID-2,No,2024-12-15 22:09:11.142,A,1.0,No,54.444,rhino
+T1_S2_IN1,qID-0,Continue,2024-12-15 22:09:23.020,A,1.0,Continue,11.878,rhino
+T1_S2_IN1,qID-11,No,2024-12-15 22:09:34.511,A,0.0,Yes,11.491,rhino
+T1_S2_IN1,qID-2,Yes,2024-12-15 22:11:14.198,A,0.0,No,99.687,rhino
+SUS,0,5,2024-12-15 22:15:08.699,undefined,,,234.501,rhino
+SUS,1,4,2024-12-15 22:15:08.699,undefined,,,0.0,rhino
+SUS,2,5,2024-12-15 22:15:08.699,undefined,,,0.0,rhino
+SUS,3,4,2024-12-15 22:15:08.699,undefined,,,0.0,rhino
+SUS,4,5,2024-12-15 22:15:08.699,undefined,,,0.0,rhino
+SUS,5,3,2024-12-15 22:15:08.699,undefined,,,0.0,rhino
+SUS,6,5,2024-12-15 22:15:08.699,undefined,,,0.0,rhino
+SUS,7,2,2024-12-15 22:15:08.699,undefined,,,0.0,rhino
+SUS,8,5,2024-12-15 22:15:08.699,undefined,,,0.0,rhino
+SUS,9,4,2024-12-15 22:15:08.700,undefined,,,0.001,rhino
