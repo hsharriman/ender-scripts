@@ -88,8 +88,9 @@ def clean_single_df(participant, proofs, is_pilot=False):
 
 def score_test(df, participant):
     answer_key = load_answer_key()
+    seen_set = set()
     # Score the test
-    scores, aks = [], []
+    scores, aks, seen = [], [], []
     valid_ids = set(["qID-11", "qID-12", "qID-13"])
     correct_proof_ids = set(["T1_S1_C1", "T1_S1_C2", "T1_S2_C2"])
 
@@ -101,6 +102,7 @@ def score_test(df, participant):
         if not proof in set(answer_key['pageName']) or proof.startswith("Tutorial"):
             scores.append(None)
             aks.append(None)
+            seen.append(len(seen_set))
             continue
         
         #special case for pretest where some questions are inserted at the 1st question about triangle congruence
@@ -114,6 +116,7 @@ def score_test(df, participant):
         if len(ans_row) == 0:
             scores.append(0)
             aks.append(None)
+            seen.append(len(seen_set))
             continue
 
         if proof in correct_proof_ids and question == "qID-11" and a == "No":
@@ -123,11 +126,15 @@ def score_test(df, participant):
             # add score to list
             correct = ans_row['answer'].values[0] == a
             scores.append(1 if correct else 0)
+        if proof not in seen_set and not proof.startswith("P"):
+            seen_set.add(proof)
+        seen.append(len(seen_set))
         aks.append(ans_row['answer'].values[0])
 
     # add columns to answer dataframe
     df["score"] = pd.Series(scores).values
     df["key"] = pd.Series(aks).values
+    df["order"] = pd.Series(seen).values
 
     # add time elapsed column
     df['delta'] = df['time'].diff().dt.total_seconds().fillna(0)
