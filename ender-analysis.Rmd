@@ -1,0 +1,49 @@
+---
+title: "ender-analysis"
+output: html_document
+date: "2024-12-17"
+---
+
+```{r setup, include=FALSE}
+library(ggpubr)
+library(broom)
+require("lme4")
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+df <- read.csv("./out/study/scores_df.csv")
+summary(df)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+# are post test scores explained by being assigned to SA or SB?
+t.test(df[df$version == 'A', ]$score, df[df$version == 'B',]$score, alternative = "two.sided", var.equal = FALSE)
+```
+```{r}
+# Subset the data where problem == "posttest"
+df <- subset(df, pilot == 0)
+t.test(df[df$version == 'A', ]$score, df[df$version == 'B',]$score, alternative = "two.sided", var.equal = FALSE)
+```
+```{r}
+df <- read.csv("./out/study/per_question.csv")
+summary(df)
+```
+
+
+```{r}
+df <- subset(df, pilot == 0)
+df <- df[!grepl("^P", df$proof), ]
+t.test(df[df$version == 'A', ]$score, df[df$version == 'B',]$score, alternative = "two.sided", var.equal = FALSE)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

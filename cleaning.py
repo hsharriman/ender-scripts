@@ -81,6 +81,9 @@ def clean_single_df(participant, proofs, is_pilot=False):
     # Replace values in the 'type' column
     answers_df['version'] = answers_df['version'].replace({'static': 'B', 'interactive': 'A'})
 
+    # Replace values in the 'pageName' column
+    answers_df = answers_df.map(lambda x: x.replace('T1_', '') if isinstance(x, str) else x)
+
     # update scores for open-ended problems
     update_openended(answers_df, proofs)
 
@@ -92,7 +95,7 @@ def score_test(df, participant):
     # Score the test
     scores, aks, seen = [], [], []
     valid_ids = set(["qID-11", "qID-12", "qID-13"])
-    correct_proof_ids = set(["T1_S1_C1", "T1_S1_C2", "T1_S2_C2"])
+    correct_proof_ids = set(["S1_C1", "S1_C2", "S2_C2"])
 
     for _, row in df.iterrows():
         question, proof = row['question'], row['pageName']
@@ -183,7 +186,7 @@ def total_score_participant(df, participant, is_pilot, overwrite=False):
     score_df = pd.read_csv(filename)
     row = pd.DataFrame({
         "id": participant, 
-        "version": df.loc[(df["pageName"] == "T1_S1_C1") & (df["question"] == "qID-0"),"version"].values[0], 
+        "version": df.loc[(df["pageName"] == "S1_C1") & (df["question"] == "qID-0"),"version"].values[0], 
         "sus": sus, 
         "pretest": float("%.2f" % round(pre_score / pretest_max_score, 2)), 
         "score": float("%.2f" % round(act_score / activity_max_score, 2)), 
@@ -208,17 +211,17 @@ if __name__ == "__main__":
     INCR = "Open-ended Incorrect"
 
     # change these before adding each new student
-    participant = "pD"
-    is_pilot = True
+    participant = "hedgehog"
+    is_pilot = False
     proofs = {
-        "T1_S1_C1" : CR, 
-        "T1_S1_C2" : CR, 
-        "T1_S1_IN1": CR, 
-        "T1_S1_IN2": INCR, 
-        "T1_S1_IN3" : INCR, 
-        "T1_S2_C2": CR,
-        "T1_S2_IN1": CR,
-        "T1_S2_IN2": CR,
+        "S1_C1" : CR, 
+        "S1_C2" : CR, 
+        "S1_IN1": INCR, 
+        "S1_IN2": INCR, 
+        "S1_IN3" : CR, 
+        "S2_C2": CR,
+        "S2_IN1": INCR,
+        "S2_IN2": INCR,
     }
 
     print(f"Scoring {participant}:")

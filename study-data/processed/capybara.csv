@@ -1,0 +1,64 @@
+pageName,question,answer,time,version,score,key,order,delta,participant
+Background Questions,0,17,2024-12-17 22:11:38.247,undefined,,,0,0.0,capybara
+Background Questions,1,2021,2024-12-17 22:11:38.247,undefined,,,0,0.0,capybara
+Background Questions,2,12,2024-12-17 22:11:38.247,undefined,,,0,0.0,capybara
+Background Questions,3,regular,2024-12-17 22:11:38.247,undefined,,,0,0.0,capybara
+P1,qID-1,BC,2024-12-17 22:13:32.651,B,1.0,BC,0,114.404,capybara
+P1,qID-2,MN,2024-12-17 22:13:42.558,B,1.0,MN,0,9.907,capybara
+P1,qID-3,HJ,2024-12-17 22:13:53.262,B,1.0,HJ,0,10.704,capybara
+P2,qID-1,Angle GHJ,2024-12-17 22:14:07.656,B,1.0,Angle GHJ,0,14.394,capybara
+P2,qID-3,Angle NQP,2024-12-17 22:14:17.122,B,1.0,Angle NQP,0,9.466,capybara
+P2,qID-2,Angle DEF,2024-12-17 22:14:30.615,B,1.0,Angle DEF,0,13.493,capybara
+P7,qID-1,SSA (Side-Side-Angle),2024-12-17 22:14:55.244,B,0.0,RHL (Right-Hypotenuse-Leg),0,24.629,capybara
+P7,qID-12,No,2024-12-17 22:15:03.007,B,1.0,No,0,7.763,capybara
+P7,qID-13,Yes,2024-12-17 22:15:07.479,B,0.0,No,0,4.472,capybara
+P7,qID-11,"be the same shape, not necessarily the same size",2024-12-17 22:15:35.904,B,0.0,"be the same shape and size, can be mirror images of each other",0,28.425,capybara
+P3,qID-1,SAS (Side-Angle-Side),2024-12-17 22:15:43.681,B,1.0,SAS (Side-Angle-Side),0,7.777,capybara
+P4,qID-1,SSS (Side-Side-Side),2024-12-17 22:15:48.001,B,1.0,SSS (Side-Side-Side),0,4.32,capybara
+P6,qID-1,ASA (Angle-Side-Angle),2024-12-17 22:15:53.408,B,1.0,ASA (Angle-Side-Angle),0,5.407,capybara
+P5,qID-1,AAS (Angle-Angle-Side),2024-12-17 22:16:05.867,B,1.0,AAS (Angle-Angle-Side),0,12.459,capybara
+TutorialProof1,qID-1,No,2024-12-17 22:19:18.595,B,,,0,192.728,capybara
+TutorialProof1,qID-2,No,2024-12-17 22:19:48.970,B,,,0,30.375,capybara
+TutorialProof2,qID-1,No,2024-12-17 22:20:30.308,B,,,0,41.338,capybara
+T1_S1_C2,qID-0,Continue,2024-12-17 22:22:50.898,B,1.0,Continue,1,140.59,capybara
+T1_S1_C2,qID-11,No,2024-12-17 22:23:06.387,B,3.0,No,1,15.489,capybara
+T1_S1_C2,qID-3,Yes,2024-12-17 22:23:29.526,B,1.0,Yes,1,23.139,capybara
+T1_S1_C2,qID-4,Yes,2024-12-17 22:23:42.929,B,1.0,Yes,1,13.403,capybara
+T1_S1_C1,qID-0,Continue,2024-12-17 22:25:34.944,B,1.0,Continue,2,112.015,capybara
+T1_S1_C1,qID-11,No,2024-12-17 22:26:12.725,B,3.0,No,2,37.781,capybara
+T1_S1_C1,qID-2,Yes,2024-12-17 22:26:43.966,B,1.0,Yes,2,31.241,capybara
+T1_S1_C1,qID-3,No,2024-12-17 22:27:06.595,B,1.0,No,2,22.629,capybara
+T1_S1_IN2,qID-0,Continue,2024-12-17 22:27:39.935,B,1.0,Continue,3,33.34,capybara
+T1_S1_IN2,qID-11,No,2024-12-17 22:27:47.677,B,0.0,Yes,3,7.742,capybara
+T1_S1_IN2,qID-2,No,2024-12-17 22:28:20.628,B,1.0,No,3,32.951,capybara
+T1_S1_IN2,qID-1,Yes,2024-12-17 22:28:59.597,B,1.0,Yes,3,38.969,capybara
+T1_S1_IN3,qID-0,Continue,2024-12-17 22:30:02.414,B,1.0,Continue,4,62.817,capybara
+T1_S1_IN3,qID-11,No,2024-12-17 22:30:39.669,B,0.0,Yes,4,37.255,capybara
+T1_S1_IN3,qID-3,Yes,2024-12-17 22:30:56.475,B,1.0,Yes,4,16.806,capybara
+T1_S1_IN1,qID-0,Continue,2024-12-17 22:31:57.065,B,1.0,Continue,5,60.59,capybara
+T1_S1_IN1,qID-11,Yes,2024-12-17 22:32:15.381,B,1.0,Yes,5,18.316,capybara
+T1_S1_IN1,qID-12,Step 4,2024-12-17 22:32:24.142,B,1.0,Step 4,5,8.761,capybara
+T1_S1_IN1,qID-13,Open-ended Incorrect,2024-12-17 22:32:33.404,B,0.0,Open-ended Correct,5,9.262,capybara
+T1_S1_IN1,qID-3,No,2024-12-17 22:33:46.824,B,1.0,No,5,73.42,capybara
+T1_S1_IN1,qID-2,No,2024-12-17 22:34:14.582,B,1.0,No,5,27.758,capybara
+T1_S2_IN2,qID-0,Continue,2024-12-17 22:35:48.267,B,1.0,Continue,6,93.685,capybara
+T1_S2_IN2,qID-11,No,2024-12-17 22:36:27.808,B,0.0,Yes,6,39.541,capybara
+T1_S2_IN2,qID-2,Yes,2024-12-17 22:36:51.045,B,0.0,No,6,23.237,capybara
+T1_S2_IN2,qID-1,Yes,2024-12-17 22:38:32.598,B,0.0,No,6,101.553,capybara
+T1_S2_IN1,qID-0,Continue,2024-12-17 22:40:29.191,B,1.0,Continue,7,116.593,capybara
+T1_S2_IN1,qID-11,No,2024-12-17 22:41:19.171,B,0.0,Yes,7,49.98,capybara
+T1_S2_IN1,qID-2,Yes,2024-12-17 22:41:40.818,B,0.0,No,7,21.647,capybara
+T1_S2_C2,qID-0,Continue,2024-12-17 22:42:59.601,B,1.0,Continue,8,78.783,capybara
+T1_S2_C2,qID-11,No,2024-12-17 22:43:00.761,B,3.0,No,8,1.16,capybara
+T1_S2_C2,qID-1,No,2024-12-17 22:43:20.894,B,1.0,No,8,20.133,capybara
+T1_S2_C2,qID-2,No,2024-12-17 22:44:03.895,B,1.0,No,8,43.001,capybara
+SUS,0,4,2024-12-17 22:45:47.709,undefined,,,8,103.814,capybara
+SUS,1,2,2024-12-17 22:45:47.709,undefined,,,8,0.0,capybara
+SUS,2,4,2024-12-17 22:45:47.709,undefined,,,8,0.0,capybara
+SUS,3,1,2024-12-17 22:45:47.709,undefined,,,8,0.0,capybara
+SUS,4,5,2024-12-17 22:45:47.709,undefined,,,8,0.0,capybara
+SUS,5,1,2024-12-17 22:45:47.709,undefined,,,8,0.0,capybara
+SUS,6,5,2024-12-17 22:45:47.709,undefined,,,8,0.0,capybara
+SUS,7,2,2024-12-17 22:45:47.709,undefined,,,8,0.0,capybara
+SUS,8,5,2024-12-17 22:45:47.710,undefined,,,8,0.001,capybara
+SUS,9,1,2024-12-17 22:45:47.710,undefined,,,8,0.0,capybara
