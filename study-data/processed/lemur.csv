@@ -1,0 +1,70 @@
+pageName,question,answer,time,version,score,key,order,delta,participant
+Background Questions,0,15,2024-12-20 01:28:56.099,undefined,,,0,0.0,lemur
+Background Questions,1,2025,2024-12-20 01:28:56.099,undefined,,,0,0.0,lemur
+Background Questions,2,10,2024-12-20 01:28:56.099,undefined,,,0,0.0,lemur
+Background Questions,3,regular,2024-12-20 01:28:56.099,undefined,,,0,0.0,lemur
+P1,qID-2,MN,2024-12-20 01:30:27.441,B,1.0,MN,0,91.342,lemur
+P1,qID-3,HJ,2024-12-20 01:30:49.330,B,1.0,HJ,0,21.889,lemur
+P1,qID-1,BC,2024-12-20 01:31:12.151,B,1.0,BC,0,22.821,lemur
+P2,qID-3,Angle NQP,2024-12-20 01:31:25.462,B,1.0,Angle NQP,0,13.311,lemur
+P2,qID-2,Angle DEF,2024-12-20 01:31:39.989,B,1.0,Angle DEF,0,14.527,lemur
+P2,qID-1,Angle GHJ,2024-12-20 01:31:55.703,B,1.0,Angle GHJ,0,15.714,lemur
+P7,qID-1,SAS (Side-Angle-Side),2024-12-20 01:32:43.788,B,0.0,RHL (Right-Hypotenuse-Leg),0,48.085,lemur
+P7,qID-11,"be the same shape and size, can be mirror images of each other",2024-12-20 01:33:04.774,B,1.0,"be the same shape and size, can be mirror images of each other",0,20.986,lemur
+P7,qID-12,No,2024-12-20 01:33:26.218,B,1.0,No,0,21.444,lemur
+P7,qID-13,Yes,2024-12-20 01:33:41.074,B,0.0,No,0,14.856,lemur
+P6,qID-1,ASA (Angle-Side-Angle),2024-12-20 01:34:17.698,B,1.0,ASA (Angle-Side-Angle),0,36.624,lemur
+P5,qID-1,ASA (Angle-Side-Angle),2024-12-20 01:34:36.614,B,0.0,AAS (Angle-Angle-Side),0,18.916,lemur
+P3,qID-1,SSA (Side-Side-Angle),2024-12-20 01:35:05.444,B,0.0,SAS (Side-Angle-Side),0,28.83,lemur
+P4,qID-1,SSS (Side-Side-Side),2024-12-20 01:35:13.798,B,1.0,SSS (Side-Side-Side),0,8.354,lemur
+TutorialProof1,qID-1,No,2024-12-20 01:39:26.089,B,,,0,252.291,lemur
+TutorialProof1,qID-2,No,2024-12-20 01:39:53.216,B,,,0,27.127,lemur
+TutorialProof2,qID-1,No,2024-12-20 01:40:21.545,B,,,0,28.329,lemur
+S1_IN2,qID-0,Continue,2024-12-20 01:42:27.917,B,1.0,Continue,1,126.372,lemur
+S1_IN2,qID-11,Yes,2024-12-20 01:43:38.416,B,1.0,Yes,1,70.499,lemur
+S1_IN2,qID-12,Step 5,2024-12-20 01:43:49.564,B,1.0,Step 5,1,11.148,lemur
+S1_IN2,qID-13,Open-ended Incorrect,2024-12-20 01:44:18.124,B,0.0,Open-ended Correct,1,28.56,lemur
+S1_IN2,qID-1,Yes,2024-12-20 01:45:27.380,B,1.0,Yes,1,69.256,lemur
+S1_IN2,qID-2,No,2024-12-20 01:45:43.795,B,1.0,No,1,16.415,lemur
+S1_C1,qID-0,Continue,2024-12-20 01:48:58.721,B,1.0,Continue,2,194.926,lemur
+S1_C1,qID-11,No,2024-12-20 01:48:59.995,B,3.0,No,2,1.274,lemur
+S1_C1,qID-3,Yes,2024-12-20 01:50:24.701,B,0.0,No,2,84.706,lemur
+S1_C1,qID-2,Yes,2024-12-20 01:51:06.515,B,1.0,Yes,2,41.814,lemur
+S1_IN1,qID-0,Continue,2024-12-20 01:51:59.237,B,1.0,Continue,3,52.722,lemur
+S1_IN1,qID-11,Yes,2024-12-20 01:52:22.614,B,1.0,Yes,3,23.377,lemur
+S1_IN1,qID-12,Step 4,2024-12-20 01:52:29.018,B,1.0,Step 4,3,6.404,lemur
+S1_IN1,qID-13,Open-ended Incorrect,2024-12-20 01:52:42.803,B,0.0,Open-ended Correct,3,13.785,lemur
+S1_IN1,qID-2,No,2024-12-20 01:52:57.641,B,1.0,No,3,14.838,lemur
+S1_IN1,qID-3,Yes,2024-12-20 01:54:21.573,B,0.0,No,3,83.932,lemur
+S1_IN3,qID-0,Continue,2024-12-20 01:56:43.607,B,1.0,Continue,4,142.034,lemur
+S1_IN3,qID-11,No,2024-12-20 01:57:11.467,B,0.0,Yes,4,27.86,lemur
+S1_IN3,qID-3,Yes,2024-12-20 01:57:22.222,B,1.0,Yes,4,10.755,lemur
+S1_C2,qID-0,Continue,2024-12-20 01:58:43.168,B,1.0,Continue,5,80.946,lemur
+S1_C2,qID-11,No,2024-12-20 02:00:25.490,B,3.0,No,5,102.322,lemur
+S1_C2,qID-3,Yes,2024-12-20 02:01:59.042,B,1.0,Yes,5,93.552,lemur
+S1_C2,qID-4,Yes,2024-12-20 02:02:45.467,B,1.0,Yes,5,46.425,lemur
+S2_IN1,qID-0,Continue,2024-12-20 02:04:24.151,B,1.0,Continue,6,98.684,lemur
+S2_IN1,qID-11,No,2024-12-20 02:05:22.893,B,0.0,Yes,6,58.742,lemur
+S2_IN1,qID-2,Yes,2024-12-20 02:05:47.451,B,0.0,No,6,24.558,lemur
+S2_IN2,qID-0,Continue,2024-12-20 02:07:30.247,B,1.0,Continue,7,102.796,lemur
+S2_IN2,qID-11,Yes,2024-12-20 02:08:01.952,B,1.0,Yes,7,31.705,lemur
+S2_IN2,qID-12,Step 6,2024-12-20 02:08:07.321,B,0.0,Step 7,7,5.369,lemur
+S2_IN2,qID-13,Open-ended Incorrect,2024-12-20 02:08:24.767,B,0.0,Open-ended Correct,7,17.446,lemur
+S2_IN2,qID-1,No,2024-12-20 02:09:07.368,B,1.0,No,7,42.601,lemur
+S2_IN2,qID-2,No,2024-12-20 02:09:18.566,B,1.0,No,7,11.198,lemur
+S2_C2,qID-0,Continue,2024-12-20 02:12:07.794,B,1.0,Continue,8,169.228,lemur
+S2_C2,qID-11,Yes,2024-12-20 02:12:10.292,B,0.0,No,8,2.498,lemur
+S2_C2,qID-12,Step 9,2024-12-20 02:12:15.133,B,0.0,,8,4.841,lemur
+S2_C2,qID-13,Open-ended Incorrect,2024-12-20 02:13:15.938,B,0.0,,8,60.805,lemur
+S2_C2,qID-1,No,2024-12-20 02:13:29.413,B,1.0,No,8,13.475,lemur
+S2_C2,qID-2,No,2024-12-20 02:13:53.128,B,1.0,No,8,23.715,lemur
+SUS,6,2,2024-12-20 02:16:08.712,undefined,,,8,135.584,lemur
+SUS,5,1,2024-12-20 02:16:08.712,undefined,,,8,0.0,lemur
+SUS,4,5,2024-12-20 02:16:08.712,undefined,,,8,0.0,lemur
+SUS,1,4,2024-12-20 02:16:08.712,undefined,,,8,0.0,lemur
+SUS,2,4,2024-12-20 02:16:08.712,undefined,,,8,0.0,lemur
+SUS,0,2,2024-12-20 02:16:08.712,undefined,,,8,0.0,lemur
+SUS,3,4,2024-12-20 02:16:08.712,undefined,,,8,0.0,lemur
+SUS,8,1,2024-12-20 02:16:08.713,undefined,,,8,0.001,lemur
+SUS,7,1,2024-12-20 02:16:08.713,undefined,,,8,0.0,lemur
+SUS,9,4,2024-12-20 02:16:08.713,undefined,,,8,0.0,lemur

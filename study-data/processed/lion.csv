@@ -1,0 +1,66 @@
+pageName,question,answer,time,version,score,key,order,delta,participant
+Background Questions,0,16,2024-12-21 23:33:40.189,undefined,,,0,0.0,lion
+Background Questions,1,2023,2024-12-21 23:33:40.189,undefined,,,0,0.0,lion
+Background Questions,2,11th,2024-12-21 23:33:40.189,undefined,,,0,0.0,lion
+Background Questions,3,regular,2024-12-21 23:33:40.189,undefined,,,0,0.0,lion
+P1,qID-2,MN,2024-12-21 23:35:10.424,B,1.0,MN,0,90.235,lion
+P1,qID-1,FG,2024-12-21 23:35:51.584,B,0.0,BC,0,41.16,lion
+P1,qID-3,HJ,2024-12-21 23:36:04.572,B,1.0,HJ,0,12.988,lion
+P2,qID-3,Angle NQP,2024-12-21 23:36:17.480,B,1.0,Angle NQP,0,12.908,lion
+P2,qID-1,Angle GHJ,2024-12-21 23:37:17.411,B,1.0,Angle GHJ,0,59.931,lion
+P2,qID-2,Angle DEF,2024-12-21 23:37:35.396,B,1.0,Angle DEF,0,17.985,lion
+P7,qID-1,RHL (Right-Hypotenuse-Leg),2024-12-21 23:38:27.625,B,1.0,RHL (Right-Hypotenuse-Leg),0,52.229,lion
+P7,qID-11,"be the same shape, not necessarily the same size",2024-12-21 23:38:56.882,B,0.0,"be the same shape and size, can be mirror images of each other",0,29.257,lion
+P7,qID-12,No,2024-12-21 23:39:05.035,B,1.0,No,0,8.153,lion
+P7,qID-13,Yes,2024-12-21 23:39:16.058,B,0.0,No,0,11.023,lion
+P3,qID-1,SAS (Side-Angle-Side),2024-12-21 23:39:26.831,B,1.0,SAS (Side-Angle-Side),0,10.773,lion
+P5,qID-1,AAS (Angle-Angle-Side),2024-12-21 23:39:46.000,B,1.0,AAS (Angle-Angle-Side),0,19.169,lion
+P6,qID-1,AAA (Angle-Angle-Angle),2024-12-21 23:40:15.731,B,0.0,ASA (Angle-Side-Angle),0,29.731,lion
+P4,qID-1,SSS (Side-Side-Side),2024-12-21 23:40:48.149,B,1.0,SSS (Side-Side-Side),0,32.418,lion
+TutorialProof1,qID-1,Yes,2024-12-21 23:43:56.725,A,,,0,188.576,lion
+TutorialProof1,qID-2,No,2024-12-21 23:44:59.174,A,,,0,62.449,lion
+TutorialProof2,qID-1,No,2024-12-21 23:46:09.328,A,,,0,70.154,lion
+S1_IN2,qID-0,Continue,2024-12-21 23:52:01.636,A,1.0,Continue,1,352.308,lion
+S1_IN2,qID-11,Yes,2024-12-21 23:52:03.415,A,1.0,Yes,1,1.779,lion
+S1_IN2,qID-12,Step 5,2024-12-21 23:52:06.167,A,1.0,Step 5,1,2.752,lion
+S1_IN2,qID-13,Open-ended Correct,2024-12-21 23:52:07.693,A,1.0,Open-ended Correct,1,1.526,lion
+S1_IN2,qID-2,No,2024-12-21 23:52:09.674,A,1.0,No,1,1.981,lion
+S1_IN2,qID-1,Yes,2024-12-21 23:52:37.091,A,1.0,Yes,1,27.417,lion
+S1_IN3,qID-0,Continue,2024-12-21 23:54:12.393,A,1.0,Continue,2,95.302,lion
+S1_IN3,qID-11,No,2024-12-21 23:54:49.585,A,0.0,Yes,2,37.192,lion
+S1_IN3,qID-3,Yes,2024-12-21 23:55:19.933,A,1.0,Yes,2,30.348,lion
+S1_IN1,qID-0,Continue,2024-12-21 23:57:15.971,A,1.0,Continue,3,116.038,lion
+S1_IN1,qID-11,No,2024-12-21 23:57:18.410,A,0.0,Yes,3,2.439,lion
+S1_IN1,qID-3,No,2024-12-21 23:57:48.158,A,1.0,No,3,29.748,lion
+S1_IN1,qID-2,No,2024-12-21 23:58:03.137,A,1.0,No,3,14.979,lion
+S1_C2,qID-0,Continue,2024-12-21 23:59:55.707,A,1.0,Continue,4,112.57,lion
+S1_C2,qID-11,No,2024-12-21 23:59:58.077,A,3.0,No,4,2.37,lion
+S1_C2,qID-4,Yes,2024-12-22 00:00:08.751,A,1.0,Yes,4,10.674,lion
+S1_C2,qID-3,Yes,2024-12-22 00:00:21.283,A,1.0,Yes,4,12.532,lion
+S1_C1,qID-0,Continue,2024-12-22 00:01:18.837,A,1.0,Continue,5,57.554,lion
+S1_C1,qID-11,No,2024-12-22 00:02:31.306,A,3.0,No,5,72.469,lion
+S1_C1,qID-3,No,2024-12-22 00:02:51.729,A,1.0,No,5,20.423,lion
+S1_C1,qID-2,Yes,2024-12-22 00:03:24.593,A,1.0,Yes,5,32.864,lion
+S2_C2,qID-0,Continue,2024-12-22 00:03:51.564,A,1.0,Continue,6,26.971,lion
+S2_C2,qID-11,No,2024-12-22 00:05:38.698,A,3.0,No,6,107.134,lion
+S2_C2,qID-1,No,2024-12-22 00:06:04.083,A,1.0,No,6,25.385,lion
+S2_C2,qID-2,No,2024-12-22 00:06:34.470,A,1.0,No,6,30.387,lion
+S2_IN2,qID-0,Continue,2024-12-22 00:08:05.059,A,1.0,Continue,7,90.589,lion
+S2_IN2,qID-11,No,2024-12-22 00:08:06.612,A,0.0,Yes,7,1.553,lion
+S2_IN2,qID-1,No,2024-12-22 00:08:29.388,A,1.0,No,7,22.776,lion
+S2_IN2,qID-2,Yes,2024-12-22 00:08:46.774,A,0.0,No,7,17.386,lion
+S2_IN1,qID-0,Continue,2024-12-22 00:08:55.596,A,1.0,Continue,8,8.822,lion
+S2_IN1,qID-11,Yes,2024-12-22 00:10:52.423,A,1.0,Yes,8,116.827,lion
+S2_IN1,qID-12,Step 7,2024-12-22 00:11:04.010,A,0.0,Step 8,8,11.587,lion
+S2_IN1,qID-13,Open-ended Incorrect,2024-12-22 00:11:52.906,A,0.0,Open-ended Correct,8,48.896,lion
+S2_IN1,qID-2,No,2024-12-22 00:12:03.847,A,1.0,No,8,10.941,lion
+SUS,0,4,2024-12-22 00:13:23.743,undefined,,,8,79.896,lion
+SUS,1,4,2024-12-22 00:13:23.743,undefined,,,8,0.0,lion
+SUS,2,5,2024-12-22 00:13:23.743,undefined,,,8,0.0,lion
+SUS,3,2,2024-12-22 00:13:23.743,undefined,,,8,0.0,lion
+SUS,4,4,2024-12-22 00:13:23.743,undefined,,,8,0.0,lion
+SUS,5,1,2024-12-22 00:13:23.743,undefined,,,8,0.0,lion
+SUS,6,5,2024-12-22 00:13:23.743,undefined,,,8,0.0,lion
+SUS,7,1,2024-12-22 00:13:23.743,undefined,,,8,0.0,lion
+SUS,8,2,2024-12-22 00:13:23.744,undefined,,,8,0.001,lion
+SUS,9,1,2024-12-22 00:13:23.744,undefined,,,8,0.0,lion

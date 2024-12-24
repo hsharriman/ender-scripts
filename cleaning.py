@@ -211,14 +211,14 @@ if __name__ == "__main__":
     INCR = "Open-ended Incorrect"
 
     # change these before adding each new student
-    participant = "hedgehog"
+    participant = "lion"
     is_pilot = False
     proofs = {
         "S1_C1" : CR, 
         "S1_C2" : CR, 
         "S1_IN1": INCR, 
-        "S1_IN2": INCR, 
-        "S1_IN3" : CR, 
+        "S1_IN2": CR, 
+        "S1_IN3" : INCR, 
         "S2_C2": CR,
         "S2_IN1": INCR,
         "S2_IN2": INCR,
