@@ -16,7 +16,6 @@ def event_logs_cleaning(participant):
     event_logs_df.rename(columns={'t': 'time'}, inplace=True)
     event_logs_df.rename(columns={'e': 'event'}, inplace=True)
 
-    # Convert the 'time' columns to datetime format
     event_logs_df['time'] = pd.to_datetime(event_logs_df['time'], unit='ms')
 
     #sort by time
@@ -64,7 +63,6 @@ def sus_score(df):
 def clean_single_df(participant, proofs, is_pilot=False):
     answers_df = load_raw_answers(participant, is_pilot)
 
-    # Sort DataFrame by the 'time' column
     answers_df = answers_df.sort_values(by='time')
     answers_df['time'] = pd.to_datetime(answers_df['time'], unit='ms')
 
@@ -81,7 +79,7 @@ def clean_single_df(participant, proofs, is_pilot=False):
     # Replace values in the 'type' column
     answers_df['version'] = answers_df['version'].replace({'static': 'B', 'interactive': 'A'})
 
-    # Replace values in the 'pageName' column
+    # clip T1_ from the beginning of pageName
     answers_df = answers_df.map(lambda x: x.replace('T1_', '') if isinstance(x, str) else x)
 
     # update scores for open-ended problems
@@ -204,6 +202,25 @@ def total_score_participant(df, participant, is_pilot, overwrite=False):
 
     return score_df
 
+def combine_qual(df, qual_csv_path):
+    dfq = pd.read_csv(qual_csv_path)
+    dfq.rename(columns={'question': 'questionText'}, inplace=True)
+    dfq.rename(columns={'steps viewed?': 'steps'}, inplace=True)
+    dfq.rename(columns={'reasoning.1': 'reasonCorrect'}, inplace=True)
+    dfq.rename(columns={'type of understanding': 'understanding'}, inplace=True)
+    dfq.rename(columns={'visual queues used': 'cues'}, inplace=True)
+    for index, row in df.iterrows():
+        match = f"[{row['question'].replace('qID-', '')}]"
+        if match == "[0]":
+            continue
+        matching_row = dfq[(dfq['participant'] == row['id']) & (dfq['proof'] == row['proof']) & (dfq['questionText'].str.endswith(match))]
+        if not matching_row.empty:
+            for col in ["questionText", "reasoning", "cues", "steps", "reasonCorrect", "understanding", "misconception"]:
+                if col == "reasonCorrect":
+                    df.loc[index, col] = 1 if matching_row.iloc[0][col] == "right" else 0
+                df.loc[index, col] = matching_row.iloc[0][col]
+    return df
+
 
 if __name__ == "__main__":
     # scoring question where student explains how to correct
@@ -229,4 +246,6 @@ if __name__ == "__main__":
     df = score_test(df, participant)
     score_df_compiled = total_score_participant(df, participant, is_pilot, overwrite=True)
     timing_df_compiled = add_participant_timing(participant, df, is_pilot, overwrite=True)
+    compiled = combine_qual(timing_df_compiled, "./out/study/think-aloud-11participants.csv")
+    compiled.to_csv("./out/study/combined.csv", index=False)
 
