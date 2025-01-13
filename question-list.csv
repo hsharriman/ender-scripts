@@ -1,0 +1,39 @@
+proof,question,questionType,questionId
+S1_C1,Is there a mistake? [11],1,11
+S1_C1,Which step is wrong? [12],2,12
+S1_C1,Describe reasoning [13],3,13
+S1_C1,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],5,3
+S1_C1,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],5,2
+S1_C2,Is there a mistake? [11],1,11
+S1_C2,Which step is wrong? [12],2,12
+S1_C2,Describe reasoning [13],3,13
+S1_C2,enough info...Congruent Adjacent Angles at step 5? [3],5,3
+S1_C2,enough info...ASA at step 7? [4],5,4
+S1_IN1,Is there a mistake? [11],1,11
+S1_IN1,Which step is wrong? [12],2,12
+S1_IN1,Describe reasoning [13],3,13
+S1_IN1,conclude BA congruent to CB? [2],4,2
+S1_IN1, conclude <DBA congruent to <BCD? [3],4,3
+S1_IN2,Is there a mistake? [11],1,11
+S1_IN2,Which step is wrong? [12],2,12
+S1_IN2,Describe reasoning [13],3,13
+S1_IN2,conclude KL congruent to KM? [2],4,2
+S1_IN2,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],5,1
+S1_IN3,Is there a mistake? [11],1,11
+S1_IN3,Which step is wrong? [12],2,12
+S1_IN3,Describe reasoning [13],3,13
+S1_IN3,conclude KN congruent to ML? [3],4,3
+S2_C2,Is there a mistake? [11],1,11
+S2_C2,Which step is wrong? [12],2,12
+S2_C2,Describe reasoning [13],3,13
+S2_C2,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],5,1
+S2_C2,conclude <BAF congruent to <DCB? [2],4,2
+S2_IN1,Is there a mistake? [11],1,11
+S2_IN1,Which step is wrong? [12],2,12
+S2_IN1,Describe reasoning [13],3,13
+S2_IN1,conclude tLNU congruent to tUQL? [2],4,2
+S2_IN2,Is there a mistake? [11],1,11
+S2_IN2,Which step is wrong? [12],2,12
+S2_IN2,Describe reasoning [13],3,13
+S2_IN2,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],5,1
+S2_IN2,conclude <MYZ congruent to <MWX? [2],4,2

@@ -1,0 +1,68 @@
+pageName,question,answer,time,version,score,key,order,delta,participant
+Background Questions,0,15,2025-01-11 19:27:51.077,undefined,,,0,0.0,zebra
+Background Questions,2,9,2025-01-11 19:27:51.077,undefined,,,0,0.0,zebra
+Background Questions,1,2024,2025-01-11 19:27:51.077,undefined,,,0,0.0,zebra
+Background Questions,3,regular,2025-01-11 19:27:51.077,undefined,,,0,0.0,zebra
+P1,qID-2,MN,2025-01-11 19:29:25.366,B,1.0,MN,0,94.289,zebra
+P1,qID-3,HJ,2025-01-11 19:29:39.753,B,1.0,HJ,0,14.387,zebra
+P1,qID-1,BC,2025-01-11 19:30:14.182,B,1.0,BC,0,34.429,zebra
+P2,qID-2,Angle DEF,2025-01-11 19:30:44.956,B,1.0,Angle DEF,0,30.774,zebra
+P2,qID-3,Angle NQP,2025-01-11 19:30:59.272,B,1.0,Angle NQP,0,14.316,zebra
+P2,qID-1,Angle GHJ,2025-01-11 19:31:20.026,B,1.0,Angle GHJ,0,20.754,zebra
+P4,qID-1,SSS (Side-Side-Side),2025-01-11 19:31:39.801,B,1.0,SSS (Side-Side-Side),0,19.775,zebra
+P4,qID-12,No,2025-01-11 19:31:54.581,B,1.0,No,0,14.78,zebra
+P4,qID-13,No,2025-01-11 19:32:05.520,B,1.0,No,0,10.939,zebra
+P4,qID-11,"be the same shape and size, can be mirror images of each other",2025-01-11 19:32:43.139,B,1.0,"be the same shape and size, can be mirror images of each other",0,37.619,zebra
+P7,qID-1,RHL (Right-Hypotenuse-Leg),2025-01-11 19:33:04.957,B,1.0,RHL (Right-Hypotenuse-Leg),0,21.818,zebra
+P5,qID-1,SAS (Side-Angle-Side),2025-01-11 19:33:54.177,B,0.0,AAS (Angle-Angle-Side),0,49.22,zebra
+P6,qID-1,ASA (Angle-Side-Angle),2025-01-11 19:34:06.871,B,1.0,ASA (Angle-Side-Angle),0,12.694,zebra
+P3,qID-1,SAS (Side-Angle-Side),2025-01-11 19:34:21.160,B,1.0,SAS (Side-Angle-Side),0,14.289,zebra
+TutorialProof1,qID-1,Yes,2025-01-11 19:36:44.829,B,,,0,143.669,zebra
+TutorialProof1,qID-2,No,2025-01-11 19:37:04.225,B,,,0,19.396,zebra
+TutorialProof2,qID-1,No,2025-01-11 19:37:33.986,B,,,0,29.761,zebra
+S1_IN1,qID-0,Continue,2025-01-11 19:39:03.203,B,1.0,Continue,1,89.217,zebra
+S1_IN1,qID-11,No,2025-01-11 19:39:16.108,B,0.0,Yes,1,12.905,zebra
+S1_IN1,qID-2,No,2025-01-11 19:39:40.530,B,1.0,No,1,24.422,zebra
+S1_IN1,qID-3,No,2025-01-11 19:40:19.721,B,1.0,No,1,39.191,zebra
+S1_C2,qID-0,Continue,2025-01-11 19:40:56.247,B,1.0,Continue,2,36.526,zebra
+S1_C2,qID-11,No,2025-01-11 19:42:13.331,B,3.0,No,2,77.084,zebra
+S1_C2,qID-4,Yes,2025-01-11 19:42:42.675,B,1.0,Yes,2,29.344,zebra
+S1_C2,qID-3,Yes,2025-01-11 19:43:00.018,B,1.0,Yes,2,17.343,zebra
+S1_C1,qID-0,Continue,2025-01-11 19:44:01.214,B,1.0,Continue,3,61.196,zebra
+S1_C1,qID-11,Yes,2025-01-11 19:44:36.878,B,0.0,No,3,35.664,zebra
+S1_C1,qID-12,Step 7,2025-01-11 19:45:07.229,B,0.0,,3,30.351,zebra
+S1_C1,qID-13,Open-ended Incorrect,2025-01-11 19:45:36.968,B,0.0,,3,29.739,zebra
+S1_C1,qID-2,Yes,2025-01-11 19:46:37.022,B,1.0,Yes,3,60.054,zebra
+S1_C1,qID-3,No,2025-01-11 19:46:53.391,B,1.0,No,3,16.369,zebra
+S1_IN3,qID-0,Continue,2025-01-11 19:48:07.379,B,1.0,Continue,4,73.988,zebra
+S1_IN3,qID-11,No,2025-01-11 19:48:14.767,B,0.0,Yes,4,7.388,zebra
+S1_IN3,qID-3,Yes,2025-01-11 19:48:24.851,B,1.0,Yes,4,10.084,zebra
+S1_IN2,qID-0,Continue,2025-01-11 19:49:12.847,B,1.0,Continue,5,47.996,zebra
+S1_IN2,qID-11,Yes,2025-01-11 19:49:27.211,B,1.0,Yes,5,14.364,zebra
+S1_IN2,qID-12,Step 5,2025-01-11 19:49:33.387,B,1.0,Step 5,5,6.176,zebra
+S1_IN2,qID-13,Open-ended Incorrect,2025-01-11 19:50:01.341,B,0.0,Open-ended Correct,5,27.954,zebra
+S1_IN2,qID-2,No,2025-01-11 19:50:14.415,B,1.0,No,5,13.074,zebra
+S1_IN2,qID-1,Yes,2025-01-11 19:50:42.190,B,1.0,Yes,5,27.775,zebra
+S2_IN2,qID-0,Continue,2025-01-11 19:51:08.654,B,1.0,Continue,6,26.464,zebra
+S2_IN2,qID-11,No,2025-01-11 19:52:24.662,B,0.0,Yes,6,76.008,zebra
+S2_IN2,qID-2,Yes,2025-01-11 19:52:50.658,B,0.0,No,6,25.996,zebra
+S2_IN2,qID-1,No,2025-01-11 19:53:34.773,B,1.0,No,6,44.115,zebra
+S2_C2,qID-0,Continue,2025-01-11 19:55:19.141,B,1.0,Continue,7,104.368,zebra
+S2_C2,qID-11,No,2025-01-11 19:55:21.054,B,3.0,No,7,1.913,zebra
+S2_C2,qID-2,No,2025-01-11 19:55:45.485,B,1.0,No,7,24.431,zebra
+S2_C2,qID-1,No,2025-01-11 19:56:13.093,B,1.0,No,7,27.608,zebra
+S2_IN1,qID-0,Continue,2025-01-11 19:56:57.417,B,1.0,Continue,8,44.324,zebra
+S2_IN1,qID-11,Yes,2025-01-11 19:56:59.292,B,1.0,Yes,8,1.875,zebra
+S2_IN1,qID-12,Step 6,2025-01-11 19:57:15.625,B,0.0,Step 8,8,16.333,zebra
+S2_IN1,qID-13,Open-ended Incorrect,2025-01-11 19:57:43.277,B,0.0,Open-ended Correct,8,27.652,zebra
+S2_IN1,qID-2,Yes,2025-01-11 19:58:17.245,B,0.0,No,8,33.968,zebra
+SUS,7,1,2025-01-11 20:00:56.449,undefined,,,8,159.204,zebra
+SUS,6,5,2025-01-11 20:00:56.449,undefined,,,8,0.0,zebra
+SUS,5,2,2025-01-11 20:00:56.449,undefined,,,8,0.0,zebra
+SUS,4,5,2025-01-11 20:00:56.449,undefined,,,8,0.0,zebra
+SUS,0,5,2025-01-11 20:00:56.449,undefined,,,8,0.0,zebra
+SUS,2,5,2025-01-11 20:00:56.449,undefined,,,8,0.0,zebra
+SUS,1,2,2025-01-11 20:00:56.449,undefined,,,8,0.0,zebra
+SUS,3,1,2025-01-11 20:00:56.449,undefined,,,8,0.0,zebra
+SUS,8,5,2025-01-11 20:00:56.450,undefined,,,8,0.001,zebra
+SUS,9,1,2025-01-11 20:00:56.450,undefined,,,8,0.0,zebra

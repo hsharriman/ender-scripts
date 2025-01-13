@@ -221,6 +221,17 @@ def combine_qual(df, qual_csv_path):
                 df.loc[index, col] = matching_row.iloc[0][col]
     return df
 
+def add_question_type(df):
+    dfq = pd.read_csv("./question-list.csv")
+    for index, row in df.iterrows():
+        qid, proof = row["question"], row["proof"]
+        if qid and not proof.startswith("P"):
+            qid = qid.replace("qID-", "")
+            qtype = dfq[(dfq["questionId"] == int(qid)) & (dfq["proof"] == row["proof"])]
+            if not qtype.empty:
+                df.loc[index, "questionType"] = qtype.iloc[0]["questionType"]
+    return df   
+
 
 if __name__ == "__main__":
     # scoring question where student explains how to correct
@@ -228,17 +239,17 @@ if __name__ == "__main__":
     INCR = "Open-ended Incorrect"
 
     # change these before adding each new student
-    participant = "lion"
+    participant = "seal"
     is_pilot = False
     proofs = {
         "S1_C1" : CR, 
         "S1_C2" : CR, 
         "S1_IN1": INCR, 
-        "S1_IN2": CR, 
+        "S1_IN2": INCR, 
         "S1_IN3" : INCR, 
         "S2_C2": CR,
         "S2_IN1": INCR,
-        "S2_IN2": INCR,
+        "S2_IN2": CR,
     }
 
     print(f"Scoring {participant}:")
@@ -246,6 +257,14 @@ if __name__ == "__main__":
     df = score_test(df, participant)
     score_df_compiled = total_score_participant(df, participant, is_pilot, overwrite=True)
     timing_df_compiled = add_participant_timing(participant, df, is_pilot, overwrite=True)
-    compiled = combine_qual(timing_df_compiled, "./out/study/think-aloud-11participants.csv")
-    compiled.to_csv("./out/study/combined.csv", index=False)
+    # compiled = combine_qual(timing_df_compiled, "./out/study/think-aloud-11participants.csv")
+    # compiled = add_question_type(compiled)
+    # compiled.to_csv("./out/study/combined.csv", index=False)
+
+    # df = pd.read_csv("./out/study/combined.csv")
+    # for index, row in df.iterrows():
+    #     reason = 1 if row["reasonCorrect"] == "right" else 0
+    #     df.loc[index, "reasonCorrect"] = reason
+
+    # df.to_csv("./out/study/combined2.csv", index=False)
 

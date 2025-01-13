@@ -35,15 +35,49 @@ df <- subset(df, pilot == 0)
 t.test(df[df$version == 'A', ]$score, df[df$version == 'B',]$score, alternative = "two.sided", var.equal = FALSE)
 ```
 ```{r}
-df <- read.csv("./out/study/per_question.csv")
+df <- read.csv("./out/study/combined2.csv")
+df <- subset(df, pilot == 0)
 summary(df)
 ```
 
 
 ```{r}
-df <- subset(df, pilot == 0)
 df <- df[!grepl("^P", df$proof), ]
 t.test(df[df$version == 'A', ]$score, df[df$version == 'B',]$score, alternative = "two.sided", var.equal = FALSE)
+```
+# Check significance of performance on individual questions
+Check significance of performing better on "does this proof have a mistake?" questions
+```{r}
+t.test(df[df$version == 'A'& df$questionType == 1, ]$score, df[df$version == 'B'& df$questionType == 1,]$score, alternative = "two.sided", var.equal = FALSE)
+```
+Check significance of performing better on "which step is wrong?" questions
+```{r}
+t.test(df[df$version == 'A'& df$questionType == 2, ]$score, df[df$version == 'B'& df$questionType == 1,]$score, alternative = "two.sided", var.equal = FALSE)
+
+t.test(df[df$version == 'A'& df$questionType == 3, ]$score, df[df$version == 'B'& df$questionType == 1,]$score, alternative = "two.sided", var.equal = FALSE)
+```
+
+Check significance of performing better on "must X be congruent to Y?" questions
+```{r}
+t.test(df[df$version == 'A'& df$questionType == 4, ]$score, df[df$version == 'B'& df$questionType == 4,]$score, alternative = "two.sided", var.equal = FALSE)
+```
+
+Check significance of performing better on "is reason X correctly applied?" questions
+```{r}
+t.test(df[df$version == 'A'& df$questionType == 5, ]$score, df[df$version == 'B'& df$questionType == 5,]$score, alternative = "two.sided", var.equal = FALSE)
+```
+
+
+# Filter out rows where reasonCorrect is NA
+```{r}
+dfR <- df[!is.na(df$reasonCorrect),]
+summary(dfR)
+t.test(dfR[dfR$version == 'A', ]$reasonCorrect, dfR[dfR$version == 'B',]$reasonCorrect, alternative = "two.sided", var.equal = FALSE)
+```
+
+# Filter out rows where reasonCorrect is NA
+```{r}
+t.test(dfR[dfR$version == 'A' & dfR$reasonCorrect == 0, ]$score, dfR[dfR$version == 'B' & dfR$reasonCorrect == 0,]$score, alternative = "two.sided", var.equal = FALSE)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

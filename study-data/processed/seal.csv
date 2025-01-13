@@ -1,0 +1,68 @@
+pageName,question,answer,time,version,score,key,order,delta,participant
+Background Questions,0,14,2025-01-11 21:06:03.452,undefined,,,0,0.0,seal
+Background Questions,1,2025,2025-01-11 21:06:03.453,undefined,,,0,0.001,seal
+Background Questions,2,10,2025-01-11 21:06:03.453,undefined,,,0,0.0,seal
+Background Questions,3,regular,2025-01-11 21:06:03.453,undefined,,,0,0.0,seal
+P1,qID-1,BC,2025-01-11 21:07:22.716,B,1.0,BC,0,79.263,seal
+P1,qID-3,HJ,2025-01-11 21:07:34.623,B,1.0,HJ,0,11.907,seal
+P1,qID-2,MN,2025-01-11 21:07:41.931,B,1.0,MN,0,7.308,seal
+P2,qID-1,Angle GHJ,2025-01-11 21:07:53.686,B,1.0,Angle GHJ,0,11.755,seal
+P2,qID-3,Angle NQP,2025-01-11 21:08:03.243,B,1.0,Angle NQP,0,9.557,seal
+P2,qID-2,Angle DEF,2025-01-11 21:08:13.817,B,1.0,Angle DEF,0,10.574,seal
+P6,qID-1,ASA (Angle-Side-Angle),2025-01-11 21:08:27.470,B,1.0,ASA (Angle-Side-Angle),0,13.653,seal
+P6,qID-13,No,2025-01-11 21:08:34.345,B,1.0,No,0,6.875,seal
+P6,qID-11,each have two angles with the same number of tick marks,2025-01-11 21:09:29.111,B,0.0,"be the same shape and size, can be mirror images of each other",0,54.766,seal
+P6,qID-12,No,2025-01-11 21:09:38.051,B,1.0,No,0,8.94,seal
+P5,qID-1,AAS (Angle-Angle-Side),2025-01-11 21:09:54.088,B,1.0,AAS (Angle-Angle-Side),0,16.037,seal
+P3,qID-1,SAS (Side-Angle-Side),2025-01-11 21:10:07.769,B,1.0,SAS (Side-Angle-Side),0,13.681,seal
+P4,qID-1,SSS (Side-Side-Side),2025-01-11 21:10:13.008,B,1.0,SSS (Side-Side-Side),0,5.239,seal
+P7,qID-1,SSA (Side-Side-Angle),2025-01-11 21:10:31.921,B,0.0,RHL (Right-Hypotenuse-Leg),0,18.913,seal
+TutorialProof1,qID-1,Yes,2025-01-11 21:12:51.540,A,,,0,139.619,seal
+TutorialProof1,qID-2,No,2025-01-11 21:13:22.726,A,,,0,31.186,seal
+TutorialProof2,qID-1,No,2025-01-11 21:14:34.516,A,,,0,71.79,seal
+S1_IN1,qID-0,Continue,2025-01-11 21:18:08.908,A,1.0,Continue,1,214.392,seal
+S1_IN1,qID-11,Yes,2025-01-11 21:18:10.280,A,1.0,Yes,1,1.372,seal
+S1_IN1,qID-12,Step 4,2025-01-11 21:18:12.439,A,1.0,Step 4,1,2.159,seal
+S1_IN1,qID-13,Open-ended Incorrect,2025-01-11 21:18:13.678,A,0.0,Open-ended Correct,1,1.239,seal
+S1_IN1,qID-2,No,2025-01-11 21:18:18.999,A,1.0,No,1,5.321,seal
+S1_IN1,qID-3,No,2025-01-11 21:19:05.724,A,1.0,No,1,46.725,seal
+S1_IN3,qID-0,Continue,2025-01-11 21:19:31.247,A,1.0,Continue,2,25.523,seal
+S1_IN3,qID-11,No,2025-01-11 21:19:41.788,A,0.0,Yes,2,10.541,seal
+S1_IN3,qID-3,Yes,2025-01-11 21:19:58.432,A,1.0,Yes,2,16.644,seal
+S1_IN2,qID-0,Continue,2025-01-11 21:21:14.174,A,1.0,Continue,3,75.742,seal
+S1_IN2,qID-11,Yes,2025-01-11 21:21:15.728,A,1.0,Yes,3,1.554,seal
+S1_IN2,qID-12,Step 5,2025-01-11 21:21:37.039,A,1.0,Step 5,3,21.311,seal
+S1_IN2,qID-13,Open-ended Incorrect,2025-01-11 21:23:08.183,A,0.0,Open-ended Correct,3,91.144,seal
+S1_IN2,qID-2,No,2025-01-11 21:23:27.639,A,1.0,No,3,19.456,seal
+S1_IN2,qID-1,Yes,2025-01-11 21:23:53.435,A,1.0,Yes,3,25.796,seal
+S1_C2,qID-0,Continue,2025-01-11 21:24:46.041,A,1.0,Continue,4,52.606,seal
+S1_C2,qID-11,No,2025-01-11 21:24:50.758,A,3.0,No,4,4.717,seal
+S1_C2,qID-3,Yes,2025-01-11 21:25:00.531,A,1.0,Yes,4,9.773,seal
+S1_C2,qID-4,Yes,2025-01-11 21:25:08.888,A,1.0,Yes,4,8.357,seal
+S1_C1,qID-0,Continue,2025-01-11 21:25:56.363,A,1.0,Continue,5,47.475,seal
+S1_C1,qID-11,No,2025-01-11 21:26:07.063,A,3.0,No,5,10.7,seal
+S1_C1,qID-2,Yes,2025-01-11 21:26:29.924,A,1.0,Yes,5,22.861,seal
+S1_C1,qID-3,Yes,2025-01-11 21:26:40.437,A,0.0,No,5,10.513,seal
+S2_IN2,qID-0,Continue,2025-01-11 21:27:21.029,A,1.0,Continue,6,40.592,seal
+S2_IN2,qID-11,Yes,2025-01-11 21:27:22.587,A,1.0,Yes,6,1.558,seal
+S2_IN2,qID-12,Step 7,2025-01-11 21:27:32.285,A,1.0,Step 7,6,9.698,seal
+S2_IN2,qID-13,Open-ended Correct,2025-01-11 21:27:38.360,A,1.0,Open-ended Correct,6,6.075,seal
+S2_IN2,qID-2,No,2025-01-11 21:27:54.453,A,1.0,No,6,16.093,seal
+S2_IN2,qID-1,No,2025-01-11 21:29:10.196,A,1.0,No,6,75.743,seal
+S2_C2,qID-11,No,2025-01-11 21:30:17.307,A,3.0,No,7,67.111,seal
+S2_C2,qID-2,No,2025-01-11 21:30:40.026,A,1.0,No,7,22.719,seal
+S2_C2,qID-1,No,2025-01-11 21:32:03.551,A,1.0,No,7,83.525,seal
+S2_C2,qID-0,Continue,2025-01-11 21:34:36.827,A,1.0,Continue,7,153.276,seal
+S2_IN1,qID-0,Continue,2025-01-11 21:34:41.786,A,1.0,Continue,8,4.959,seal
+S2_IN1,qID-11,No,2025-01-11 21:34:44.813,A,0.0,Yes,8,3.027,seal
+S2_IN1,qID-2,Yes,2025-01-11 21:35:03.413,A,0.0,No,8,18.6,seal
+SUS,0,2,2025-01-11 21:36:43.046,undefined,,,8,99.633,seal
+SUS,1,4,2025-01-11 21:36:43.047,undefined,,,8,0.001,seal
+SUS,2,3,2025-01-11 21:36:43.047,undefined,,,8,0.0,seal
+SUS,3,4,2025-01-11 21:36:43.047,undefined,,,8,0.0,seal
+SUS,4,4,2025-01-11 21:36:43.047,undefined,,,8,0.0,seal
+SUS,5,1,2025-01-11 21:36:43.047,undefined,,,8,0.0,seal
+SUS,6,3,2025-01-11 21:36:43.047,undefined,,,8,0.0,seal
+SUS,7,3,2025-01-11 21:36:43.047,undefined,,,8,0.0,seal
+SUS,8,2,2025-01-11 21:36:43.047,undefined,,,8,0.0,seal
+SUS,9,3,2025-01-11 21:36:43.047,undefined,,,8,0.0,seal
