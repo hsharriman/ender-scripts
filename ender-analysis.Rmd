@@ -7,77 +7,141 @@ date: "2024-12-17"
 ```{r setup, include=FALSE}
 library(ggpubr)
 library(broom)
-require("lme4")
+library(car)
+library(lme4)
+library(lmerTest)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Overall Scores Setup
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
+```{r}
 df <- read.csv("./out/study/scores_df.csv")
 summary(df)
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
+```{r}
+# filter out pilots
+# df <- subset(df, pilot == 0)
 # are post test scores explained by being assigned to SA or SB?
-t.test(df[df$version == 'A', ]$score, df[df$version == 'B',]$score, alternative = "two.sided", var.equal = FALSE)
+# t.test(df[df$version == 'A', ]$score, df[df$version == 'B',]$score, alternative = "two.sided", var.equal = FALSE)
 ```
+
+
+Test for equal variance using Levene's Test. Results show that there is no significant difference in variances between groups, so t-test is okay to use.
 ```{r}
-# Subset the data where problem == "posttest"
+# Set version as the group of the dataset
+df$version <- as.factor(df$version)
+
+# Remove outlier and pilot data
 df <- subset(df, pilot == 0)
-t.test(df[df$version == 'A', ]$score, df[df$version == 'B',]$score, alternative = "two.sided", var.equal = FALSE)
+df <- subset(df, id != "rhino")
+
+leveneTest(score ~ version, data = df)
+
+leveneTest(pretest ~ version, data = df)
+
+leveneTest(sus ~ version, data = df)
 ```
+
+## T-test for Statistical Significance
 ```{r}
-df <- read.csv("./out/study/combined2.csv")
-df <- subset(df, pilot == 0)
+t.test(score ~ version, data = df, var.equal = TRUE, alternative = "greater")
+
+t.test(score ~ version, data = df, var.equal = TRUE, alternative = "two.sided")
+```
+
+Check significance of version on pretest scores and SUS scores.
+```{r}
+t.test(pretest ~ version, data = df, var.equal = TRUE, alternative = "two.sided")
+
+t.test(sus ~ version, data = df, var.equal = TRUE, alternative = "two.sided")
+```
+
+```{r}
+# df <- read.csv("./out/study/combined3.csv")
+# df <- subset(df, pilot == 0)
+# df <- df[!grepl("^P", df$proof), ]
+# summary(df)
+```
+
+## Per-question analysis
+```{r}
+df <- read.csv("./out/study/questionTypeData.csv")
 summary(df)
+
+# Set version as the group of the dataset
+df$version <- as.factor(df$version)
+df$questionType <- factor(df$questionType)
+
+# Check variance for each questionType, all are not significant so equal variance is OK
+#leveneTest(score ~ version, data = subset(df, questionType == 1))
+#leveneTest(score ~ version, data = subset(df, questionType == 2))
+#leveneTest(score ~ version, data = subset(df, questionType == 3))
+#leveneTest(score ~ version, data = subset(df, questionType == 4))
+#leveneTest(score ~ version, data = subset(df, questionType == 5))
+
+leveneTest(score ~ version * questionType, data = df)
+```
+```{r}
+lmm_model <- lmer(score ~ version * questionType + (1 | id), data = df)
+summary(lmm_model)
+
+# To check if version significantly affects the score for each questionType
+anova(lmm_model)
 ```
 
 
 ```{r}
-df <- df[!grepl("^P", df$proof), ]
-t.test(df[df$version == 'A', ]$score, df[df$version == 'B',]$score, alternative = "two.sided", var.equal = FALSE)
+
+# Extract residuals
+lmm_residuals <- residuals(lmm_model)
+
+# Q-Q plot
+qqnorm(lmm_residuals)
+qqline(lmm_residuals, col = "red")
 ```
+
 # Check significance of performance on individual questions
 Check significance of performing better on "does this proof have a mistake?" questions
 ```{r}
-t.test(df[df$version == 'A'& df$questionType == 1, ]$score, df[df$version == 'B'& df$questionType == 1,]$score, alternative = "two.sided", var.equal = FALSE)
+t.test(score ~ version, data = subset(df, questionType==1), var.equal = TRUE, alternative = "two.sided")
+
+# test significance of time taken
+t.test(time ~ version, data = subset(df, questionType==1), var.equal = TRUE, alternative = "two.sided")
 ```
 Check significance of performing better on "which step is wrong?" questions
 ```{r}
-t.test(df[df$version == 'A'& df$questionType == 2, ]$score, df[df$version == 'B'& df$questionType == 1,]$score, alternative = "two.sided", var.equal = FALSE)
+t.test(score ~ version, data = subset(df, questionType==2), var.equal = TRUE, alternative = "two.sided")
 
-t.test(df[df$version == 'A'& df$questionType == 3, ]$score, df[df$version == 'B'& df$questionType == 1,]$score, alternative = "two.sided", var.equal = FALSE)
+# test significance of time taken
+t.test(time ~ version, data = subset(df, questionType==2), var.equal = TRUE, alternative = "two.sided")
+```
+
+Significance of "correct the proof" questions
+```{r}
+t.test(score ~ version, data = subset(df, questionType==3), var.equal = TRUE, alternative = "two.sided")
+
+# test significance of time taken
+t.test(time ~ version, data = subset(df, questionType==3), var.equal = TRUE, alternative = "two.sided")
 ```
 
 Check significance of performing better on "must X be congruent to Y?" questions
 ```{r}
-t.test(df[df$version == 'A'& df$questionType == 4, ]$score, df[df$version == 'B'& df$questionType == 4,]$score, alternative = "two.sided", var.equal = FALSE)
+t.test(score ~ version, data = subset(df, questionType==4), var.equal = TRUE, alternative = "two.sided")
+
+# test significance of time taken
+t.test(time ~ version, data = subset(df, questionType==4), var.equal = TRUE, alternative = "two.sided")
 ```
 
 Check significance of performing better on "is reason X correctly applied?" questions
 ```{r}
-t.test(df[df$version == 'A'& df$questionType == 5, ]$score, df[df$version == 'B'& df$questionType == 5,]$score, alternative = "two.sided", var.equal = FALSE)
+t.test(score ~ version, data = subset(df, questionType==5), var.equal = TRUE, alternative = "two.sided")
+
+# test significance of time taken
+t.test(time ~ version, data = subset(df, questionType==5), var.equal = TRUE, alternative = "two.sided")
 ```
 
-
-# Filter out rows where reasonCorrect is NA
-```{r}
-dfR <- df[!is.na(df$reasonCorrect),]
-summary(dfR)
-t.test(dfR[dfR$version == 'A', ]$reasonCorrect, dfR[dfR$version == 'B',]$reasonCorrect, alternative = "two.sided", var.equal = FALSE)
-```
-
-# Filter out rows where reasonCorrect is NA
-```{r}
-t.test(dfR[dfR$version == 'A' & dfR$reasonCorrect == 0, ]$score, dfR[dfR$version == 'B' & dfR$reasonCorrect == 0,]$score, alternative = "two.sided", var.equal = FALSE)
-```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

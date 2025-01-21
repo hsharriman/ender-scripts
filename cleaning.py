@@ -257,9 +257,9 @@ if __name__ == "__main__":
     df = score_test(df, participant)
     score_df_compiled = total_score_participant(df, participant, is_pilot, overwrite=True)
     timing_df_compiled = add_participant_timing(participant, df, is_pilot, overwrite=True)
-    # compiled = combine_qual(timing_df_compiled, "./out/study/think-aloud-11participants.csv")
-    # compiled = add_question_type(compiled)
-    # compiled.to_csv("./out/study/combined.csv", index=False)
+    compiled = combine_qual(timing_df_compiled, "./out/study/think-aloud-13.csv")
+    compiled = add_question_type(compiled)
+    compiled.to_csv("./out/study/combined3.csv", index=False)
 
     # df = pd.read_csv("./out/study/combined.csv")
     # for index, row in df.iterrows():
