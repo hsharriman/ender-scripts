@@ -30,7 +30,7 @@ df attribute summary:
 -   score = 0-1, proportion of main activity answers that student answered correctly (1 = 100% questions answered correctly). (There were 38 possible points in the test). (this is the primarily what we care about)
 
 ```{r}
-df <- read.csv("./out/study/scores_df.csv")
+df <- read.csv("./out/study/scores.csv")
 # Replace "A" with "S" and "B" with "C"
 df$version[df$version == "A"] <- "S"
 df$version[df$version == "B"] <- "C"
@@ -40,7 +40,7 @@ df$version <- as.factor(df$version)
 
 # Remove outlier and pilot data
 df <- subset(df, pilot == 0)
-df <- subset(df, id != "rhino")
+# df <- subset(df, id != "rhino")
 summary(df)
 ```
 
@@ -96,7 +96,7 @@ df attribute summary, contains 1 row per question TYPE that was answered, there 
 -   score = proportion of each questionType that student answered correctly
 
 ```{r}
-df <- read.csv("./out/study/questionTypeDataWithReasons.csv")
+df <- read.csv("./out/study/questionTypeDataWithReasons2.csv")
 df$version[df$version == "A"] <- "S"
 df$version[df$version == "B"] <- "C"
 summary(df)
