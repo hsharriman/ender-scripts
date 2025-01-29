@@ -1,70 +1,70 @@
-pageName,question,answer,time,version,score,key,delta,participant
-Background Questions,0,15,2024-12-15 16:14:31.538,undefined,,,0.0,giraffe
-Background Questions,1,2023-2024,2024-12-15 16:14:31.539,undefined,,,0.001,giraffe
-Background Questions,2,10,2024-12-15 16:14:31.539,undefined,,,0.0,giraffe
-Background Questions,3,regular,2024-12-15 16:14:31.539,undefined,,,0.0,giraffe
-P1,qID-1,BC,2024-12-15 16:16:00.701,B,1.0,BC,89.162,giraffe
-P1,qID-3,HJ,2024-12-15 16:16:09.520,B,1.0,HJ,8.819,giraffe
-P1,qID-2,MN,2024-12-15 16:16:18.553,B,1.0,MN,9.033,giraffe
-P2,qID-3,Angle NQP,2024-12-15 16:16:27.372,B,1.0,Angle NQP,8.819,giraffe
-P2,qID-1,Angle GHJ,2024-12-15 16:16:38.419,B,1.0,Angle GHJ,11.047,giraffe
-P2,qID-2,Angle DEF,2024-12-15 16:16:47.503,B,1.0,Angle DEF,9.084,giraffe
-P7,qID-1,SSA (Side-Side-Angle),2024-12-15 16:17:12.222,B,0.0,RHL (Right-Hypotenuse-Leg),24.719,giraffe
-P7,qID-12,Yes,2024-12-15 16:17:17.557,B,0.0,No,5.335,giraffe
-P7,qID-13,Yes,2024-12-15 16:17:19.724,B,0.0,No,2.167,giraffe
-P7,qID-11,"be the same shape and size, can be mirror images of each other",2024-12-15 16:17:43.896,B,1.0,"be the same shape and size, can be mirror images of each other",24.172,giraffe
-P4,qID-1,SSS (Side-Side-Side),2024-12-15 16:17:51.030,B,1.0,SSS (Side-Side-Side),7.134,giraffe
-P6,qID-1,ASA (Angle-Side-Angle),2024-12-15 16:17:59.569,B,1.0,ASA (Angle-Side-Angle),8.539,giraffe
-P5,qID-1,AAS (Angle-Angle-Side),2024-12-15 16:18:07.185,B,1.0,AAS (Angle-Angle-Side),7.616,giraffe
-P3,qID-1,SAS (Side-Angle-Side),2024-12-15 16:18:14.386,B,1.0,SAS (Side-Angle-Side),7.201,giraffe
-TutorialProof1,qID-1,No,2024-12-15 16:22:06.908,A,,,232.522,giraffe
-TutorialProof1,qID-2,Yes,2024-12-15 16:22:14.496,A,,,7.588,giraffe
-TutorialProof2,qID-1,No,2024-12-15 16:23:02.848,A,,,48.352,giraffe
-T1_S1_C2,qID-0,Continue,2024-12-15 16:25:07.224,A,1.0,Continue,124.376,giraffe
-T1_S1_C2,qID-11,No,2024-12-15 16:25:37.390,A,3.0,No,30.166,giraffe
-T1_S1_C2,qID-4,Yes,2024-12-15 16:26:00.565,A,1.0,Yes,23.175,giraffe
-T1_S1_C2,qID-3,Yes,2024-12-15 16:26:26.589,A,1.0,Yes,26.024,giraffe
-T1_S1_IN1,qID-0,Continue,2024-12-15 16:27:25.881,A,1.0,Continue,59.292,giraffe
-T1_S1_IN1,qID-11,Yes,2024-12-15 16:28:01.605,A,1.0,Yes,35.724,giraffe
-T1_S1_IN1,qID-12,Step 4,2024-12-15 16:28:10.056,A,1.0,Step 4,8.451,giraffe
-T1_S1_IN1,qID-13,Open-ended Incorrect,2024-12-15 16:28:34.252,A,0.0,Open-ended Correct,24.196,giraffe
-T1_S1_IN1,qID-2,Yes,2024-12-15 16:28:55.057,A,0.0,No,20.805,giraffe
-T1_S1_IN1,qID-3,Yes,2024-12-15 16:29:10.807,A,0.0,No,15.75,giraffe
-T1_S1_C1,qID-0,Continue,2024-12-15 16:29:47.669,A,1.0,Continue,36.862,giraffe
-T1_S1_C1,qID-11,No,2024-12-15 16:29:49.079,A,3.0,No,1.41,giraffe
-T1_S1_C1,qID-2,No,2024-12-15 16:30:08.715,A,0.0,Yes,19.636,giraffe
-T1_S1_C1,qID-3,Yes,2024-12-15 16:30:38.948,A,0.0,No,30.233,giraffe
-T1_S1_IN3,qID-0,Continue,2024-12-15 16:32:47.359,A,1.0,Continue,128.411,giraffe
-T1_S1_IN3,qID-11,Yes,2024-12-15 16:32:50.036,A,1.0,Yes,2.677,giraffe
-T1_S1_IN3,qID-12,Step 4,2024-12-15 16:32:53.063,A,1.0,Step 4,3.027,giraffe
-T1_S1_IN3,qID-13,Open-ended Correct,2024-12-15 16:33:07.551,A,1.0,Open-ended Correct,14.488,giraffe
-T1_S1_IN3,qID-3,Yes,2024-12-15 16:33:25.820,A,1.0,Yes,18.269,giraffe
-T1_S1_IN2,qID-0,Continue,2024-12-15 16:34:08.595,A,1.0,Continue,42.775,giraffe
-T1_S1_IN2,qID-11,Yes,2024-12-15 16:34:10.684,A,1.0,Yes,2.089,giraffe
-T1_S1_IN2,qID-12,Step 5,2024-12-15 16:34:21.505,A,1.0,Step 5,10.821,giraffe
-T1_S1_IN2,qID-13,Open-ended Incorrect,2024-12-15 16:35:12.038,A,0.0,Open-ended Correct,50.533,giraffe
-T1_S1_IN2,qID-1,Yes,2024-12-15 16:35:19.125,A,1.0,Yes,7.087,giraffe
-T1_S1_IN2,qID-2,No,2024-12-15 16:35:48.211,A,1.0,No,29.086,giraffe
-T1_S2_IN2,qID-0,Continue,2024-12-15 16:36:33.944,A,1.0,Continue,45.733,giraffe
-T1_S2_IN2,qID-11,No,2024-12-15 16:38:01.140,A,0.0,Yes,87.196,giraffe
-T1_S2_IN2,qID-1,Yes,2024-12-15 16:38:22.303,A,0.0,No,21.163,giraffe
-T1_S2_IN2,qID-2,No,2024-12-15 16:38:56.619,A,1.0,No,34.316,giraffe
-T1_S2_IN1,qID-0,Continue,2024-12-15 16:41:33.547,A,1.0,Continue,156.928,giraffe
-T1_S2_IN1,qID-11,Yes,2024-12-15 16:41:35.741,A,1.0,Yes,2.194,giraffe
-T1_S2_IN1,qID-12,Step 8,2024-12-15 16:41:42.419,A,1.0,Step 8,6.678,giraffe
-T1_S2_IN1,qID-13,Open-ended Correct,2024-12-15 16:42:29.030,A,1.0,Open-ended Correct,46.611,giraffe
-T1_S2_IN1,qID-2,Yes,2024-12-15 16:42:34.521,A,0.0,No,5.491,giraffe
-T1_S2_C2,qID-0,Continue,2024-12-15 16:43:16.752,A,1.0,Continue,42.231,giraffe
-T1_S2_C2,qID-11,No,2024-12-15 16:43:19.784,A,3.0,No,3.032,giraffe
-T1_S2_C2,qID-2,No,2024-12-15 16:44:05.708,A,1.0,No,45.924,giraffe
-T1_S2_C2,qID-1,Yes,2024-12-15 16:44:17.417,A,0.0,No,11.709,giraffe
-SUS,7,1,2024-12-15 16:46:08.299,undefined,,,110.882,giraffe
-SUS,6,4,2024-12-15 16:46:08.299,undefined,,,0.0,giraffe
-SUS,5,1,2024-12-15 16:46:08.299,undefined,,,0.0,giraffe
-SUS,4,5,2024-12-15 16:46:08.299,undefined,,,0.0,giraffe
-SUS,1,1,2024-12-15 16:46:08.299,undefined,,,0.0,giraffe
-SUS,2,5,2024-12-15 16:46:08.299,undefined,,,0.0,giraffe
-SUS,0,2,2024-12-15 16:46:08.299,undefined,,,0.0,giraffe
-SUS,3,1,2024-12-15 16:46:08.299,undefined,,,0.0,giraffe
-SUS,8,5,2024-12-15 16:46:08.300,undefined,,,0.001,giraffe
-SUS,9,1,2024-12-15 16:46:08.300,undefined,,,0.0,giraffe
+pageName,question,answer,time,version,score,key,order,delta,participant
+Background Questions,0,15,2024-12-15 16:14:31.538,undefined,,,0,0.0,giraffe
+Background Questions,1,2023-2024,2024-12-15 16:14:31.539,undefined,,,0,0.001,giraffe
+Background Questions,2,10,2024-12-15 16:14:31.539,undefined,,,0,0.0,giraffe
+Background Questions,3,regular,2024-12-15 16:14:31.539,undefined,,,0,0.0,giraffe
+P1,qID-1,BC,2024-12-15 16:16:00.701,B,1.0,BC,0,89.162,giraffe
+P1,qID-3,HJ,2024-12-15 16:16:09.520,B,1.0,HJ,0,8.819,giraffe
+P1,qID-2,MN,2024-12-15 16:16:18.553,B,1.0,MN,0,9.033,giraffe
+P2,qID-3,Angle NQP,2024-12-15 16:16:27.372,B,1.0,Angle NQP,0,8.819,giraffe
+P2,qID-1,Angle GHJ,2024-12-15 16:16:38.419,B,1.0,Angle GHJ,0,11.047,giraffe
+P2,qID-2,Angle DEF,2024-12-15 16:16:47.503,B,1.0,Angle DEF,0,9.084,giraffe
+P7,qID-1,SSA (Side-Side-Angle),2024-12-15 16:17:12.222,B,0.0,RHL (Right-Hypotenuse-Leg),0,24.719,giraffe
+P7,qID-12,Yes,2024-12-15 16:17:17.557,B,0.0,No,0,5.335,giraffe
+P7,qID-13,Yes,2024-12-15 16:17:19.724,B,0.0,No,0,2.167,giraffe
+P7,qID-11,"be the same shape and size, can be mirror images of each other",2024-12-15 16:17:43.896,B,1.0,"be the same shape and size, can be mirror images of each other",0,24.172,giraffe
+P4,qID-1,SSS (Side-Side-Side),2024-12-15 16:17:51.030,B,1.0,SSS (Side-Side-Side),0,7.134,giraffe
+P6,qID-1,ASA (Angle-Side-Angle),2024-12-15 16:17:59.569,B,1.0,ASA (Angle-Side-Angle),0,8.539,giraffe
+P5,qID-1,AAS (Angle-Angle-Side),2024-12-15 16:18:07.185,B,1.0,AAS (Angle-Angle-Side),0,7.616,giraffe
+P3,qID-1,SAS (Side-Angle-Side),2024-12-15 16:18:14.386,B,1.0,SAS (Side-Angle-Side),0,7.201,giraffe
+TutorialProof1,qID-1,No,2024-12-15 16:22:06.908,A,,,0,232.522,giraffe
+TutorialProof1,qID-2,Yes,2024-12-15 16:22:14.496,A,,,0,7.588,giraffe
+TutorialProof2,qID-1,No,2024-12-15 16:23:02.848,A,,,0,48.352,giraffe
+S1_C2,qID-0,Continue,2024-12-15 16:25:07.224,A,0.0,,0,124.376,giraffe
+S1_C2,qID-11,No,2024-12-15 16:25:37.390,A,3.0,No,1,30.166,giraffe
+S1_C2,qID-4,Yes,2024-12-15 16:26:00.565,A,1.0,Yes,1,23.175,giraffe
+S1_C2,qID-3,Yes,2024-12-15 16:26:26.589,A,1.0,Yes,1,26.024,giraffe
+S1_IN1,qID-0,Continue,2024-12-15 16:27:25.881,A,0.0,,1,59.292,giraffe
+S1_IN1,qID-11,Yes,2024-12-15 16:28:01.605,A,1.0,Yes,2,35.724,giraffe
+S1_IN1,qID-12,Step 4,2024-12-15 16:28:10.056,A,1.0,Step 4,2,8.451,giraffe
+S1_IN1,qID-13,Open-ended Incorrect,2024-12-15 16:28:34.252,A,0.0,Open-ended Correct,2,24.196,giraffe
+S1_IN1,qID-2,Yes,2024-12-15 16:28:55.057,A,0.0,No,2,20.805,giraffe
+S1_IN1,qID-3,Yes,2024-12-15 16:29:10.807,A,0.0,No,2,15.75,giraffe
+S1_C1,qID-0,Continue,2024-12-15 16:29:47.669,A,0.0,,2,36.862,giraffe
+S1_C1,qID-11,No,2024-12-15 16:29:49.079,A,3.0,No,3,1.41,giraffe
+S1_C1,qID-2,No,2024-12-15 16:30:08.715,A,0.0,Yes,3,19.636,giraffe
+S1_C1,qID-3,Yes,2024-12-15 16:30:38.948,A,0.0,No,3,30.233,giraffe
+S1_IN3,qID-0,Continue,2024-12-15 16:32:47.359,A,0.0,,3,128.411,giraffe
+S1_IN3,qID-11,Yes,2024-12-15 16:32:50.036,A,1.0,Yes,4,2.677,giraffe
+S1_IN3,qID-12,Step 4,2024-12-15 16:32:53.063,A,1.0,Step 4,4,3.027,giraffe
+S1_IN3,qID-13,Open-ended Correct,2024-12-15 16:33:07.551,A,1.0,Open-ended Correct,4,14.488,giraffe
+S1_IN3,qID-3,Yes,2024-12-15 16:33:25.820,A,1.0,Yes,4,18.269,giraffe
+S1_IN2,qID-0,Continue,2024-12-15 16:34:08.595,A,0.0,,4,42.775,giraffe
+S1_IN2,qID-11,Yes,2024-12-15 16:34:10.684,A,1.0,Yes,5,2.089,giraffe
+S1_IN2,qID-12,Step 5,2024-12-15 16:34:21.505,A,1.0,Step 5,5,10.821,giraffe
+S1_IN2,qID-13,Open-ended Incorrect,2024-12-15 16:35:12.038,A,0.0,Open-ended Correct,5,50.533,giraffe
+S1_IN2,qID-1,Yes,2024-12-15 16:35:19.125,A,1.0,Yes,5,7.087,giraffe
+S1_IN2,qID-2,No,2024-12-15 16:35:48.211,A,1.0,No,5,29.086,giraffe
+S2_IN2,qID-0,Continue,2024-12-15 16:36:33.944,A,0.0,,5,45.733,giraffe
+S2_IN2,qID-11,No,2024-12-15 16:38:01.140,A,0.0,Yes,6,87.196,giraffe
+S2_IN2,qID-1,Yes,2024-12-15 16:38:22.303,A,0.0,No,6,21.163,giraffe
+S2_IN2,qID-2,No,2024-12-15 16:38:56.619,A,1.0,No,6,34.316,giraffe
+S2_IN1,qID-0,Continue,2024-12-15 16:41:33.547,A,0.0,,6,156.928,giraffe
+S2_IN1,qID-11,Yes,2024-12-15 16:41:35.741,A,1.0,Yes,7,2.194,giraffe
+S2_IN1,qID-12,Step 8,2024-12-15 16:41:42.419,A,1.0,Step 8,7,6.678,giraffe
+S2_IN1,qID-13,Open-ended Correct,2024-12-15 16:42:29.030,A,1.0,Open-ended Correct,7,46.611,giraffe
+S2_IN1,qID-2,Yes,2024-12-15 16:42:34.521,A,0.0,No,7,5.491,giraffe
+S2_C2,qID-0,Continue,2024-12-15 16:43:16.752,A,0.0,,7,42.231,giraffe
+S2_C2,qID-11,No,2024-12-15 16:43:19.784,A,3.0,No,8,3.032,giraffe
+S2_C2,qID-2,No,2024-12-15 16:44:05.708,A,1.0,No,8,45.924,giraffe
+S2_C2,qID-1,Yes,2024-12-15 16:44:17.417,A,0.0,No,8,11.709,giraffe
+SUS,7,1,2024-12-15 16:46:08.299,undefined,,,8,110.882,giraffe
+SUS,6,4,2024-12-15 16:46:08.299,undefined,,,8,0.0,giraffe
+SUS,5,1,2024-12-15 16:46:08.299,undefined,,,8,0.0,giraffe
+SUS,4,5,2024-12-15 16:46:08.299,undefined,,,8,0.0,giraffe
+SUS,1,1,2024-12-15 16:46:08.299,undefined,,,8,0.0,giraffe
+SUS,2,5,2024-12-15 16:46:08.299,undefined,,,8,0.0,giraffe
+SUS,0,2,2024-12-15 16:46:08.299,undefined,,,8,0.0,giraffe
+SUS,3,1,2024-12-15 16:46:08.299,undefined,,,8,0.0,giraffe
+SUS,8,5,2024-12-15 16:46:08.300,undefined,,,8,0.001,giraffe
+SUS,9,1,2024-12-15 16:46:08.300,undefined,,,8,0.0,giraffe

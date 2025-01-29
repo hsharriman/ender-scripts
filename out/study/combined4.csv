@@ -1,0 +1,655 @@
+id,question,version,time_elapsed,proof,score,pilot,order,questionText,reasoning,cues,steps,reasonCorrect,understanding,misconception,questionType
+seal,qID-1,B,79.263,P1,1.0,0,0,,,,,,,,
+seal,qID-3,B,11.907,P1,1.0,0,0,,,,,,,,
+seal,qID-2,B,7.308,P1,1.0,0,0,,,,,,,,
+seal,qID-1,B,11.755,P2,1.0,0,0,,,,,,,,
+seal,qID-3,B,9.557,P2,1.0,0,0,,,,,,,,
+seal,qID-2,B,10.574,P2,1.0,0,0,,,,,,,,
+seal,qID-1,B,13.653,P6,1.0,0,0,,,,,,,,
+seal,qID-13,B,6.875,P6,1.0,0,0,,,,,,,,
+seal,qID-11,B,54.766,P6,0.0,0,0,,,,,,,,
+seal,qID-12,B,8.94,P6,1.0,0,0,,,,,,,,
+seal,qID-1,B,16.037,P5,1.0,0,0,,,,,,,,
+seal,qID-1,B,13.681,P3,1.0,0,0,,,,,,,,
+seal,qID-1,B,5.239,P4,1.0,0,0,,,,,,,,
+seal,qID-1,B,18.913,P7,0.0,0,0,,,,,,,,
+seal,qID-0,A,214.392,S1_IN1,0.0,0,0,,,,,,,,
+seal,qID-11,A,1.372,S1_IN1,1.0,0,1,Is there a mistake? [11],"yes, there's a mistake","inconsistency, relies on, tick marks, all proof text","step 3, step 4",right,"geometric, direct lookup",,1.0
+seal,qID-12,A,2.159,S1_IN1,1.0,0,1,Which step is wrong? [12],step 4,"inconsistency, construction, all proof text","step 3, step 4",right,"geometric, direct lookup",,2.0
+seal,qID-13,A,1.239,S1_IN1,0.0,0,1,Describe reasoning [13],there's already enough information for SAS so to fix they would remove the red tick marks,"tick marks, construction, earlier proof steps (text)",step 4,wrong,"geometric, direct lookup",,3.0
+seal,qID-2,A,5.321,S1_IN1,1.0,0,1,conclude BA congruent to CB? [2],no because different tick marks,"tick marks, construction",step 5,right,"geometric, direct lookup",,4.0
+seal,qID-3,A,46.725,S1_IN1,1.0,0,1, conclude <DBA congruent to <BCD? [3],"no, not the same tick marks","construction, tick marks",step 5,right,"geometric, direct lookup",,4.0
+seal,qID-0,A,25.523,S1_IN3,0.0,0,1,,,,,,,,
+seal,qID-11,A,10.541,S1_IN3,0.0,0,2,Is there a mistake? [11],"no mistake, quad == rectangle","construction, inconsistency, tick marks, all proof text",step 4,wrong,geometric,,1.0
+seal,qID-3,A,16.644,S1_IN3,1.0,0,2,conclude KN congruent to ML? [3],yes bc matching ticks,"construction, tick marks",step 4,right,"geometric, direct lookup",,4.0
+seal,qID-0,A,75.742,S1_IN2,0.0,0,2,,,,,,,,
+seal,qID-11,A,1.554,S1_IN2,1.0,0,3,Is there a mistake? [11],"yes, there's a mistake","inconsistency, construction, all proof text, tick marks, relies on",step 5,right,"geometric, direct lookup",,1.0
+seal,qID-12,A,21.311,S1_IN2,1.0,0,3,Which step is wrong? [12],"step 5, issue with reason","tick marks, all proof text, construction",step 5,right,"geometric, direct lookup",,2.0
+seal,qID-13,A,91.144,S1_IN2,0.0,0,3,Describe reasoning [13],use SSA to fix,construction,step 5,wrong,geometric,,3.0
+seal,qID-2,A,19.456,S1_IN2,1.0,0,3,conclude KL congruent to KM? [2],no bc different ticks,tick marks,step 5,right,"geometric, direct lookup",,4.0
+seal,qID-1,A,25.796,S1_IN2,1.0,0,3,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],"yes, can be used anywhere",,"step 4, step 1, step 2",right,geometric,,5.0
+seal,qID-0,A,52.606,S1_C2,0.0,0,3,,,,,,,,
+seal,qID-11,A,4.717,S1_C2,3.0,0,4,Is there a mistake? [11],no mistake,"construction, all proof text",step 9,right,geometric,,1.0
+seal,qID-3,A,9.773,S1_C2,1.0,0,4,enough info...Congruent Adjacent Angles at step 5? [3],yes enough information,"earlier proof steps (text), relies on",step 5,right,geometric,,5.0
+seal,qID-4,A,8.357,S1_C2,1.0,0,4,enough info...ASA at step 7? [4],yes enough information,"earlier proof steps (text), relies on",step 7,right,geometric,,5.0
+seal,qID-0,A,47.475,S1_C1,0.0,0,4,,,,,,,,
+seal,qID-11,A,10.7,S1_C1,3.0,0,5,Is there a mistake? [11],no mistake,"construction, all proof text",step 7,right,geometric,,1.0
+seal,qID-2,A,22.861,S1_C1,1.0,0,5,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],"yes, enough information",earlier proof steps (text),"step 4, step 1, step 2",right,geometric,,5.0
+seal,qID-3,A,10.513,S1_C1,0.0,0,5,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],thinks there's enough information (you COULD conclude that there's enough info for SAS but filled in the vertical angles in their head),"construction, tick marks","step 5, step 3, step 4",wrong,geometric,,5.0
+seal,qID-0,A,40.592,S2_IN2,0.0,0,5,,,,,,,,
+seal,qID-11,A,1.558,S2_IN2,1.0,0,6,Is there a mistake? [11],"yes, wrong use of CPCTC","construction, inconsistency, tick marks",step 7,right,"geometric, direct lookup",,1.0
+seal,qID-12,A,9.698,S2_IN2,1.0,0,6,Which step is wrong? [12],"step 7, wrong use of CPCTC","construction, inconsistency",step 7,right,"geometric, direct lookup",,2.0
+seal,qID-13,A,6.075,S2_IN2,1.0,0,6,Describe reasoning [13],,,step 7,right,geometric,,3.0
+seal,qID-2,A,16.093,S2_IN2,1.0,0,6,conclude <MYZ congruent to <MWX? [2],"different angles, not congruent",construction,step 7,right,"geometric, direct lookup",,4.0
+seal,qID-1,A,75.743,S2_IN2,1.0,0,6,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],not enough information to complete,"earlier proof steps (text), construction","step 2, step 3",right,geometric,,5.0
+seal,qID-11,A,67.111,S2_C2,3.0,0,7,Is there a mistake? [11],no mistake,"construction, all proof text",step 10,right,geometric,,1.0
+seal,qID-2,A,22.719,S2_C2,1.0,0,7,conclude <BAF congruent to <DCB? [2],"no, different ticks","construction, tick marks",step 1,right,"geometric, direct lookup",,4.0
+seal,qID-1,A,83.525,S2_C2,1.0,0,7,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],no not enough information,earlier proof steps (text),"step 9, step 7, step 8",right,geometric,,5.0
+seal,qID-0,A,153.276,S2_C2,0.0,0,7,,,,,,,,
+seal,qID-0,A,4.959,S2_IN1,0.0,0,7,,,,,,,,
+seal,qID-11,A,3.027,S2_IN1,0.0,0,8,Is there a mistake? [11],"no mistake, saw red inconsistency but didn't understand what it meant or how to read it","construction, inconsistency, all proof text","step 8, step 9",wrong,geometric,,1.0
+seal,qID-2,A,18.6,S2_IN1,0.0,0,8,conclude tLNU congruent to tUQL? [2],"yes, enough information",earlier proof steps (text),step 9,wrong,geometric,,4.0
+zebra,qID-2,B,94.289,P1,1.0,0,0,,,,,,,,
+zebra,qID-3,B,14.387,P1,1.0,0,0,,,,,,,,
+zebra,qID-1,B,34.429,P1,1.0,0,0,,,,,,,,
+zebra,qID-2,B,30.774,P2,1.0,0,0,,,,,,,,
+zebra,qID-3,B,14.316,P2,1.0,0,0,,,,,,,,
+zebra,qID-1,B,20.754,P2,1.0,0,0,,,,,,,,
+zebra,qID-1,B,19.775,P4,1.0,0,0,,,,,,,,
+zebra,qID-12,B,14.78,P4,1.0,0,0,,,,,,,,
+zebra,qID-13,B,10.939,P4,1.0,0,0,,,,,,,,
+zebra,qID-11,B,37.619,P4,1.0,0,0,,,,,,,,
+zebra,qID-1,B,21.818,P7,1.0,0,0,,,,,,,,
+zebra,qID-1,B,49.22,P5,0.0,0,0,,,,,,,,
+zebra,qID-1,B,12.694,P6,1.0,0,0,,,,,,,,
+zebra,qID-1,B,14.289,P3,1.0,0,0,,,,,,,,
+zebra,qID-0,B,89.217,S1_IN1,0.0,0,0,,,,,,,,
+zebra,qID-11,B,12.905,S1_IN1,0.0,0,1,Is there a mistake? [11],"looked at construction (showing SSA) and thought SAS requirements were met, so there's no mistake","construction, all proof text, tick marks",,wrong,geometric,,1.0
+zebra,qID-2,B,24.422,S1_IN1,1.0,0,1,conclude BA congruent to CB? [2],"Not the same # of ticks, so no","tick marks, construction",,right,geometric,,4.0
+zebra,qID-3,B,39.191,S1_IN1,1.0,0,1, conclude <DBA congruent to <BCD? [3],no because angles are not congruent to each other,"tick marks, construction",,right,geometric,,4.0
+zebra,qID-0,B,36.526,S1_C2,0.0,0,1,,,,,,,,
+zebra,qID-11,B,77.084,S1_C2,3.0,0,2,Is there a mistake? [11],no mistake,"construction, all proof text",,right,geometric,,1.0
+zebra,qID-4,B,29.344,S1_C2,1.0,0,2,enough info...ASA at step 7? [4],"yes, requirements for ASA met","construction, earlier proof steps (text)",,right,geometric,,5.0
+zebra,qID-3,B,17.343,S1_C2,1.0,0,2,enough info...Congruent Adjacent Angles at step 5? [3],"yes, lines established to be perpendicular","construction, earlier proof steps (text)",,right,geometric,,5.0
+zebra,qID-0,B,61.196,S1_C1,0.0,0,2,,,,,,,,
+zebra,qID-11,B,35.664,S1_C1,0.0,0,3,Is there a mistake? [11],yes bc thinks can't prove lines are parallel using triangle congruence,"construction, tick marks, all proof text",,wrong,geometric,,1.0
+zebra,qID-12,B,30.351,S1_C1,0.0,0,3,Which step is wrong? [12],"step 7, issue with saying AC || BD","construction, all proof text",,wrong,geometric,,2.0
+zebra,qID-13,B,29.739,S1_C1,0.0,0,3,Describe reasoning [13],doesn't think the last line can be corrected,,,wrong,geometric,,3.0
+zebra,qID-2,B,60.054,S1_C1,1.0,0,3,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],"yes, knows lines are intersecting before","construction, earlier proof steps (text)",,right,geometric,,5.0
+zebra,qID-3,B,16.369,S1_C1,1.0,0,3,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],"no, need vertical angles before","construction, earlier proof steps (text)",,right,geometric,,5.0
+zebra,qID-0,B,73.988,S1_IN3,0.0,0,3,,,,,,,,
+zebra,qID-11,B,7.388,S1_IN3,0.0,0,4,Is there a mistake? [11],"Thinks quad == rectangle, no mistake","construction, all proof text",,wrong,geometric,,1.0
+zebra,qID-3,B,10.084,S1_IN3,1.0,0,4,conclude KN congruent to ML? [3],yes bc same # ticks,"construction, tick marks",,right,geometric,,4.0
+zebra,qID-0,B,47.996,S1_IN2,0.0,0,4,,,,,,,,
+zebra,qID-11,B,14.364,S1_IN2,1.0,0,5,Is there a mistake? [11],Thinks AAS step is wrong,"construction, all proof text",,right,geometric,,1.0
+zebra,qID-12,B,6.176,S1_IN2,1.0,0,5,Which step is wrong? [12],thinks step 5 is wrong bc AAS wrong reason to use,"construction, all proof text",,right,geometric,,2.0
+zebra,qID-13,B,27.954,S1_IN2,0.0,0,5,Describe reasoning [13],Use SAS to fix (counts SAS incorrectly),"construction, all proof text",,wrong,geometric,,3.0
+zebra,qID-2,B,13.074,S1_IN2,1.0,0,5,conclude KL congruent to KM? [2],no not enough info,"construction, tick marks",,right,geometric,,4.0
+zebra,qID-1,B,27.775,S1_IN2,1.0,0,5,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],"yes, line is congruent to itself",all proof text,,right,geometric,,5.0
+zebra,qID-0,B,26.464,S2_IN2,0.0,0,5,,,,,,,,
+zebra,qID-11,B,76.008,S2_IN2,0.0,0,6,Is there a mistake? [11],"stopped reading after step 6, thinks there's no mistake","earlier proof steps (text), construction",,wrong,geometric,,1.0
+zebra,qID-2,B,25.996,S2_IN2,0.0,0,6,conclude <MYZ congruent to <MWX? [2],yes b/c triangle congruence is established,,,wrong,geometric,,4.0
+zebra,qID-1,B,44.115,S2_IN2,1.0,0,6,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],"no, needs triangle congruence first",,,right,geometric,,5.0
+zebra,qID-0,B,104.368,S2_C2,0.0,0,6,,,,,,,,
+zebra,qID-11,B,1.913,S2_C2,3.0,0,7,Is there a mistake? [11],no mistake,"construction, all proof text",,right,geometric,,1.0
+zebra,qID-2,B,24.431,S2_C2,1.0,0,7,conclude <BAF congruent to <DCB? [2],angles are not congruent to each other,construction,,right,geometric,,4.0
+zebra,qID-1,B,27.608,S2_C2,1.0,0,7,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],SAS can't be moved earlier,earlier proof steps (text),,right,geometric,,5.0
+zebra,qID-0,B,44.324,S2_IN1,0.0,0,7,,,,,,,,
+zebra,qID-11,B,1.875,S2_IN1,1.0,0,8,Is there a mistake? [11],there's an issue with the proof with step 6 using ASA,"construction, all proof text",,wrong,geometric,,1.0
+zebra,qID-12,B,16.333,S2_IN1,0.0,0,8,Which step is wrong? [12],"step 6, ASA is the wrong reason to use","construction, all proof text",,wrong,geometric,,2.0
+zebra,qID-13,B,27.652,S2_IN1,0.0,0,8,Describe reasoning [13],use RHL instead of ASA (by using given step 2 and 3 + a reflexive side),"construction, tick marks, all proof text",,wrong,geometric,,3.0
+zebra,qID-2,B,33.968,S2_IN1,0.0,0,8,conclude tLNU congruent to tUQL? [2],"yes, enough info to prove the 2 triangles congruent",all proof text,,wrong,geometric,,4.0
+lion,qID-2,B,90.235,P1,1.0,0,0,,,,,,,,
+lion,qID-1,B,41.16,P1,0.0,0,0,,,,,,,,
+lion,qID-3,B,12.988,P1,1.0,0,0,,,,,,,,
+lion,qID-3,B,12.908,P2,1.0,0,0,,,,,,,,
+lion,qID-1,B,59.931,P2,1.0,0,0,,,,,,,,
+lion,qID-2,B,17.985,P2,1.0,0,0,,,,,,,,
+lion,qID-1,B,52.229,P7,1.0,0,0,,,,,,,,
+lion,qID-11,B,29.257,P7,0.0,0,0,,,,,,,,
+lion,qID-12,B,8.153,P7,1.0,0,0,,,,,,,,
+lion,qID-13,B,11.023,P7,0.0,0,0,,,,,,,,
+lion,qID-1,B,10.773,P3,1.0,0,0,,,,,,,,
+lion,qID-1,B,19.169,P5,1.0,0,0,,,,,,,,
+lion,qID-1,B,29.731,P6,0.0,0,0,,,,,,,,
+lion,qID-1,B,32.418,P4,1.0,0,0,,,,,,,,
+lion,qID-0,A,352.308,S1_IN2,0.0,0,0,,,,,,,,
+lion,qID-11,A,1.779,S1_IN2,1.0,0,1,Is there a mistake? [11],never established that corner angles are same,"inconsistency, all proof text, construction",step 5,right,"geometric, direct lookup",,1.0
+lion,qID-12,A,2.752,S1_IN2,1.0,0,1,Which step is wrong? [12],step 5 bc AAS is wrong,earlier proof steps (text),step 5,right,geometric,,2.0
+lion,qID-13,A,1.526,S1_IN2,1.0,0,1,Describe reasoning [13],add step for < bisector and use SAS to solve,"construction, tick marks","step 1, step 2",right,geometric,,3.0
+lion,qID-2,A,1.981,S1_IN2,1.0,0,1,conclude KL congruent to KM? [2],"no, bc hypotenuse is always going to be bigger",construction,step 1,right,geometric,,4.0
+lion,qID-1,A,27.417,S1_IN2,1.0,0,1,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],"yes, line is always equal to itself",construction,step 2,right,geometric,,5.0
+lion,qID-0,A,95.302,S1_IN3,0.0,0,1,,,,,,,,
+lion,qID-11,A,37.192,S1_IN3,0.0,0,2,Is there a mistake? [11],thinks that quad == rectangle,"construction, tick marks, reason definition",step 4,wrong,geometric,quad != rectangle,1.0
+lion,qID-3,A,30.348,S1_IN3,1.0,0,2,conclude KN congruent to ML? [3],"if quad, then there must be 2 pairs of equal sides","construction, reason definition",step 4,wrong,geometric,quad != rectangle,4.0
+lion,qID-0,A,116.038,S1_IN1,0.0,0,2,,,,,,,,
+lion,qID-11,A,2.439,S1_IN1,0.0,0,3,Is there a mistake? [11],"sees the inconsistency (red lost its meaning here), doesn't recognize that the angles are not established. solved the proof in their head and was convinced that there was enough information to apply SAS","construction, relies on, inconsistency, all proof text",step 5,wrong,geometric,missed that BD had not been established yet and jumped to conclude that SAS was correct reason,1.0
+lion,qID-3,A,29.748,S1_IN1,1.0,0,3, conclude <DBA congruent to <BCD? [3],triangles are not established to be equilateral,"construction, all proof text",step 3,right,geometric,,4.0
+lion,qID-2,A,14.979,S1_IN1,1.0,0,3,conclude BA congruent to CB? [2],triangles are not established to be equilateral,"construction, all proof text",step 3,right,geometric,,4.0
+lion,qID-0,A,112.57,S1_C2,0.0,0,3,,,,,,,,
+lion,qID-11,A,2.37,S1_C2,3.0,0,4,Is there a mistake? [11],no issues with the proof,"construction, all proof text, reason definition",step 9,right,geometric,,1.0
+lion,qID-4,A,10.674,S1_C2,1.0,0,4,enough info...ASA at step 7? [4],"yes, because that's what they did as well",earlier proof steps (text),step 5,right,geometric,,5.0
+lion,qID-3,A,12.532,S1_C2,1.0,0,4,enough info...Congruent Adjacent Angles at step 5? [3],already said lines perp so yes,all proof text,step 9,right,geometric,,5.0
+lion,qID-0,A,57.554,S1_C1,0.0,0,4,,,,,,,,
+lion,qID-11,A,72.469,S1_C1,3.0,0,5,Is there a mistake? [11],"no issues with the proof, triangles are mirror image of each other so the angles are the same","construction, all proof text, tick marks",step 7,right,geometric,,1.0
+lion,qID-3,A,20.423,S1_C1,1.0,0,5,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],no bc didn't have vertical angles,"relies on, earlier proof steps (text)",step 4,right,"geometric, direct lookup",,5.0
+lion,qID-2,A,32.864,S1_C1,1.0,0,5,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],yes bc had intersecting lines,"relies on, earlier proof steps (text)",step 1,right,"geometric, direct lookup",,5.0
+lion,qID-0,A,26.971,S2_C2,0.0,0,5,,,,,,,,
+lion,qID-11,A,107.134,S2_C2,3.0,0,6,Is there a mistake? [11],no issue with proof,"construction, all proof text, tick marks",step 10,,,,1.0
+lion,qID-1,A,25.385,S2_C2,1.0,0,6,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],needs AB=BC to prove,"construction, tick marks",step 7,right,"geometric, direct lookup",,5.0
+lion,qID-2,A,30.387,S2_C2,1.0,0,6,conclude <BAF congruent to <DCB? [2],different angles,construction,step 7,right,geometric,,4.0
+lion,qID-0,A,90.589,S2_IN2,0.0,0,6,,,,,,,,
+lion,qID-11,A,1.553,S2_IN2,0.0,0,7,Is there a mistake? [11],"ignored the red inconsistency, said ""there's definitely a mistake but i missed it""","reason definition, all proof text, inconsistency, construction",step 8,wrong,"geometric, guess",,1.0
+lion,qID-1,A,22.776,S2_IN2,1.0,0,7,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],no bc there's not enough information,earlier proof steps (text),step 1,right,geometric,,5.0
+lion,qID-2,A,17.386,S2_IN2,0.0,0,7,conclude <MYZ congruent to <MWX? [2],yes bc of alternate interior angles,construction,step 2,wrong,geometric,thinks that both pairs of alt-int angles are congruent to each other,4.0
+lion,qID-0,A,8.822,S2_IN1,0.0,0,7,,,,,,,,
+lion,qID-11,A,116.827,S2_IN1,1.0,0,8,Is there a mistake? [11],"know that information is missing, thinks angle L and U are missing","inconsistency, construction, all proof text",step 8,wrong,geometric,trying to solve for the wrong triangles,1.0
+lion,qID-12,A,11.587,S2_IN1,0.0,0,8,Which step is wrong? [12],"step 7, confused about which triangles are being proven congruent","all proof text, construction",step 7,wrong,geometric,trying to solve for the wrong triangles,2.0
+lion,qID-13,A,48.896,S2_IN1,0.0,0,8,Describe reasoning [13],subtract angles from each other and use some intersecting lines to get more angles to prove that smaller triangles are congruent,construction,step 7,wrong,geometric,trying to solve for the wrong triangles,3.0
+lion,qID-2,A,10.941,S2_IN1,1.0,0,8,conclude tLNU congruent to tUQL? [2],no bc proof wasn't correct,,step 7,right,geometric,,4.0
+lemur,qID-2,B,91.342,P1,1.0,0,0,,,,,,,,
+lemur,qID-3,B,21.889,P1,1.0,0,0,,,,,,,,
+lemur,qID-1,B,22.821,P1,1.0,0,0,,,,,,,,
+lemur,qID-3,B,13.311,P2,1.0,0,0,,,,,,,,
+lemur,qID-2,B,14.527,P2,1.0,0,0,,,,,,,,
+lemur,qID-1,B,15.714,P2,1.0,0,0,,,,,,,,
+lemur,qID-1,B,48.085,P7,0.0,0,0,,,,,,,,
+lemur,qID-11,B,20.986,P7,1.0,0,0,,,,,,,,
+lemur,qID-12,B,21.444,P7,1.0,0,0,,,,,,,,
+lemur,qID-13,B,14.856,P7,0.0,0,0,,,,,,,,
+lemur,qID-1,B,36.624,P6,1.0,0,0,,,,,,,,
+lemur,qID-1,B,18.916,P5,0.0,0,0,,,,,,,,
+lemur,qID-1,B,28.83,P3,0.0,0,0,,,,,,,,
+lemur,qID-1,B,8.354,P4,1.0,0,0,,,,,,,,
+lemur,qID-0,B,126.372,S1_IN2,0.0,0,0,,,,,,,,
+lemur,qID-11,B,70.499,S1_IN2,1.0,0,1,Is there a mistake? [11],AAS is the wrong reason to use,"construction, all proof text",,right,geometric,,1.0
+lemur,qID-12,B,11.148,S1_IN2,1.0,0,1,Which step is wrong? [12],step 5,"construction, all proof text",,right,geometric,,2.0
+lemur,qID-13,B,28.56,S1_IN2,0.0,0,1,Describe reasoning [13],should use SAS or SSA instead of AAS,,,wrong,geometric,doesn't realize SSA is not congruence theorem or that SAS doesn't work here,3.0
+lemur,qID-1,B,69.256,S1_IN2,1.0,0,1,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],not same # ticks,"construction, tick marks",,right,"geometric, direct lookup",,5.0
+lemur,qID-2,B,16.415,S1_IN2,1.0,0,1,conclude KL congruent to KM? [2],"MK is the same line as MK, unsure if there's enough proof.",all proof text,,right,"geometric, guess",,4.0
+lemur,qID-0,B,194.926,S1_C1,0.0,0,1,,,,,,,,
+lemur,qID-11,B,1.274,S1_C1,3.0,0,2,Is there a mistake? [11],everything seemed correct,"reason definition, construction, all proof text",,right,geometric,,1.0
+lemur,qID-3,B,84.706,S1_C1,0.0,0,2,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],thought vertical angles had already been established,"construction, reason definition",,wrong,geometric,thought enough reqs were met for SAS,5.0
+lemur,qID-2,B,41.814,S1_C1,1.0,0,2,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],wasn't sure,construction,,,guess,didn't know that intersecting vert angles could be applied as long as there are intersecting lines,5.0
+lemur,qID-0,B,52.722,S1_IN1,0.0,0,2,,,,,,,,
+lemur,qID-11,B,23.377,S1_IN1,1.0,0,3,Is there a mistake? [11],"no interior angle is defined before using SAS, should use SSS instead","all proof text, construction",,right,geometric,,1.0
+lemur,qID-12,B,6.404,S1_IN1,1.0,0,3,Which step is wrong? [12],no interior angle is defined before using SAS,"all proof text, construction",,right,geometric,,2.0
+lemur,qID-13,B,13.785,S1_IN1,0.0,0,3,Describe reasoning [13],thinks reason should be changed from SAS to SSS,construction,,wrong,geometric,doesn't realize reflexive step is needed for SSS,3.0
+lemur,qID-2,B,14.838,S1_IN1,1.0,0,3,conclude BA congruent to CB? [2],not same number of tick marks,"construction, tick marks",,right,"geometric, direct lookup",,4.0
+lemur,qID-3,B,83.932,S1_IN1,0.0,0,3, conclude <DBA congruent to <BCD? [3],if the triangles are congruent the 2 angles are congruent,"construction, earlier proof steps (text)",,wrong,geometric,misuse of CPCTC,4.0
+lemur,qID-0,B,142.034,S1_IN3,0.0,0,3,,,,,,,,
+lemur,qID-11,B,27.86,S1_IN3,0.0,0,4,Is there a mistake? [11],"thinks def quad = def rect and that there is no mistake, was confused about why angle N didn't have a 90 degree tick","tick marks, construction, all proof text",,wrong,geometric,thinks def quad = rect,1.0
+lemur,qID-3,B,10.755,S1_IN3,1.0,0,4,conclude KN congruent to ML? [3],same # ticks,tick marks,,right,"geometric, direct lookup",,4.0
+lemur,qID-0,B,80.946,S1_C2,0.0,0,4,,,,,,,,
+lemur,qID-11,B,102.322,S1_C2,3.0,0,5,Is there a mistake? [11],checked over proof and convinced everything is correct,"construction, reason definition, all proof text",,right,geometric,,1.0
+lemur,qID-3,B,93.552,S1_C2,1.0,0,5,enough info...Congruent Adjacent Angles at step 5? [3],enough info to apply cong adj angles knowing that lines are perpendicular. wasn't confident in answer,"statement text, construction",,right,"geometric, guess",,5.0
+lemur,qID-4,B,46.425,S1_C2,1.0,0,5,enough info...ASA at step 7? [4],"all reqs for ASA are met, not confident in answer","construction, earlier proof steps (text), tick marks",,right,geometric,,5.0
+lemur,qID-0,B,98.684,S2_IN1,0.0,0,5,,,,,,,,
+lemur,qID-11,B,58.742,S2_IN1,0.0,0,6,Is there a mistake? [11],"thought there wasn't enough info to use ASA, accidentally selected no mistake","construction, all proof text",,wrong,geometric,,1.0
+lemur,qID-2,B,24.558,S2_IN1,0.0,0,6,conclude tLNU congruent to tUQL? [2],"not enough info to prove congruent because thought there was an issue with ASA, picked Yes",,,wrong,geometric,,4.0
+lemur,qID-0,B,102.796,S2_IN2,0.0,0,6,,,,,,,,
+lemur,qID-11,B,31.705,S2_IN2,1.0,0,7,Is there a mistake? [11],"thought not enough info to use SAS, but was very unsure","reason definition, construction, all proof text",,wrong,"geometric, guess",,1.0
+lemur,qID-12,B,5.369,S2_IN2,0.0,0,7,Which step is wrong? [12],step 6 because of SAS,,,wrong,"geometric, guess",,2.0
+lemur,qID-13,B,17.446,S2_IN2,0.0,0,7,Describe reasoning [13],verbally expressed that they were confused and didn't describe how to correct the proof,,,wrong,guess,,3.0
+lemur,qID-1,B,42.601,S2_IN2,1.0,0,7,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],not enough info to prove parallel,earlier proof steps (text),,right,geometric,,5.0
+lemur,qID-2,B,11.198,S2_IN2,1.0,0,7,conclude <MYZ congruent to <MWX? [2],bc triangles aren't congruent the angles cannot be proven congruent,"earlier proof steps (text), construction",,wrong,geometric,,4.0
+lemur,qID-0,B,169.228,S2_C2,0.0,0,7,,,,,,,,
+lemur,qID-11,B,2.498,S2_C2,0.0,0,8,Is there a mistake? [11],"lost track of the number of sides and angles that were established to be congruent, thought there wasn't enough info","construction, all proof text",,wrong,geometric,,1.0
+lemur,qID-12,B,4.841,S2_C2,0.0,0,8,Which step is wrong? [12],step 9,,,wrong,geometric,,2.0
+lemur,qID-13,B,60.805,S2_C2,0.0,0,8,Describe reasoning [13],thought there wasn't enough info for SAS by step 9,"construction, all proof text",,wrong,geometric,,3.0
+lemur,qID-1,B,13.475,S2_C2,1.0,0,8,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],can't move step 9 before step 8 bc step 8 is one of the sides for SAS,earlier proof steps (text),,right,geometric,,5.0
+lemur,qID-2,B,23.715,S2_C2,1.0,0,8,conclude <BAF congruent to <DCB? [2],very different angles on construction,construction,,right,"geometric, direct lookup",,4.0
+hedgehog,qID-2,B,105.07,P1,1.0,0,0,,,,,,,,
+hedgehog,qID-1,B,12.212,P1,1.0,0,0,,,,,,,,
+hedgehog,qID-3,B,12.209,P1,1.0,0,0,,,,,,,,
+hedgehog,qID-3,B,7.989,P2,1.0,0,0,,,,,,,,
+hedgehog,qID-2,B,12.106,P2,1.0,0,0,,,,,,,,
+hedgehog,qID-1,B,6.727,P2,1.0,0,0,,,,,,,,
+hedgehog,qID-1,B,13.401,P3,1.0,0,0,,,,,,,,
+hedgehog,qID-13,B,11.199,P3,1.0,0,0,,,,,,,,
+hedgehog,qID-11,B,45.932,P3,0.0,0,0,,,,,,,,
+hedgehog,qID-12,B,3.075,P3,0.0,0,0,,,,,,,,
+hedgehog,qID-1,B,11.486,P7,0.0,0,0,,,,,,,,
+hedgehog,qID-1,B,9.506,P4,1.0,0,0,,,,,,,,
+hedgehog,qID-1,B,8.777,P6,1.0,0,0,,,,,,,,
+hedgehog,qID-1,B,8.767,P5,1.0,0,0,,,,,,,,
+hedgehog,qID-0,A,62.025,S1_IN1,0.0,0,0,,,,,,,,
+hedgehog,qID-11,A,27.844,S1_IN1,1.0,0,1,Is there a mistake? [11],"yes, SAS is wrong","construction, all proof text, inconsistency",step 4,right,"geometric, direct lookup",,1.0
+hedgehog,qID-12,A,6.112,S1_IN1,1.0,0,1,Which step is wrong? [12],step 4 bc SAS is wrong,"inconsistency, relies on, construction",step 4,,,,2.0
+hedgehog,qID-13,A,11.888,S1_IN1,0.0,0,1,Describe reasoning [13],thinks rows 4 and 5 should be switched,"tick marks, construction","step 4, step 5",wrong,geometric,sees that the angles they wanted to use for SAS are established in step 5 w/o noticing dependency on step 4,3.0
+hedgehog,qID-3,A,47.715,S1_IN1,0.0,0,1, conclude <DBA congruent to <BCD? [3],"yes, misread the angles","tick marks, construction",step 5,wrong,"geometric, direct lookup",,4.0
+hedgehog,qID-2,A,11.708,S1_IN1,1.0,0,1,conclude BA congruent to CB? [2],different ticks,"tick marks, construction",step 5,right,"geometric, direct lookup",,4.0
+hedgehog,qID-0,A,4.018,S1_IN2,0.0,0,1,,,,,,,,
+hedgehog,qID-11,A,61.96,S1_IN2,1.0,0,2,Is there a mistake? [11],"yes, step 5 is wrong","inconsistency, construction, all proof text","step 4, step 5",right,"geometric, direct lookup",,1.0
+hedgehog,qID-12,A,4.067,S1_IN2,1.0,0,2,Which step is wrong? [12],step 5 bc not enough information for AAS,"inconsistency, construction, tick marks",step 5,right,"geometric, direct lookup",,2.0
+hedgehog,qID-13,A,23.525,S1_IN2,0.0,0,2,Describe reasoning [13],thinks SSA would be the right fix,"construction, tick marks",step 5,wrong,geometric,SSA not a valid triangle congruence theorem,3.0
+hedgehog,qID-2,A,11.872,S1_IN2,1.0,0,2,conclude KL congruent to KM? [2],different ticks,"construction, tick marks",step 5,right,"geometric, direct lookup",,4.0
+hedgehog,qID-1,A,31.969,S1_IN2,1.0,0,2,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],reflexive can go anywhere,earlier proof steps (text),step 5,right,geometric,,5.0
+hedgehog,qID-0,A,6.065,S1_C1,0.0,0,2,,,,,,,,
+hedgehog,qID-11,A,63.404,S1_C1,3.0,0,3,Is there a mistake? [11],no issues,,,,,,1.0
+hedgehog,qID-3,A,17.025,S1_C1,1.0,0,3,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],needs vertical angles to apply SAS,"earlier proof steps (text), relies on",step 5,right,"geometric, direct lookup",,5.0
+hedgehog,qID-2,A,16.076,S1_C1,1.0,0,3,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],vertical angles can be applied after intersecting lines,earlier proof steps (text),step 1,right,geometric,,5.0
+hedgehog,qID-0,A,52.506,S1_C2,0.0,0,3,,,,,,,,
+hedgehog,qID-11,A,4.221,S1_C2,3.0,0,4,Is there a mistake? [11],no issues,"construction, all proof text",,right,geometric,,1.0
+hedgehog,qID-4,A,10.308,S1_C2,1.0,0,4,enough info...ASA at step 7? [4],yes bc reqs for ASA are met,"relies on, earlier proof steps (text)",step 7,right,"geometric, direct lookup",,5.0
+hedgehog,qID-3,A,8.721,S1_C2,1.0,0,4,enough info...Congruent Adjacent Angles at step 5? [3],yes bc relies on parallel lines,"relies on, earlier proof steps (text)",step 5,right,"geometric, direct lookup",,5.0
+hedgehog,qID-0,A,48.935,S1_IN3,0.0,0,4,,,,,,,,
+hedgehog,qID-11,A,3.265,S1_IN3,1.0,0,5,Is there a mistake? [11],yes bc quad != rect,"inconsistency, tick marks, construction","step 6, step 4",right,"geometric, direct lookup",,1.0
+hedgehog,qID-12,A,4.566,S1_IN3,1.0,0,5,Which step is wrong? [12],step 4 bc quadrilateral is 4 sides and 2 angles might not necessarily be equal,inconsistency,step 4,,,,2.0
+hedgehog,qID-13,A,52.18,S1_IN3,1.0,0,5,Describe reasoning [13],cannot be fixed,,"step 6, step 4",right,geometric,,3.0
+hedgehog,qID-3,A,9.052,S1_IN3,1.0,0,5,conclude KN congruent to ML? [3],yes bc given,tick marks,step 4,right,"geometric, direct lookup",,4.0
+hedgehog,qID-0,A,57.099,S2_C2,0.0,0,5,,,,,,,,
+hedgehog,qID-11,A,1.682,S2_C2,3.0,0,6,Is there a mistake? [11],no issues,"construction, all proof text, relies on",,right,geometric,,1.0
+hedgehog,qID-2,A,22.928,S2_C2,1.0,0,6,conclude <BAF congruent to <DCB? [2],no bc different angles,"construction, tick marks",step 10,right,"geometric, direct lookup",,4.0
+hedgehog,qID-1,A,10.305,S2_C2,1.0,0,6,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],no bc information is not yet established,"relies on, earlier proof steps (text), tick marks, construction","step 9, step 7, step 8",right,"geometric, direct lookup",,5.0
+hedgehog,qID-0,A,76.669,S2_IN1,0.0,0,6,,,,,,,,
+hedgehog,qID-11,A,1.485,S2_IN1,1.0,0,7,Is there a mistake? [11],"yes, bc missing requirement for triangle congruence","construction, tick marks, all proof text",step 7,wrong,geometric,,1.0
+hedgehog,qID-12,A,3.809,S2_IN1,0.0,0,7,Which step is wrong? [12],"step 7, doesn't think SLP=SUP could be established without more information","construction, tick marks",step 7,wrong,geometric,,2.0
+hedgehog,qID-13,A,25.787,S2_IN1,0.0,0,7,Describe reasoning [13],missing a side NP=QP to make ASA work,"construction, tick marks",step 7,wrong,geometric,lost track of what was being used to prove ASA,3.0
+hedgehog,qID-2,A,14.414,S2_IN1,0.0,0,7,conclude tLNU congruent to tUQL? [2],misread LNU and UQL as NLU and QUL and thought they were angles instead of triangles,"construction, tick marks",step 7,wrong,"geometric, direct lookup",located the wrong objects on construction,4.0
+hedgehog,qID-0,A,31.944,S2_IN2,0.0,0,7,,,,,,,,
+hedgehog,qID-11,A,41.682,S2_IN2,1.0,0,8,Is there a mistake? [11],"yes, bc missing requirement for step 8","reason definition, inconsistency, construction, relies on","step 7, step 8",wrong,"geometric, direct lookup",,1.0
+hedgehog,qID-12,A,3.704,S2_IN2,0.0,0,8,Which step is wrong? [12],step 8 bc not enough information for alt-int angles,"inconsistency, construction, relies on",step 8,wrong,"geometric, direct lookup",,2.0
+hedgehog,qID-13,A,33.861,S2_IN2,0.0,0,8,Describe reasoning [13],doesn't understand why the angles are being defined with CPCTC so not really sure where the mistake is,"relies on, inconsistency, construction",step 8,wrong,geometric,,3.0
+hedgehog,qID-1,A,9.805,S2_IN2,0.0,0,8,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],didn't vocalize reasoning,construction,"step 1, step 2",unknown,unknown,,5.0
+hedgehog,qID-2,A,35.11,S2_IN2,1.0,0,8,conclude <MYZ congruent to <MWX? [2],not the same angles,"tick marks, construction",step 8,right,"geometric, direct lookup",,4.0
+capybara,qID-1,B,114.404,P1,1.0,0,0,,,,,,,,
+capybara,qID-2,B,9.907,P1,1.0,0,0,,,,,,,,
+capybara,qID-3,B,10.704,P1,1.0,0,0,,,,,,,,
+capybara,qID-1,B,14.394,P2,1.0,0,0,,,,,,,,
+capybara,qID-3,B,9.466,P2,1.0,0,0,,,,,,,,
+capybara,qID-2,B,13.493,P2,1.0,0,0,,,,,,,,
+capybara,qID-1,B,24.629,P7,0.0,0,0,,,,,,,,
+capybara,qID-12,B,7.763,P7,1.0,0,0,,,,,,,,
+capybara,qID-13,B,4.472,P7,0.0,0,0,,,,,,,,
+capybara,qID-11,B,28.425,P7,0.0,0,0,,,,,,,,
+capybara,qID-1,B,7.777,P3,1.0,0,0,,,,,,,,
+capybara,qID-1,B,4.32,P4,1.0,0,0,,,,,,,,
+capybara,qID-1,B,5.407,P6,1.0,0,0,,,,,,,,
+capybara,qID-1,B,12.459,P5,1.0,0,0,,,,,,,,
+capybara,qID-0,B,140.59,S1_C2,0.0,0,0,,,,,,,,
+capybara,qID-11,B,15.489,S1_C2,3.0,0,1,Is there a mistake? [11],think it all makes sense,"all proof text, construction",,right,geometric,,1.0
+capybara,qID-3,B,23.139,S1_C2,1.0,0,1,enough info...Congruent Adjacent Angles at step 5? [3],yes bc lines are perpendicular,"construction, all proof text",,right,geometric,,5.0
+capybara,qID-4,B,13.403,S1_C2,1.0,0,1,enough info...ASA at step 7? [4],all reqs for ASA met at that point,"construction, earlier proof steps (text)",,right,geometric,,5.0
+capybara,qID-0,B,112.015,S1_C1,0.0,0,1,,,,,,,,
+capybara,qID-11,B,37.781,S1_C1,3.0,0,2,Is there a mistake? [11],checks over proof 1 step at a time,"reason definition, construction, all proof text",,right,geometric,,1.0
+capybara,qID-2,B,31.241,S1_C1,1.0,0,2,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],thinks so because the picture of construction and vertical angles theorem look about the same,"construction, reason def (illustration), reason definition",,right,geometric,,5.0
+capybara,qID-3,B,22.629,S1_C1,1.0,0,2,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],need vertical angles to prove SAS,,,right,geometric,,5.0
+capybara,qID-0,B,33.34,S1_IN2,0.0,0,2,,,,,,,,
+capybara,qID-11,B,7.742,S1_IN2,0.0,0,3,Is there a mistake? [11],"confidently thought the proof was right, didn't check over the reasons used","statement text, construction",,wrong,geometric,,1.0
+capybara,qID-2,B,32.951,S1_IN2,1.0,0,3,conclude KL congruent to KM? [2],"not the same segments, different # ticks","construction, tick marks",,right,"geometric, direct lookup",,4.0
+capybara,qID-1,B,38.969,S1_IN2,1.0,0,3,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],yes because lines are congruent to themselves,"reason definition, earlier proof steps (text)",,right,geometric,,5.0
+capybara,qID-0,B,62.817,S1_IN3,0.0,0,3,,,,,,,,
+capybara,qID-11,B,37.255,S1_IN3,0.0,0,4,Is there a mistake? [11],"thought quad == rectangle, didn't catch that right angles were not necessarily congruent","construction, tick marks, all proof text",,wrong,geometric,,1.0
+capybara,qID-3,B,16.806,S1_IN3,1.0,0,4,conclude KN congruent to ML? [3],yes because construction/given says so,"tick marks, construction, given",,right,"geometric, direct lookup",,4.0
+capybara,qID-0,B,60.59,S1_IN1,0.0,0,4,,,,,,,,
+capybara,qID-11,B,18.316,S1_IN1,1.0,0,5,Is there a mistake? [11],recognized SAS was an odd choice and that DB=DB wasn't stated,,,right,geometric,,1.0
+capybara,qID-12,B,8.761,S1_IN1,1.0,0,5,Which step is wrong? [12],step 4 bc SAS,,,right,geometric,,2.0
+capybara,qID-13,B,9.262,S1_IN1,0.0,0,5,Describe reasoning [13],thought that SSA should be used,,,wrong,geometric,SSA not triangle congruence theorem,3.0
+capybara,qID-3,B,73.42,S1_IN1,1.0,0,5, conclude <DBA congruent to <BCD? [3],angles not necessarily congruent,"tick marks, construction",,right,"geometric, direct lookup",,4.0
+capybara,qID-2,B,27.758,S1_IN1,1.0,0,5,conclude BA congruent to CB? [2],different # of ticks,"tick marks, construction",,right,"geometric, direct lookup",,4.0
+capybara,qID-0,B,93.685,S2_IN2,0.0,0,5,,,,,,,,
+capybara,qID-11,B,39.541,S2_IN2,0.0,0,6,Is there a mistake? [11],"thought <Y=<X instead of <Y=<W would be the normal thing to do. without tick marks thought that the visual squareness of the construction meant that an exception could be made. ""don't like it, but I don't see why it would be wrong""","construction, all proof text",,wrong,geometric,was mislead by the visual appearance of the construction (everything looks congruent),1.0
+capybara,qID-2,B,23.237,S2_IN2,0.0,0,6,conclude <MYZ congruent to <MWX? [2],because the proof says so,statement text,,wrong,"geometric, direct lookup",,4.0
+capybara,qID-1,B,101.553,S2_IN2,0.0,0,6,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],thinks it would still work knowing just the midpoints,"earlier proof steps (text), construction",,wrong,geometric,,5.0
+capybara,qID-0,B,116.593,S2_IN1,0.0,0,6,,,,,,,,
+capybara,qID-11,B,49.98,S2_IN1,0.0,0,7,Is there a mistake? [11],didn't realize that step 8 didn't originate from triangles that were already demonstrated to be congruent,"construction, all proof text",,wrong,geometric,,1.0
+capybara,qID-2,B,21.647,S2_IN1,0.0,0,7,conclude tLNU congruent to tUQL? [2],because ASA has already been used there's beforehand there's enough information,"earlier proof steps (text), construction",,wrong,geometric,confused about which triangles had been proven congruent by ASA,4.0
+capybara,qID-0,B,78.783,S2_C2,0.0,0,7,,,,,,,,
+capybara,qID-11,B,1.16,S2_C2,3.0,0,8,Is there a mistake? [11],proof matched expectations of how they would approach the proof themselves,,,right,geometric,,1.0
+capybara,qID-1,B,20.133,S2_C2,1.0,0,8,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],need that AB=BC before using SAS,earlier proof steps (text),,right,geometric,,5.0
+capybara,qID-2,B,43.001,S2_C2,1.0,0,8,conclude <BAF congruent to <DCB? [2],they're different angles,"construction, tick marks",,right,"geometric, direct lookup",,4.0
+rhino,qID-2,B,98.369,P1,1.0,0,0,,,,,,,,
+rhino,qID-3,B,10.19,P1,1.0,0,0,,,,,,,,
+rhino,qID-1,B,16.957,P1,1.0,0,0,,,,,,,,
+rhino,qID-2,B,6.922,P2,1.0,0,0,,,,,,,,
+rhino,qID-1,B,6.863,P2,1.0,0,0,,,,,,,,
+rhino,qID-3,B,5.963,P2,1.0,0,0,,,,,,,,
+rhino,qID-1,B,46.901,P5,1.0,0,0,,,,,,,,
+rhino,qID-11,B,22.296,P5,0.0,0,0,,,,,,,,
+rhino,qID-13,B,4.752,P5,1.0,0,0,,,,,,,,
+rhino,qID-12,B,3.929,P5,0.0,0,0,,,,,,,,
+rhino,qID-1,B,8.492,P4,1.0,0,0,,,,,,,,
+rhino,qID-1,B,7.44,P7,0.0,0,0,,,,,,,,
+rhino,qID-1,B,6.035,P3,1.0,0,0,,,,,,,,
+rhino,qID-1,B,5.051,P6,1.0,0,0,,,,,,,,
+rhino,qID-0,A,109.803,S1_IN3,0.0,0,0,,,,,,,,
+rhino,qID-11,A,5.901,S1_IN3,0.0,0,1,Is there a mistake? [11],"no idea, didn't notice the inconsistency after viewing step 3. jumped straight to step 5 initially","reason definition, construction, tick marks, all proof text","step 5, step 3",wrong,guess,post-hoc said they didn't know how to find a mistake so they said no for every proof,1.0
+rhino,qID-3,A,24.918,S1_IN3,1.0,0,1,conclude KN congruent to ML? [3],yes bc they're the same line,"construction, tick marks",step 5,right,"geometric, direct lookup",,4.0
+rhino,qID-0,A,75.415,S1_IN2,0.0,0,1,,,,,,,,
+rhino,qID-11,A,3.631,S1_IN2,1.0,0,2,Is there a mistake? [11],"saw red inconsistency at step 5, still isn't sure why proof is wrong","inconsistency, relies on","step 5, step 3, step 4",wrong,direct lookup,assumed that the problem was with reflexive property because of the red inconsistency,1.0
+rhino,qID-12,A,28.056,S1_IN2,0.0,0,2,Which step is wrong? [12],picked step 4 because of the question and also thinks there's a missing step,"relies on, inconsistency",step 5,wrong,direct lookup,assumed that the problem was with reflexive property because of the red inconsistency,2.0
+rhino,qID-13,A,75.926,S1_IN2,0.0,0,2,Describe reasoning [13],need JM and ML to be congruent,"construction, tick marks",step 5,wrong,geometric,doesn't recognize RHL or the fact that AAS was the wrong reason to use in the first place,3.0
+rhino,qID-1,A,12.772,S1_IN2,1.0,0,2,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],yes bc enough info for reflexive,earlier proof steps (text),step 5,right,geometric,,5.0
+rhino,qID-2,A,16.073,S1_IN2,1.0,0,2,conclude KL congruent to KM? [2],no bc different lines,"construction, tick marks",step 5,right,"geometric, direct lookup",,4.0
+rhino,qID-0,A,16.89,S1_C2,0.0,0,2,,,,,,,,
+rhino,qID-11,A,13.321,S1_C2,3.0,0,3,Is there a mistake? [11],"no, no reasoning",,step 9,wrong,guess,post-hoc said they didn't know how to find a mistake so they said no for every proof,1.0
+rhino,qID-3,A,72.86,S1_C2,1.0,0,3,enough info...Congruent Adjacent Angles at step 5? [3],"yes, thinks that congruent adjacent angles needs to know AD and DC are the same length",,step 5,wrong,geometric,thinks that adj-angles needs to be based on congruent segments,5.0
+rhino,qID-4,A,25.774,S1_C2,1.0,0,3,enough info...ASA at step 7? [4],"yes, no reason expressed",,step 7,unknown,,,5.0
+rhino,qID-0,A,24.884,S1_IN1,0.0,0,3,,,,,,,,
+rhino,qID-11,A,44.481,S1_IN1,0.0,0,4,Is there a mistake? [11],no reasoning,,step 5,wrong,guess,post-hoc said they didn't know how to find a mistake so they said no for every proof,1.0
+rhino,qID-3,A,14.895,S1_IN1,0.0,0,4, conclude <DBA congruent to <BCD? [3],no reasoning,,step 5,unknown,unknown,,4.0
+rhino,qID-2,A,10.459,S1_IN1,1.0,0,4,conclude BA congruent to CB? [2],same # ticks,,step 5,unknown,unknown,,4.0
+rhino,qID-0,A,23.642,S1_C1,0.0,0,4,,,,,,,,
+rhino,qID-11,A,6.515,S1_C1,3.0,0,5,Is there a mistake? [11],no reasoning,,step 7,wrong,guess,post-hoc said they didn't know how to find a mistake so they said no for every proof,1.0
+rhino,qID-2,A,18.003,S1_C1,0.0,0,5,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],yes bc reflexive is always true,,step 4,right,"geometric, direct lookup",,5.0
+rhino,qID-3,A,50.505,S1_C1,0.0,0,5,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],yes bc you can see enough tick marks on the diagram,"tick marks, construction",step 5,wrong,"geometric, direct lookup","visually determining if lines and angles are the same length, mislead bc there were enough tick marks at step 5 but there wouldn't have been after step 3",5.0
+rhino,qID-0,A,13.762,S2_IN2,0.0,0,5,,,,,,,,
+rhino,qID-11,A,18.718,S2_IN2,0.0,0,6,Is there a mistake? [11],no reasoning,,step 8,wrong,guess,post-hoc said they didn't know how to find a mistake so they said no for every proof,1.0
+rhino,qID-1,A,40.915,S2_IN2,0.0,0,6,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],YX WZ are the same length and is the same and WX and YZ have to be the same length,"construction, tick marks",step 8,wrong,geometric,visually determining if lines and angles are the same length,5.0
+rhino,qID-2,A,45.472,S2_IN2,0.0,0,6,conclude <MYZ congruent to <MWX? [2],yes because all the angles are the same,"construction, tick marks",step 8,wrong,geometric,visually determining if lines and angles are the same length,4.0
+rhino,qID-0,A,8.775,S2_C2,0.0,0,6,,,,,,,,
+rhino,qID-11,A,2.342,S2_C2,3.0,0,7,Is there a mistake? [11],no reasoning,,step 10,wrong,guess,post-hoc said they didn't know how to find a mistake so they said no for every proof,1.0
+rhino,qID-1,A,36.786,S2_C2,1.0,0,7,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],no bc need to know AB and BC are congruent before you can use SAS,"construction, relies on, earlier proof steps (text)",step 9,right,"geometric, direct lookup",,5.0
+rhino,qID-2,A,54.444,S2_C2,1.0,0,7,conclude <BAF congruent to <DCB? [2],no bc tick marks are different and FB doesn't equal DC,"construction, tick marks",step 10,right,"geometric, direct lookup",,4.0
+rhino,qID-0,A,11.878,S2_IN1,0.0,0,7,,,,,,,,
+rhino,qID-11,A,11.491,S2_IN1,0.0,0,8,Is there a mistake? [11],"no reasoning ""i can never tell if there's a mistake, it's hard to go through and see how to get to it""",,step 9,wrong,guess,post-hoc said they didn't know how to find a mistake so they said no for every proof,1.0
+rhino,qID-2,A,99.687,S2_IN1,0.0,0,8,conclude tLNU congruent to tUQL? [2],yes bc you have congruent sides and 1 angle which is enough to prove,"construction, tick marks",step 9,wrong,"geometric, direct lookup",visually determining if lines and angles are the same length,4.0
+hippo,qID-2,B,95.151,P1,1.0,0,0,,,,,,,,
+hippo,qID-1,B,22.829,P1,1.0,0,0,,,,,,,,
+hippo,qID-3,B,11.98,P1,1.0,0,0,,,,,,,,
+hippo,qID-2,B,7.747,P2,1.0,0,0,,,,,,,,
+hippo,qID-1,B,6.715,P2,1.0,0,0,,,,,,,,
+hippo,qID-3,B,7.426,P2,1.0,0,0,,,,,,,,
+hippo,qID-1,B,13.871,P5,1.0,0,0,,,,,,,,
+hippo,qID-12,B,12.031,P5,0.0,0,0,,,,,,,,
+hippo,qID-13,B,3.638,P5,0.0,0,0,,,,,,,,
+hippo,qID-11,B,34.779,P5,0.0,0,0,,,,,,,,
+hippo,qID-1,B,12.737,P3,1.0,0,0,,,,,,,,
+hippo,qID-1,B,10.066,P4,1.0,0,0,,,,,,,,
+hippo,qID-1,B,10.104,P6,1.0,0,0,,,,,,,,
+hippo,qID-1,B,32.699,P7,1.0,0,0,,,,,,,,
+hippo,qID-0,B,100.498,S1_IN2,0.0,0,0,,,,,,,,
+hippo,qID-11,B,3.369,S1_IN2,1.0,0,1,Is there a mistake? [11],thought the issue was AAS should be SSS,"construction, all proof text",,wrong,geometric,used some information that wasn't in the proof (what visually appeared true) to justify using SSS,1.0
+hippo,qID-12,B,54.875,S1_IN2,1.0,0,1,Which step is wrong? [12],step 5,,,right,geometric,,2.0
+hippo,qID-13,B,33.387,S1_IN2,0.0,0,1,Describe reasoning [13],wants to use SSA to fix,"construction, all proof text",,wrong,geometric,,3.0
+hippo,qID-2,B,12.064,S1_IN2,1.0,0,1,conclude KL congruent to KM? [2],not enough proof,"tick marks, construction",,right,"geometric, direct lookup",,4.0
+hippo,qID-1,B,25.076,S1_IN2,1.0,0,1,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],line can be reflexive with itself,earlier proof steps (text),,right,geometric,,5.0
+hippo,qID-0,B,209.258,S1_C1,0.0,0,1,,,,,,,,
+hippo,qID-11,B,26.693,S1_C1,3.0,0,2,Is there a mistake? [11],everything checked out after redrawing all the steps on scratch paper,"construction, all proof text, tick marks, redraw",,right,geometric,,1.0
+hippo,qID-3,B,16.237,S1_C1,1.0,0,2,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],need vertical angles for SAS,earlier proof steps (text),,right,geometric,,5.0
+hippo,qID-2,B,22.786,S1_C1,1.0,0,2,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],lines are intersecting so there's enough info,earlier proof steps (text),,right,geometric,,5.0
+hippo,qID-0,B,42.197,S1_IN1,0.0,0,2,,,,,,,,
+hippo,qID-11,B,140.021,S1_IN1,1.0,0,3,Is there a mistake? [11],CPCTC is claiming the wrong angles are congruent after redrawing triangles,"construction, tick marks, all proof text, redraw",,wrong,geometric,convinced that SAS was correctly applied and then incorrectly visualized the triangles rotating and mixed up which parts of triangles were corresponding,1.0
+hippo,qID-12,B,3.55,S1_IN1,0.0,0,3,Which step is wrong? [12],step 5,"construction, all proof text",,wrong,geometric,,2.0
+hippo,qID-13,B,55.487,S1_IN1,0.0,0,3,Describe reasoning [13],doesn't think proof can be corrected,"all proof text, construction",,wrong,,incorrectly visualized the triangles rotating and mixed up which angles were corresponding,3.0
+hippo,qID-2,B,15.435,S1_IN1,1.0,0,3,conclude BA congruent to CB? [2],not same # ticks,"tick marks, construction",,right,"geometric, direct lookup",,4.0
+hippo,qID-3,B,22.308,S1_IN1,1.0,0,3, conclude <DBA congruent to <BCD? [3],not same # ticks,"tick marks, construction",,right,"geometric, direct lookup",,4.0
+hippo,qID-0,B,44.249,S1_IN3,0.0,0,3,,,,,,,,
+hippo,qID-11,B,105.749,S1_IN3,0.0,0,4,Is there a mistake? [11],visualized the construction mirroring over MK to check if congruent,"construction, all proof text, redraw",,wrong,geometric,assumed that things are congruent based on visual appearance in construction,1.0
+hippo,qID-3,B,20.309,S1_IN3,1.0,0,4,conclude KN congruent to ML? [3],yes because it's given,"tick marks, given",,right,"geometric, direct lookup",,4.0
+hippo,qID-0,B,28.314,S1_C2,0.0,0,4,,,,,,,,
+hippo,qID-11,B,50.019,S1_C2,0.0,0,5,Is there a mistake? [11],"thought that the naming of angles in step 3 were incorrect, didn't read past step 3","statement text, construction",,wrong,geometric,thinks that naming of congruent angles should match their corresponding points,1.0
+hippo,qID-12,B,4.941,S1_C2,0.0,0,5,Which step is wrong? [12],step 3,statement text,,wrong,geometric,thinks that naming of congruent angles should match their corresponding points,2.0
+hippo,qID-13,B,32.07,S1_C2,0.0,0,5,Describe reasoning [13],"the order of points should perfectly match between the two angles, so <ABD=<CBD instead of <ABD=<DBC",statement text,,wrong,geometric,thinks that when 2 angles are named as congruent the ordering of points in their names must exactly match,3.0
+hippo,qID-3,B,76.699,S1_C2,1.0,0,5,enough info...Congruent Adjacent Angles at step 5? [3],yes bc lines are perpendicular,"earlier proof steps (text), construction",,right,geometric,,5.0
+hippo,qID-4,B,25.419,S1_C2,1.0,0,5,enough info...ASA at step 7? [4],yes bc reqs for ASA are met,"earlier proof steps (text), construction, tick marks",,right,geometric,,5.0
+hippo,qID-0,B,355.166,S2_IN1,0.0,0,5,,,,,,,,
+hippo,qID-11,B,6.844,S2_IN1,0.0,0,6,Is there a mistake? [11],checked over whole proof and thought that there was no issue,"all proof text, construction, redraw",,wrong,geometric,took step 8 at face value,1.0
+hippo,qID-2,B,7.496,S2_IN1,0.0,0,6,conclude tLNU congruent to tUQL? [2],thought proof was right,"all proof text, construction",,wrong,geometric,"took step 8 at face value, thought proof was correct as result",4.0
+hippo,qID-0,B,224.739,S2_IN2,0.0,0,6,,,,,,,,
+hippo,qID-11,B,1.87,S2_IN2,0.0,0,7,Is there a mistake? [11],redrew the construction and didn't notice that the angles in step 7 are not necessarily equal,"all proof text, redraw",,wrong,geometric,incorrectly redrew and visualized the construction and took step 7 at face value,1.0
+hippo,qID-2,B,7.07,S2_IN2,0.0,0,7,conclude <MYZ congruent to <MWX? [2],bc proof is correct and it is statement 7 in the proof,all proof text,,wrong,geometric,thinks proof is correct,4.0
+hippo,qID-1,B,55.893,S2_IN2,1.0,0,7,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],not enough information established yet,earlier proof steps (text),,right,geometric,,5.0
+hippo,qID-0,B,81.87,S2_C2,0.0,0,7,,,,,,,,
+hippo,qID-11,B,74.944,S2_C2,0.0,0,8,Is there a mistake? [11],"ABD not same as BCD, same as CBD",statement text,,wrong,geometric,initially looks at what visually appears to be true and if naming is inconsistent then it throws them off. after carefully explaining their reasoning they realized that the 2 triangles were actually the same.,1.0
+hippo,qID-12,B,8.244,S2_C2,0.0,0,8,Which step is wrong? [12],step 7,statement text,,wrong,geometric,thinks that naming of congruent triangles should match their corresponding points,2.0
+hippo,qID-13,B,16.784,S2_C2,0.0,0,8,Describe reasoning [13],change step 7 to ABD=CBD,statement text,,wrong,geometric,thinks that naming of congruent triangles should match their corresponding points,3.0
+hippo,qID-1,B,36.827,S2_C2,1.0,0,8,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],still need AB=BC,earlier proof steps (text),,right,geometric,,5.0
+hippo,qID-2,B,123.29,S2_C2,1.0,0,8,conclude <BAF congruent to <DCB? [2],"though visually they think it's true, the angles were not established to be congruent within the proof","construction, all proof text",,right,geometric,,4.0
+giraffe,qID-1,B,89.162,P1,1.0,0,0,,,,,,,,
+giraffe,qID-3,B,8.819,P1,1.0,0,0,,,,,,,,
+giraffe,qID-2,B,9.033,P1,1.0,0,0,,,,,,,,
+giraffe,qID-3,B,8.819,P2,1.0,0,0,,,,,,,,
+giraffe,qID-1,B,11.047,P2,1.0,0,0,,,,,,,,
+giraffe,qID-2,B,9.084,P2,1.0,0,0,,,,,,,,
+giraffe,qID-1,B,24.719,P7,0.0,0,0,,,,,,,,
+giraffe,qID-12,B,5.335,P7,0.0,0,0,,,,,,,,
+giraffe,qID-13,B,2.167,P7,0.0,0,0,,,,,,,,
+giraffe,qID-11,B,24.172,P7,1.0,0,0,,,,,,,,
+giraffe,qID-1,B,7.134,P4,1.0,0,0,,,,,,,,
+giraffe,qID-1,B,8.539,P6,1.0,0,0,,,,,,,,
+giraffe,qID-1,B,7.616,P5,1.0,0,0,,,,,,,,
+giraffe,qID-1,B,7.201,P3,1.0,0,0,,,,,,,,
+giraffe,qID-0,A,124.376,S1_C2,0.0,0,0,,,,,,,,
+giraffe,qID-11,A,30.166,S1_C2,3.0,0,1,Is there a mistake? [11],no mistake,"construction, all proof text, relies on",,right,geometric,,1.0
+giraffe,qID-4,A,23.175,S1_C2,1.0,0,1,enough info...ASA at step 7? [4],yes bc ASA conditions are met,"construction, relies on, all proof text, tick marks",step 7,right,"geometric, direct lookup",,5.0
+giraffe,qID-3,A,26.024,S1_C2,1.0,0,1,enough info...Congruent Adjacent Angles at step 5? [3],yes bc lines are perp,"construction, relies on, tick marks, all proof text",step 5,right,"geometric, direct lookup",,5.0
+giraffe,qID-0,A,59.292,S1_IN1,0.0,0,1,,,,,,,,
+giraffe,qID-11,A,35.724,S1_IN1,1.0,0,2,Is there a mistake? [11],yes there's a problem with using SAS,"construction, tick marks, reason definition, all proof text, relies on, inconsistency",step 5,right,"geometric, direct lookup",,1.0
+giraffe,qID-12,A,8.451,S1_IN1,1.0,0,2,Which step is wrong? [12],step 4 bc SAS is the wrong reason,"construction, inconsistency, tick marks",step 5,right,"geometric, direct lookup",,2.0
+giraffe,qID-13,A,24.196,S1_IN1,0.0,0,2,Describe reasoning [13],use SSA as a fix because the angle is wrong,,,wrong,geometric,SSA not triangle congruence theorem,3.0
+giraffe,qID-2,A,20.805,S1_IN1,0.0,0,2,conclude BA congruent to CB? [2],"no reasoning, looked at construction, maybe misreading",construction,step 5,wrong,unknown,,4.0
+giraffe,qID-3,A,15.75,S1_IN1,0.0,0,2, conclude <DBA congruent to <BCD? [3],"no reasoning, looked at construction, maybe misreading",construction,step 5,wrong,unknown,,4.0
+giraffe,qID-0,A,36.862,S1_C1,0.0,0,2,,,,,,,,
+giraffe,qID-11,A,1.41,S1_C1,3.0,0,3,Is there a mistake? [11],"no mistake, no issues","construction, all proof text, relies on",step 7,right,geometric,,1.0
+giraffe,qID-2,A,19.636,S1_C1,0.0,0,3,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],thought congruence was needed for vertical angles,,step 4,wrong,geometric,,5.0
+giraffe,qID-3,A,30.233,S1_C1,0.0,0,3,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],"no reasoning, speeding",,step 5,wrong,unknown,,5.0
+giraffe,qID-0,A,128.411,S1_IN3,0.0,0,3,,,,,,,,
+giraffe,qID-11,A,2.677,S1_IN3,1.0,0,4,Is there a mistake? [11],problem is that quad != rectangle,"inconsistency, construction, tick marks, all proof text",step 4,right,"geometric, direct lookup",,1.0
+giraffe,qID-12,A,3.027,S1_IN3,1.0,0,4,Which step is wrong? [12],step 4 bc quad != rect,"inconsistency, tick marks",step 4,right,"geometric, direct lookup",,2.0
+giraffe,qID-13,A,14.488,S1_IN3,1.0,0,4,Describe reasoning [13],can't be fixed without changing givens,"given, construction",step 4,right,geometric,,3.0
+giraffe,qID-3,A,18.269,S1_IN3,1.0,0,4,conclude KN congruent to ML? [3],yes bc same ticks,"construction, tick marks",step 4,right,"geometric, direct lookup",,4.0
+giraffe,qID-0,A,42.775,S1_IN2,0.0,0,4,,,,,,,,
+giraffe,qID-11,A,2.089,S1_IN2,1.0,0,5,Is there a mistake? [11],AAS is the wrong theorem to use,"inconsistency, relies on, construction, all proof text",step 5,right,"geometric, direct lookup",,1.0
+giraffe,qID-12,A,10.821,S1_IN2,1.0,0,5,Which step is wrong? [12],step 5 bc AAS is not correct triangle congruence theorem,"construction, tick marks",step 5,right,geometric,,2.0
+giraffe,qID-13,A,50.533,S1_IN2,0.0,0,5,Describe reasoning [13],"can't remember if SSA is valid theorem, if it was it could be used","construction, tick marks",step 5,wrong,geometric,SSA not triangle congruence theorem,3.0
+giraffe,qID-1,A,7.087,S1_IN2,1.0,0,5,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],reflexive can be applied anywhere,,step 4,right,geometric,,5.0
+giraffe,qID-2,A,29.086,S1_IN2,1.0,0,5,conclude KL congruent to KM? [2],no bc different lines,"construction, tick marks",step 4,right,"geometric, direct lookup",,4.0
+giraffe,qID-0,A,45.733,S2_IN2,0.0,0,5,,,,,,,,
+giraffe,qID-11,A,87.196,S2_IN2,0.0,0,6,Is there a mistake? [11],can't see what the problem is even though they know there's an inconsistency,"construction, tick marks, inconsistency",,wrong,geometric,"thinks CPCTC is correctly applied, assuming that all the angles are congruent to each other",1.0
+giraffe,qID-1,A,21.163,S2_IN2,0.0,0,6,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],"no reasoning, speeding",,step 2,wrong,unknown,,5.0
+giraffe,qID-2,A,34.316,S2_IN2,1.0,0,6,conclude <MYZ congruent to <MWX? [2],recognizes which angles should be the correct pair,"construction, tick marks",step 8,right,"geometric, direct lookup",,4.0
+giraffe,qID-0,A,156.928,S2_IN1,0.0,0,6,,,,,,,,
+giraffe,qID-11,A,2.194,S2_IN1,1.0,0,7,Is there a mistake? [11],"sees the inconsistency, took a while to understand what was wrong. but yes, bc the angles can't be established at step 8","tick marks, construction, inconsistency, all proof text",step 8,right,"geometric, direct lookup",,1.0
+giraffe,qID-12,A,6.678,S2_IN1,1.0,0,7,Which step is wrong? [12],step 8 bc the triangles are not congruent yet,"inconsistency, construction, tick marks",step 8,right,"geometric, direct lookup",,2.0
+giraffe,qID-13,A,46.611,S2_IN1,1.0,0,7,Describe reasoning [13],could use reflexive and SAS,"construction, tick marks",step 1,right,geometric,,3.0
+giraffe,qID-2,A,5.491,S2_IN1,0.0,0,7,conclude tLNU congruent to tUQL? [2],speeding and no reasoning,,step 1,wrong,unknown,,4.0
+giraffe,qID-0,A,42.231,S2_C2,0.0,0,7,,,,,,,,
+giraffe,qID-11,A,3.032,S2_C2,3.0,0,8,Is there a mistake? [11],no issues,"construction, relies on, all proof text",,right,geometric,,1.0
+giraffe,qID-2,A,45.924,S2_C2,1.0,0,8,conclude <BAF congruent to <DCB? [2],not the same angles,construction,,right,"geometric, direct lookup",,4.0
+giraffe,qID-1,A,11.709,S2_C2,0.0,0,8,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],"checked step 7 instead of step 9, speeding","construction, earlier proof steps (text)",step 7,wrong,geometric,checked SAS at step 7 instead of step 9,5.0
+eagle,qID-1,B,72.789,P1,1.0,0,0,,,,,,,,
+eagle,qID-3,B,12.96,P1,1.0,0,0,,,,,,,,
+eagle,qID-2,B,17.56,P1,1.0,0,0,,,,,,,,
+eagle,qID-1,B,14.669,P2,1.0,0,0,,,,,,,,
+eagle,qID-3,B,11.705,P2,1.0,0,0,,,,,,,,
+eagle,qID-2,B,9.378,P2,1.0,0,0,,,,,,,,
+eagle,qID-1,B,31.36,P4,1.0,0,0,,,,,,,,
+eagle,qID-12,B,10.358,P4,0.0,0,0,,,,,,,,
+eagle,qID-11,B,45.824,P4,1.0,0,0,,,,,,,,
+eagle,qID-13,B,9.595,P4,1.0,0,0,,,,,,,,
+eagle,qID-1,B,15.165,P3,1.0,0,0,,,,,,,,
+eagle,qID-1,B,14.528,P7,0.0,0,0,,,,,,,,
+eagle,qID-1,B,23.038,P6,1.0,0,0,,,,,,,,
+eagle,qID-1,B,10.925,P5,1.0,0,0,,,,,,,,
+eagle,qID-0,B,237.066,S1_C1,0.0,0,0,,,,,,,,
+eagle,qID-11,B,77.375,S1_C1,3.0,0,1,Is there a mistake? [11],"everything check out, not 100% confident","construction, all proof text",,right,geometric,,1.0
+eagle,qID-2,B,25.797,S1_C1,1.0,0,1,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],step 1 mentions intersection so there is enough info,"earlier proof steps (text), reason definition",,right,geometric,,5.0
+eagle,qID-3,B,23.26,S1_C1,0.0,0,1,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],thought that vertical angles had already been used,earlier proof steps (text),,wrong,geometric,assumed vertical angles had been established already,5.0
+eagle,qID-0,B,411.912,S1_C2,0.0,0,1,,,,,,,,
+eagle,qID-11,B,29.064,S1_C2,0.0,0,2,Is there a mistake? [11],yes for unclear reasons,"construction, all proof text",,wrong,"geometric, guess",can't tell what the exact misconception is at this point,1.0
+eagle,qID-12,B,69.96,S1_C2,0.0,0,2,Which step is wrong? [12],"step 8 bc CPCTC talks about triangles while AD=DC is about segments, thinks there is mismatch between statement and the reason used","reason definition, construction, all proof text",,wrong,"geometric, guess",doesn't understand definition of CPCTC,2.0
+eagle,qID-13,B,8.003,S1_C2,0.0,0,2,Describe reasoning [13],ran out of time,,,,,,3.0
+eagle,qID-0,B,131.948,S1_IN3,0.0,0,2,,,,,,,,
+eagle,qID-11,B,10.623,S1_IN3,0.0,0,3,Is there a mistake? [11],"no, didn't catch any issues, thought def. quad was fine","reason definition, all proof text, construction",,wrong,geometric,thought quad == rectangle,1.0
+eagle,qID-3,B,15.422,S1_IN3,1.0,0,3,conclude KN congruent to ML? [3],thinks so,"tick marks, construction",,right,"geometric, direct lookup",,4.0
+eagle,qID-0,B,96.888,S1_IN2,0.0,0,3,,,,,,,,
+eagle,qID-11,B,2.301,S1_IN2,0.0,0,4,Is there a mistake? [11],"no, checked what AAS looked like but didn't realize that the proof hadn't established AAS","reason definition, reason def (illustration), construction, all proof text",,wrong,geometric,didn't keep track of whether AAS was the right reason to use,1.0
+eagle,qID-1,B,26.418,S1_IN2,1.0,0,4,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],"yes, any fig congruent with itself","reason definition, construction",,right,geometric,,5.0
+eagle,qID-2,B,44.999,S1_IN2,1.0,0,4,conclude KL congruent to KM? [2],"knows they are different lines, wasn't sure of answer","construction, tick marks",,right,"geometric, guess",,4.0
+eagle,qID-0,B,121.437,S1_IN1,0.0,0,4,,,,,,,,
+eagle,qID-11,B,1.68,S1_IN1,0.0,0,5,Is there a mistake? [11],"no, bc thinks all angles and sides match up so SAS and CPCTC are fine to use","tick marks, construction, all proof text, reason definition",,wrong,geometric,thought all angles and sides are congruent,1.0
+eagle,qID-2,B,39.205,S1_IN1,0.0,0,5,conclude BA congruent to CB? [2],thinks that the segments could be congruent because of mirroring over the DB segment,"tick marks, construction",,wrong,"geometric, guess",thinks all angles and sides are congruent,4.0
+eagle,qID-3,B,32.231,S1_IN1,0.0,0,5, conclude <DBA congruent to <BCD? [3],yes bc thinks all lines and angles are equivalent,"tick marks, construction, all proof text",,wrong,geometric,thinks all angles and sides are congruent,4.0
+eagle,qID-0,B,190.571,S2_IN1,0.0,0,5,,,,,,,,
+eagle,qID-11,B,2.459,S2_IN1,0.0,0,6,Is there a mistake? [11],"didn't catch mistake during read-through, losing track of their place while reading the proof","reason definition, construction, all proof text",,wrong,geometric,didn't catch the mistake,1.0
+eagle,qID-2,B,14.26,S2_IN1,0.0,0,6,conclude tLNU congruent to tUQL? [2],based answer on read-through,construction,,wrong,geometric,,4.0
+eagle,qID-0,B,153.779,S2_IN2,0.0,0,6,,,,,,,,
+eagle,qID-11,B,1.842,S2_IN2,0.0,0,7,Is there a mistake? [11],"misread <MYZ=<MWX as <MZY=<MWX, so missed the mistake, otherwise followed the proof","tick marks, construction, reason definition, all proof text",,wrong,geometric,traced the wrong angles which influenced their reasoning,1.0
+eagle,qID-2,B,15.954,S2_IN2,0.0,0,7,conclude <MYZ congruent to <MWX? [2],traced correct angles but still thought that they were congruent,construction,,wrong,geometric,traced the correct angles but believed that they visually looked correct,4.0
+eagle,qID-1,B,39.991,S2_IN2,0.0,0,7,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],thinks that there is enough information based on only the setup (i.e. it looks like there are 2 parallel lines with a transversal so it must be possible to move the step),construction,,wrong,geometric,thinks that having a visually correct setup is enough to prove that the lines are parallel,5.0
+eagle,qID-0,B,177.941,S2_C2,0.0,0,7,,,,,,,,
+eagle,qID-11,B,1.92,S2_C2,3.0,0,8,Is there a mistake? [11],"no, nothing caught their attention","construction, tick marks, all proof text, reason definition",,right,geometric,,1.0
+eagle,qID-1,B,33.082,S2_C2,0.0,0,8,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],got tripped up on whether AB=BC was correct or if it needed to be named AB=CB to match the orientation of points. ,,,wrong,"geometric, guess",,5.0
+eagle,qID-2,B,13.938,S2_C2,0.0,0,8,conclude <BAF congruent to <DCB? [2],traced out <BCG instead of <DCB,"tick marks, construction",,wrong,"geometric, direct lookup",,4.0
+peacock,qID-3,B,58.04,P1,1.0,0,0,,,,,,,,
+peacock,qID-1,B,24.407,P1,0.0,0,0,,,,,,,,
+peacock,qID-2,B,4.379,P1,0.0,0,0,,,,,,,,
+peacock,qID-2,B,15.429,P2,1.0,0,0,,,,,,,,
+peacock,qID-3,B,7.687,P2,1.0,0,0,,,,,,,,
+peacock,qID-1,B,9.413,P2,1.0,0,0,,,,,,,,
+peacock,qID-1,B,20.281,P7,0.0,0,0,,,,,,,,
+peacock,qID-13,B,7.7,P7,1.0,0,0,,,,,,,,
+peacock,qID-12,B,2.653,P7,1.0,0,0,,,,,,,,
+peacock,qID-11,B,11.824,P7,1.0,0,0,,,,,,,,
+peacock,qID-1,B,6.242,P4,1.0,0,0,,,,,,,,
+peacock,qID-1,B,7.665,P6,1.0,0,0,,,,,,,,
+peacock,qID-1,B,4.894,P3,0.0,0,0,,,,,,,,
+peacock,qID-1,B,10.316,P5,1.0,0,0,,,,,,,,
+peacock,qID-0,A,143.815,S1_IN2,0.0,0,0,,,,,,,,
+peacock,qID-11,A,2.546,S1_IN2,1.0,0,1,Is there a mistake? [11],"using AAS is wrong, didn't match up with what they were keeping track of while reading the proof","construction, tick marks, inconsistency, all proof text",step 5,right,geometric,,1.0
+peacock,qID-12,A,11.826,S1_IN2,1.0,0,1,Which step is wrong? [12],step 5 bc AAS is wrong,all proof text,step 5,right,geometric,,2.0
+peacock,qID-13,A,86.015,S1_IN2,1.0,0,1,Describe reasoning [13],"know angle K is bisected by MK, delete reflexive step, then you can use AAS ","construction, all proof text",step 5,right,geometric,,3.0
+peacock,qID-2,A,12.98,S1_IN2,1.0,0,1,conclude KL congruent to KM? [2],different lines,construction,step 1,right,"geometric, direct lookup",,4.0
+peacock,qID-1,A,42.118,S1_IN2,1.0,0,1,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],yes bc reflexive can go anywhere,,step 1,right,geometric,,5.0
+peacock,qID-0,A,112.706,S1_IN1,0.0,0,1,,,,,,,,
+peacock,qID-11,A,8.858,S1_IN1,1.0,0,2,Is there a mistake? [11],yes bc step 4 tries to use SAS,"construction, inconsistency, all proof text",step 4,right,geometric,,1.0
+peacock,qID-12,A,6.129,S1_IN1,1.0,0,2,Which step is wrong? [12],step 4 uses SAS,"construction, inconsistency, all proof text",step 4,right,geometric,,2.0
+peacock,qID-13,A,25.086,S1_IN1,1.0,0,2,Describe reasoning [13],reflexive BD and use SAS,"construction, tick marks",step 4,right,geometric,,3.0
+peacock,qID-3,A,14.926,S1_IN1,1.0,0,2, conclude <DBA congruent to <BCD? [3],not enough info,"construction, tick marks",step 4,right,"geometric, direct lookup",,4.0
+peacock,qID-2,A,19.493,S1_IN1,1.0,0,2,conclude BA congruent to CB? [2],not enough to prove equilateral triangles,"construction, tick marks",step 4,right,"geometric, direct lookup",,4.0
+peacock,qID-0,A,95.995,S1_C1,0.0,0,2,,,,,,,,
+peacock,qID-11,A,1.687,S1_C1,3.0,0,3,Is there a mistake? [11],proof looks right,,step 7,,,,1.0
+peacock,qID-3,A,24.716,S1_C1,1.0,0,3,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],not enough information,"construction, earlier proof steps (text)",step 7,right,geometric,,5.0
+peacock,qID-2,A,19.177,S1_C1,1.0,0,3,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],"yes, bc just need intersecting lines","construction, earlier proof steps (text)",step 7,right,geometric,,5.0
+peacock,qID-0,A,126.042,S1_C2,0.0,0,3,,,,,,,,
+peacock,qID-11,A,2.51,S1_C2,3.0,0,4,Is there a mistake? [11],proof looks right,"construction, tick marks, all proof text",step 7,right,geometric,,1.0
+peacock,qID-4,A,21.7,S1_C2,1.0,0,4,enough info...ASA at step 7? [4],enough info for ASA,"relies on, earlier proof steps (text)",step 6,right,"geometric, direct lookup",,5.0
+peacock,qID-3,A,20.026,S1_C2,1.0,0,4,enough info...Congruent Adjacent Angles at step 5? [3],"would have that the lines are perp, so yes","relies on, earlier proof steps (text)",step 4,right,"geometric, direct lookup",,5.0
+peacock,qID-0,A,91.144,S1_IN3,0.0,0,4,,,,,,,,
+peacock,qID-11,A,8.868,S1_IN3,1.0,0,5,Is there a mistake? [11],needs some steps to get there because def quad is not right reason,"construction, inconsistency, all proof text",step 4,right,geometric,,1.0
+peacock,qID-12,A,5.486,S1_IN3,1.0,0,5,Which step is wrong? [12],step 4 bc def quad is not right reason,"construction, inconsistency",step 4,right,geometric,,2.0
+peacock,qID-13,A,76.114,S1_IN3,1.0,0,5,Describe reasoning [13],doesn't think they can correct the proof but they're not sure if it can be corrected,construction,step 4,right,"geometric, guess",,3.0
+peacock,qID-3,A,5.76,S1_IN3,0.0,0,5,conclude KN congruent to ML? [3],"said no, rushed",,,wrong,unknown,,4.0
+peacock,qID-0,A,102.579,S2_IN2,0.0,0,5,,,,,,,,
+peacock,qID-11,A,2.221,S2_IN2,1.0,0,6,Is there a mistake? [11],issue with step 7 because angles are incorrect,"inconsistency, relies on, construction, tick marks, all proof text","step 7, step 8",right,"geometric, direct lookup",,1.0
+peacock,qID-12,A,31.891,S2_IN2,1.0,0,6,Which step is wrong? [12],step 7 bc angles are not correct,"inconsistency, all proof text",step 7,right,"geometric, direct lookup",,2.0
+peacock,qID-13,A,40.211,S2_IN2,1.0,0,6,Describe reasoning [13],angle Y=X gives you opposite interior angles,construction,step 7,right,geometric,,3.0
+peacock,qID-1,A,46.717,S2_IN2,1.0,0,6,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],"no, guess",,,wrong,guess,,5.0
+peacock,qID-2,A,28.337,S2_IN2,1.0,0,6,conclude <MYZ congruent to <MWX? [2],"no, because they're different angles","construction, tick marks",step 7,right,"geometric, direct lookup",,4.0
+peacock,qID-0,A,177.671,S2_C2,0.0,0,6,,,,,,,,
+peacock,qID-11,A,1.259,S2_C2,3.0,0,7,Is there a mistake? [11],everything checked out,"construction, all proof text",step 10,right,geometric,,1.0
+peacock,qID-1,A,40.531,S2_C2,1.0,0,7,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],"angle and a side, but missing a side, so no","construction, tick marks, earlier proof steps (text)",step 7,right,geometric,,5.0
+peacock,qID-2,A,47.138,S2_C2,1.0,0,7,conclude <BAF congruent to <DCB? [2],"doesn't think so, not sure",construction,step 7,right,"geometric, guess",,4.0
+peacock,qID-0,A,141.381,S2_IN1,0.0,0,7,,,,,,,,
+peacock,qID-11,A,1.582,S2_IN1,1.0,0,8,Is there a mistake? [11],haven't said that the triangles are congruent yet so there's a mistake,"construction, inconsistency, all proof text",step 8,right,"geometric, direct lookup",,1.0
+peacock,qID-12,A,9.165,S2_IN1,1.0,0,8,Which step is wrong? [12],step 8 had a weird angle,"construction, tick marks",step 7,right,"geometric, direct lookup",,2.0
+peacock,qID-13,A,55.502,S2_IN1,1.0,0,8,Describe reasoning [13],LU reflexive and use SAS,construction,step 7,right,geometric,,3.0
+peacock,qID-2,A,4.442,S2_IN1,1.0,0,8,conclude tLNU congruent to tUQL? [2],no because proof isn't correct,,step 7,right,geometric,,4.0
+penguin,qID-2,B,117.256,P1,1.0,0,0,,,,,,,,
+penguin,qID-1,B,15.278,P1,1.0,0,0,,,,,,,,
+penguin,qID-3,B,11.19,P1,1.0,0,0,,,,,,,,
+penguin,qID-3,B,11.685,P2,1.0,0,0,,,,,,,,
+penguin,qID-2,B,19.411,P2,1.0,0,0,,,,,,,,
+penguin,qID-1,B,12.02,P2,1.0,0,0,,,,,,,,
+penguin,qID-1,B,27.871,P7,0.0,0,0,,,,,,,,
+penguin,qID-11,B,27.181,P7,1.0,0,0,,,,,,,,
+penguin,qID-12,B,8.694,P7,0.0,0,0,,,,,,,,
+penguin,qID-13,B,3.507,P7,0.0,0,0,,,,,,,,
+penguin,qID-1,B,12.895,P4,1.0,0,0,,,,,,,,
+penguin,qID-1,B,8.241,P6,1.0,0,0,,,,,,,,
+penguin,qID-1,B,28.252,P3,1.0,0,0,,,,,,,,
+penguin,qID-1,B,12.742,P5,1.0,0,0,,,,,,,,
+penguin,qID-0,B,134.106,S1_C1,0.0,0,0,,,,,,,,
+penguin,qID-11,B,18.179,S1_C1,0.0,0,1,Is there a mistake? [11],"yes, accidentally picked answer?","construction, all proof text",,wrong,"geometric, guess",,1.0
+penguin,qID-12,B,37.125,S1_C1,0.0,0,1,Which step is wrong? [12],"picked step 5, thinks SAS is wrong reason","construction, all proof text",,wrong,geometric,,2.0
+penguin,qID-13,B,93.869,S1_C1,0.0,0,1,Describe reasoning [13],"pretty confused here, not sure what SAS is, thinks vertical angles was not established","construction, all proof text",,wrong,"geometric, guess",,3.0
+penguin,qID-2,B,30.827,S1_C1,1.0,0,1,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],thinks there's enough info,"reason definition, construction, earlier proof steps (text)",,right,geometric,,5.0
+penguin,qID-3,B,37.947,S1_C1,1.0,0,1,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],"read def and is not confused anymore, thinks vert angles needed for SAS","reason definition, earlier proof steps (text), construction",,right,geometric,,5.0
+penguin,qID-0,B,118.973,S1_C2,0.0,0,1,,,,,,,,
+penguin,qID-11,B,43.687,S1_C2,0.0,0,2,Is there a mistake? [11],"thinks proof is inefficient, there's too much unnecessary stuff",,,wrong,geometric,"doesn't realize that the reason why proof is ""too many steps"" is because everything is needed to derive the property of angle bisector within a triangle",1.0
+penguin,qID-12,B,48.165,S1_C2,0.0,0,2,Which step is wrong? [12],starting from step 3 it becomes redundant,,,wrong,geometric,,2.0
+penguin,qID-13,B,14.557,S1_C2,0.0,0,2,Describe reasoning [13],thinks 3-8 is useless,,,wrong,geometric,,3.0
+penguin,qID-3,B,42.45,S1_C2,1.0,0,2,enough info...Congruent Adjacent Angles at step 5? [3],there's too much info,,,right,geometric,,5.0
+penguin,qID-4,B,12.36,S1_C2,1.0,0,2,enough info...ASA at step 7? [4],yes conditions for ASA are met,,,right,geometric,,5.0
+penguin,qID-0,B,81.249,S1_IN3,0.0,0,2,,,,,,,,
+penguin,qID-11,B,16.627,S1_IN3,0.0,0,3,Is there a mistake? [11],"missed mistake, and thought step 4 was extra","tick marks, construction, all proof text",,wrong,geometric,visually assumed that the quad was a rectangle,1.0
+penguin,qID-3,B,43.774,S1_IN3,1.0,0,3,conclude KN congruent to ML? [3],it's given,given,,right,geometric,,4.0
+penguin,qID-0,B,81.105,S1_IN2,0.0,0,3,,,,,,,,
+penguin,qID-11,B,2.489,S1_IN2,0.0,0,4,Is there a mistake? [11],"missed mistake, glossing over AAS","construction, all proof text",,wrong,geometric,,1.0
+penguin,qID-2,B,35.245,S1_IN2,1.0,0,4,conclude KL congruent to KM? [2],not the same line,"construction, tick marks",,right,"geometric, direct lookup",,4.0
+penguin,qID-1,B,29.016,S1_IN2,0.0,0,4,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],need that JK and LK are congruent to use reflexive prop,all proof text,,wrong,geometric,"misunderstanding about what reflexive prop is, thinks it's reflective prop (everything gets mirrored over the reflective axis)",5.0
+penguin,qID-0,B,46.187,S1_IN1,0.0,0,4,,,,,,,,
+penguin,qID-11,B,3.755,S1_IN1,0.0,0,5,Is there a mistake? [11],"missed mistake, glossing over SAS","construction, all proof text",,wrong,geometric,thinks having 2 sides and angle is enough for SAS,1.0
+penguin,qID-2,B,46.012,S1_IN1,1.0,0,5,conclude BA congruent to CB? [2],different # of ticks,"construction, tick marks",,right,"geometric, direct lookup",,4.0
+penguin,qID-3,B,25.158,S1_IN1,1.0,0,5, conclude <DBA congruent to <BCD? [3],different # of ticks,"construction, tick marks",,right,"geometric, direct lookup",,4.0
+penguin,qID-0,B,213.151,S2_IN1,0.0,0,5,,,,,,,,
+penguin,qID-11,B,2.482,S2_IN1,1.0,0,6,Is there a mistake? [11],"yes, forgot what the proof is proving and misread some rows","construction, all proof text",,wrong,geometric,did not correctly keep track of the state of the proof,1.0
+penguin,qID-12,B,5.948,S2_IN1,0.0,0,6,Which step is wrong? [12],"step 6, thinks ASA should be AAS","construction, all proof text",,wrong,geometric,,2.0
+penguin,qID-13,B,51.493,S2_IN1,0.0,0,6,Describe reasoning [13],proposes changing step 6 ASA to AAS and moving step 6 right after the givens,,,wrong,geometric,,3.0
+penguin,qID-2,B,12.053,S2_IN1,0.0,0,6,conclude tLNU congruent to tUQL? [2],yes with a lot of extra information,earlier proof steps (text),,wrong,geometric,based on incorrect assumptions about state of the proof,4.0
+penguin,qID-0,B,204.842,S2_IN2,0.0,0,6,,,,,,,,
+penguin,qID-11,B,4.512,S2_IN2,0.0,0,7,Is there a mistake? [11],"thinks step 6 and 7 are useless and don't add any information, thinks CPCTC is useless, but didn't read the proof carefully","reason definition, construction, all proof text",,wrong,geometric,,1.0
+penguin,qID-2,B,47.753,S2_IN2,1.0,0,7,conclude <MYZ congruent to <MWX? [2],correctly identified what the appropriate angles would be,construction,,right,geometric,,4.0
+penguin,qID-1,B,18.59,S2_IN2,1.0,0,7,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],"""picture gives so much more information than the proof"", but still understands that some steps must be necessary before using alt-int angles","construction, earlier proof steps (text)",,right,geometric,,5.0
+penguin,qID-0,B,141.874,S2_C2,0.0,0,7,,,,,,,,
+penguin,qID-11,B,2.164,S2_C2,3.0,0,8,Is there a mistake? [11],no because everything made sense even with extra steps,"construction, all proof text, tick marks",,right,geometric,,1.0
+penguin,qID-1,B,10.934,S2_C2,0.0,0,8,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],yes bc thinks that any CPCTC step is useless,earlier proof steps (text),,wrong,geometric,believes that CPCTC never needs to be used,5.0
+penguin,qID-2,B,15.432,S2_C2,1.0,0,8,conclude <BAF congruent to <DCB? [2],completely different angles,construction,,right,geometric,,4.0
+elephant,qID-2,B,82.74,P1,1.0,0,0,,,,,,,,
+elephant,qID-3,B,10.533,P1,1.0,0,0,,,,,,,,
+elephant,qID-1,B,9.354,P1,1.0,0,0,,,,,,,,
+elephant,qID-3,B,8.984,P2,1.0,0,0,,,,,,,,
+elephant,qID-2,B,8.384,P2,1.0,0,0,,,,,,,,
+elephant,qID-1,B,7.033,P2,1.0,0,0,,,,,,,,
+elephant,qID-1,B,7.937,P4,1.0,0,0,,,,,,,,
+elephant,qID-13,B,6.976,P4,1.0,0,0,,,,,,,,
+elephant,qID-12,B,7.88,P4,1.0,0,0,,,,,,,,
+elephant,qID-11,B,63.826,P4,1.0,0,0,,,,,,,,
+elephant,qID-1,B,17.927,P5,1.0,0,0,,,,,,,,
+elephant,qID-1,B,8.454,P6,1.0,0,0,,,,,,,,
+elephant,qID-1,B,8.407,P3,1.0,0,0,,,,,,,,
+elephant,qID-1,B,26.281,P7,1.0,0,0,,,,,,,,
+elephant,qID-0,A,212.349,S1_IN1,0.0,0,0,,,,,,,,
+elephant,qID-11,A,8.482,S1_IN1,1.0,0,1,Is there a mistake? [11],"found that proof established SSA and used SAS, immediately noticed red inconsistency and then investigated: ""what's that?""","inconsistency, tick marks, construction",step 4,right,geometric,,1.0
+elephant,qID-12,A,56.134,S1_IN1,1.0,0,1,Which step is wrong? [12],"looked through proof again, checked step 5 before concluding step 4 was using SSA again","construction, tick marks, inconsistency","step 4, step 5",right,geometric,,2.0
+elephant,qID-13,A,31.333,S1_IN1,1.0,0,1,Describe reasoning [13],"add BD=BD reflexive, then use SAS",construction,step 4,right,geometric,,3.0
+elephant,qID-2,A,30.195,S1_IN1,1.0,0,1,conclude BA congruent to CB? [2],"not necessarily congruent, don't have same # of ticks","construction, tick marks",step 4,right,"geometric, direct lookup",,4.0
+elephant,qID-3,A,40.779,S1_IN1,1.0,0,1, conclude <DBA congruent to <BCD? [3],not same number of ticks,"construction, tick marks",step 4,right,"geometric, direct lookup",,4.0
+elephant,qID-0,A,100.976,S1_IN2,0.0,0,1,,,,,,,,
+elephant,qID-11,A,3.084,S1_IN2,1.0,0,2,Is there a mistake? [11],recognized that only 1 side and 1 angle were used for ASA,"tick marks, construction, inconsistency",step 5,right,geometric,,1.0
+elephant,qID-12,A,9.63,S1_IN2,0.0,0,2,Which step is wrong? [12],step 4 because red ? was next to step 4,"inconsistency, relies on",step 5,wrong,direct lookup,didn't fully keep track of state of proof geometrically and picked answer bc of misleading visual cue,2.0
+elephant,qID-13,A,64.608,S1_IN2,0.0,0,2,Describe reasoning [13],skipped many steps established lots of extra information to prove AAS,construction,step 5,wrong,geometric,too focused on proving with AAS instead of recognizing that RHL was already met,3.0
+elephant,qID-2,A,14.812,S1_IN2,1.0,0,2,conclude KL congruent to KM? [2],don't have to be congruent,"construction, tick marks",step 5,right,"geometric, direct lookup",,4.0
+elephant,qID-1,A,65.004,S1_IN2,1.0,0,2,enough info...Reflexive Property (step 4) bw steps 1 and 2? [1],MK is always going to = MK,statement text,step 1,right,geometric,,5.0
+elephant,qID-0,A,114.058,S1_C2,0.0,0,2,,,,,,,,
+elephant,qID-11,A,46.104,S1_C2,3.0,0,3,Is there a mistake? [11],walked through the whole proof and described each step geometrically. Nothing seemed to be wrong to them/pretty straightforward read of the proof.,"construction, tick marks, all proof text",,right,geometric,,1.0
+elephant,qID-4,A,18.551,S1_C2,1.0,0,3,enough info...ASA at step 7? [4],"bc lines are established as perp, can conclude","earlier proof steps (text), construction",step 5,right,geometric,,5.0
+elephant,qID-3,A,35.722,S1_C2,1.0,0,3,enough info...Congruent Adjacent Angles at step 5? [3],bc requirements for ASA have already been met,"tick marks, construction",step 9,right,"geometric, direct lookup",,5.0
+elephant,qID-0,A,140.706,S1_C1,0.0,0,3,,,,,,,,
+elephant,qID-11,A,9.085,S1_C1,0.0,0,4,Is there a mistake? [11],Thinks that SAS triangle congruence is incorrectly applied because of the way that the triangles are named not aligning with matching SAS.,"statement text, construction",step 5,wrong,geometric,thinks that the ordering of the name of the triangle is significant,1.0
+elephant,qID-12,A,9.521,S1_C1,0.0,0,4,Which step is wrong? [12],step 5,,,wrong,geometric,,2.0
+elephant,qID-13,A,33.018,S1_C1,0.0,0,4,Describe reasoning [13],"Thinks that 2 pieces of information are missing, wants to find information that would match the order laid out in the proof (so an additional pair of segments and pair of angles would need to be proven true in order for the proof to be correct).","statement text, construction",,wrong,geometric,misunderstanding reqs to describe SAS,3.0
+elephant,qID-2,A,48.032,S1_C1,1.0,0,4,enough info...Vertical Angles Theorem (step 4) bw steps 1 and 2? [2],bc lines are intersecting,earlier proof steps (text),step 2,right,geometric,,5.0
+elephant,qID-3,A,64.404,S1_C1,1.0,0,4,enough info...SAS Triangle Congruence (step 5) bw steps 3 and 4? [3],Had trouble keeping track of the information that was known and was not sure if enough sides had been proven congruent by step 3. Did not catch the fact that there was no angle demonstrated.,"construction, tick marks",,wrong,"geometric, guess",got answer right but reasoning was based on fixation that SAS was incorrectly applied,5.0
+elephant,qID-0,A,83.718,S1_IN3,0.0,0,4,,,,,,,,
+elephant,qID-11,A,2.921,S1_IN3,1.0,0,5,Is there a mistake? [11],notices inconsistency,"inconsistency, tick marks, construction",step 4,right,geometric,,1.0
+elephant,qID-12,A,8.84,S1_IN3,1.0,0,5,Which step is wrong? [12],step 4,"inconsistency, tick marks, construction",step 4,right,geometric,,2.0
+elephant,qID-13,A,55.201,S1_IN3,1.0,0,5,Describe reasoning [13],"quad != rectangle, can't claim opp angles are equal. also would need more information to solve",construction,step 4,right,geometric,,3.0
+elephant,qID-3,A,10.958,S1_IN3,1.0,0,5,conclude KN congruent to ML? [3],same # ticks,"tick marks, construction",,right,"direct lookup, geometric",,4.0
+elephant,qID-0,A,121.691,S2_IN2,0.0,0,5,,,,,,,,
+elephant,qID-11,A,1.987,S2_IN2,1.0,0,6,Is there a mistake? [11],"CPCTC incorrectly used, noticed inconsistency","inconsistency, construction, tick marks",step 7,right,geometric,,1.0
+elephant,qID-12,A,8.196,S2_IN2,1.0,0,6,Which step is wrong? [12],step 7,"inconsistency, construction, tick marks",step 7,right,geometric,,2.0
+elephant,qID-13,A,23.059,S2_IN2,1.0,0,6,Describe reasoning [13],use correct CPCTC and then alt-int angles,construction,step 8,right,geometric,,3.0
+elephant,qID-1,A,34.612,S2_IN2,1.0,0,6,enough info...Alternate Interior Angles (Converse) (step 8) bw steps 2 and 3? [1],not enough information to talk about parallel lines,earlier proof steps (text),step 8,right,geometric,,5.0
+elephant,qID-2,A,24.532,S2_IN2,1.0,0,6,conclude <MYZ congruent to <MWX? [2],angles are not the same,"construction, tick marks",step 8,right,geometric,,4.0
+elephant,qID-0,A,138.56,S2_IN1,0.0,0,6,,,,,,,,
+elephant,qID-11,A,5.093,S2_IN1,1.0,0,7,Is there a mistake? [11],angles in step 8 are not proven to be congruent before use,"tick marks, construction",step 8,right,geometric,,1.0
+elephant,qID-12,A,5.685,S2_IN1,1.0,0,7,Which step is wrong? [12],step 8,,,right,geometric,,2.0
+elephant,qID-13,A,57.027,S2_IN1,1.0,0,7,Describe reasoning [13],add LU=LU and use SAS instead,"construction, earlier proof steps (text)",step 9,right,geometric,,3.0
+elephant,qID-2,A,15.786,S2_IN1,1.0,0,7,conclude tLNU congruent to tUQL? [2],"could be true but wasn't correctly established by the proof, so no",earlier proof steps (text),,right,geometric,,4.0
+elephant,qID-0,A,149.099,S2_C2,0.0,0,7,,,,,,,,
+elephant,qID-11,A,23.161,S2_C2,3.0,0,8,Is there a mistake? [11],"Thinks SAS is incorrectly applied bc the marked segments/angles don't match the same order of the named triangle, then clicked No (accidentally?)","statement text, construction, tick marks",,wrong,"geometric, guess",misunderstanding reqs to describe SAS,1.0
+elephant,qID-1,A,152.575,S2_C2,1.0,0,8,enough info...SAS Triangle Congruence (step 9) bw steps 7 and 8? [1],can't prove SAS without step 8,"construction, tick marks, relies on, earlier proof steps (text)","step 9, step 8",right,geometric,,5.0
+elephant,qID-2,A,32.595,S2_C2,1.0,0,8,conclude <BAF congruent to <DCB? [2],"not the same angle, by looking at construction",construction,step 8,right,"geometric, direct lookup",,4.0

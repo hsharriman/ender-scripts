@@ -1,0 +1,14 @@
+id,version,sus,pretest,score,pilot
+seal,A,47.5,0.86,0.74,0
+zebra,B,95.0,0.93,0.55,0
+lion,A,77.5,0.71,0.68,0
+lemur,B,50.0,0.71,0.58,0
+hedgehog,A,75.0,0.79,0.76,0
+capybara,B,90.0,0.79,0.58,0
+rhino,A,70.0,0.79,0.47,0
+hippo,B,75.0,0.79,0.47,0
+giraffe,A,90.0,0.79,0.68,0
+eagle,B,100.0,0.86,0.26,0
+peacock,A,87.5,0.71,0.97,0
+penguin,B,87.5,0.79,0.39,0
+elephant,A,95.0,1.0,0.87,0

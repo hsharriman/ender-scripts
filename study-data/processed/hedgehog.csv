@@ -20,41 +20,41 @@ P5,qID-1,AAS (Angle-Angle-Side),2024-12-18 21:11:42.088,B,1.0,AAS (Angle-Angle-S
 TutorialProof1,qID-1,No,2024-12-18 21:14:25.218,A,,,0,163.13,hedgehog
 TutorialProof1,qID-2,No,2024-12-18 21:14:40.011,A,,,0,14.793,hedgehog
 TutorialProof2,qID-1,No,2024-12-18 21:15:24.710,A,,,0,44.699,hedgehog
-S1_IN1,qID-0,Continue,2024-12-18 21:16:26.735,A,1.0,Continue,1,62.025,hedgehog
+S1_IN1,qID-0,Continue,2024-12-18 21:16:26.735,A,0.0,,0,62.025,hedgehog
 S1_IN1,qID-11,Yes,2024-12-18 21:16:54.579,A,1.0,Yes,1,27.844,hedgehog
 S1_IN1,qID-12,Step 4,2024-12-18 21:17:00.691,A,1.0,Step 4,1,6.112,hedgehog
 S1_IN1,qID-13,Open-ended Incorrect,2024-12-18 21:17:12.579,A,0.0,Open-ended Correct,1,11.888,hedgehog
 S1_IN1,qID-3,Yes,2024-12-18 21:18:00.294,A,0.0,No,1,47.715,hedgehog
 S1_IN1,qID-2,No,2024-12-18 21:18:12.002,A,1.0,No,1,11.708,hedgehog
-S1_IN2,qID-0,Continue,2024-12-18 21:18:16.020,A,1.0,Continue,2,4.018,hedgehog
+S1_IN2,qID-0,Continue,2024-12-18 21:18:16.020,A,0.0,,1,4.018,hedgehog
 S1_IN2,qID-11,Yes,2024-12-18 21:19:17.980,A,1.0,Yes,2,61.96,hedgehog
 S1_IN2,qID-12,Step 5,2024-12-18 21:19:22.047,A,1.0,Step 5,2,4.067,hedgehog
 S1_IN2,qID-13,Open-ended Incorrect,2024-12-18 21:19:45.572,A,0.0,Open-ended Correct,2,23.525,hedgehog
 S1_IN2,qID-2,No,2024-12-18 21:19:57.444,A,1.0,No,2,11.872,hedgehog
 S1_IN2,qID-1,Yes,2024-12-18 21:20:29.413,A,1.0,Yes,2,31.969,hedgehog
-S1_C1,qID-0,Continue,2024-12-18 21:20:35.478,A,1.0,Continue,3,6.065,hedgehog
+S1_C1,qID-0,Continue,2024-12-18 21:20:35.478,A,0.0,,2,6.065,hedgehog
 S1_C1,qID-11,No,2024-12-18 21:21:38.882,A,3.0,No,3,63.404,hedgehog
 S1_C1,qID-3,No,2024-12-18 21:21:55.907,A,1.0,No,3,17.025,hedgehog
 S1_C1,qID-2,Yes,2024-12-18 21:22:11.983,A,1.0,Yes,3,16.076,hedgehog
-S1_C2,qID-0,Continue,2024-12-18 21:23:04.489,A,1.0,Continue,4,52.506,hedgehog
+S1_C2,qID-0,Continue,2024-12-18 21:23:04.489,A,0.0,,3,52.506,hedgehog
 S1_C2,qID-11,No,2024-12-18 21:23:08.710,A,3.0,No,4,4.221,hedgehog
 S1_C2,qID-4,Yes,2024-12-18 21:23:19.018,A,1.0,Yes,4,10.308,hedgehog
 S1_C2,qID-3,Yes,2024-12-18 21:23:27.739,A,1.0,Yes,4,8.721,hedgehog
-S1_IN3,qID-0,Continue,2024-12-18 21:24:16.674,A,1.0,Continue,5,48.935,hedgehog
+S1_IN3,qID-0,Continue,2024-12-18 21:24:16.674,A,0.0,,4,48.935,hedgehog
 S1_IN3,qID-11,Yes,2024-12-18 21:24:19.939,A,1.0,Yes,5,3.265,hedgehog
 S1_IN3,qID-12,Step 4,2024-12-18 21:24:24.505,A,1.0,Step 4,5,4.566,hedgehog
 S1_IN3,qID-13,Open-ended Correct,2024-12-18 21:25:16.685,A,1.0,Open-ended Correct,5,52.18,hedgehog
 S1_IN3,qID-3,Yes,2024-12-18 21:25:25.737,A,1.0,Yes,5,9.052,hedgehog
-S2_C2,qID-0,Continue,2024-12-18 21:26:22.836,A,1.0,Continue,6,57.099,hedgehog
+S2_C2,qID-0,Continue,2024-12-18 21:26:22.836,A,0.0,,5,57.099,hedgehog
 S2_C2,qID-11,No,2024-12-18 21:26:24.518,A,3.0,No,6,1.682,hedgehog
 S2_C2,qID-2,No,2024-12-18 21:26:47.446,A,1.0,No,6,22.928,hedgehog
 S2_C2,qID-1,No,2024-12-18 21:26:57.751,A,1.0,No,6,10.305,hedgehog
-S2_IN1,qID-0,Continue,2024-12-18 21:28:14.420,A,1.0,Continue,7,76.669,hedgehog
+S2_IN1,qID-0,Continue,2024-12-18 21:28:14.420,A,0.0,,6,76.669,hedgehog
 S2_IN1,qID-11,Yes,2024-12-18 21:28:15.905,A,1.0,Yes,7,1.485,hedgehog
 S2_IN1,qID-12,Step 7,2024-12-18 21:28:19.714,A,0.0,Step 8,7,3.809,hedgehog
 S2_IN1,qID-13,Open-ended Incorrect,2024-12-18 21:28:45.501,A,0.0,Open-ended Correct,7,25.787,hedgehog
 S2_IN1,qID-2,Yes,2024-12-18 21:28:59.915,A,0.0,No,7,14.414,hedgehog
-S2_IN2,qID-0,Continue,2024-12-18 21:29:31.859,A,1.0,Continue,8,31.944,hedgehog
+S2_IN2,qID-0,Continue,2024-12-18 21:29:31.859,A,0.0,,7,31.944,hedgehog
 S2_IN2,qID-11,Yes,2024-12-18 21:30:13.541,A,1.0,Yes,8,41.682,hedgehog
 S2_IN2,qID-12,Step 8,2024-12-18 21:30:17.245,A,0.0,Step 7,8,3.704,hedgehog
 S2_IN2,qID-13,Open-ended Incorrect,2024-12-18 21:30:51.106,A,0.0,Open-ended Correct,8,33.861,hedgehog

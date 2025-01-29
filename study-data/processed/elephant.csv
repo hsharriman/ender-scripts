@@ -1,74 +1,74 @@
-pageName,question,answer,time,version,score,key,delta,participant
-Background Questions,2,10,2024-12-10 22:17:43.212,undefined,,,0.0,elephant
-Background Questions,1,2025,2024-12-10 22:17:43.212,undefined,,,0.0,elephant
-Background Questions,0,15,2024-12-10 22:17:43.212,undefined,,,0.0,elephant
-Background Questions,3,regular,2024-12-10 22:17:43.213,undefined,,,0.001,elephant
-P1,qID-2,MN,2024-12-10 22:19:05.953,B,1.0,MN,82.74,elephant
-P1,qID-3,HJ,2024-12-10 22:19:16.486,B,1.0,HJ,10.533,elephant
-P1,qID-1,BC,2024-12-10 22:19:25.840,B,1.0,BC,9.354,elephant
-P2,qID-3,Angle NQP,2024-12-10 22:19:34.824,B,1.0,Angle NQP,8.984,elephant
-P2,qID-2,Angle DEF,2024-12-10 22:19:43.208,B,1.0,Angle DEF,8.384,elephant
-P2,qID-1,Angle GHJ,2024-12-10 22:19:50.241,B,1.0,Angle GHJ,7.033,elephant
-P4,qID-1,SSS (Side-Side-Side),2024-12-10 22:19:58.178,B,1.0,SSS (Side-Side-Side),7.937,elephant
-P4,qID-13,No,2024-12-10 22:20:05.154,B,1.0,No,6.976,elephant
-P4,qID-12,No,2024-12-10 22:20:13.034,B,1.0,No,7.88,elephant
-P4,qID-11,"be the same shape and size, can be mirror images of each other",2024-12-10 22:21:16.860,B,1.0,"be the same shape and size, can be mirror images of each other",63.826,elephant
-P5,qID-1,AAS (Angle-Angle-Side),2024-12-10 22:21:34.787,B,1.0,AAS (Angle-Angle-Side),17.927,elephant
-P6,qID-1,ASA (Angle-Side-Angle),2024-12-10 22:21:43.241,B,1.0,ASA (Angle-Side-Angle),8.454,elephant
-P3,qID-1,SAS (Side-Angle-Side),2024-12-10 22:21:51.648,B,1.0,SAS (Side-Angle-Side),8.407,elephant
-P7,qID-1,RHL (Right-Hypotenuse-Leg),2024-12-10 22:22:17.929,B,1.0,RHL (Right-Hypotenuse-Leg),26.281,elephant
-TutorialProof1,qID-1,Yes,2024-12-10 22:25:03.844,A,,,165.915,elephant
-TutorialProof1,qID-2,No,2024-12-10 22:25:56.814,A,,,52.97,elephant
-TutorialProof2,qID-1,No,2024-12-10 22:28:31.438,A,,,154.624,elephant
-T1_S1_IN1,qID-0,Continue,2024-12-10 22:32:03.787,A,1.0,Continue,212.349,elephant
-T1_S1_IN1,qID-11,Yes,2024-12-10 22:32:12.269,A,1.0,Yes,8.482,elephant
-T1_S1_IN1,qID-12,Step 4,2024-12-10 22:33:08.403,A,1.0,Step 4,56.134,elephant
-T1_S1_IN1,qID-13,Open-ended Correct,2024-12-10 22:33:39.736,A,1.0,Open-ended Correct,31.333,elephant
-T1_S1_IN1,qID-2,No,2024-12-10 22:34:09.931,A,1.0,No,30.195,elephant
-T1_S1_IN1,qID-3,No,2024-12-10 22:34:50.710,A,1.0,No,40.779,elephant
-T1_S1_IN2,qID-0,Continue,2024-12-10 22:36:31.686,A,1.0,Continue,100.976,elephant
-T1_S1_IN2,qID-11,Yes,2024-12-10 22:36:34.770,A,1.0,Yes,3.084,elephant
-T1_S1_IN2,qID-12,Step 4,2024-12-10 22:36:44.400,A,0.0,Step 5,9.63,elephant
-T1_S1_IN2,qID-13,Open-ended Incorrect,2024-12-10 22:37:49.008,A,0.0,Open-ended Correct,64.608,elephant
-T1_S1_IN2,qID-2,No,2024-12-10 22:38:03.820,A,1.0,No,14.812,elephant
-T1_S1_IN2,qID-1,Yes,2024-12-10 22:39:08.824,A,1.0,Yes,65.004,elephant
-T1_S1_C2,qID-0,Continue,2024-12-10 22:41:02.882,A,1.0,Continue,114.058,elephant
-T1_S1_C2,qID-11,No,2024-12-10 22:41:48.986,A,3.0,No,46.104,elephant
-T1_S1_C2,qID-4,Yes,2024-12-10 22:42:07.537,A,1.0,Yes,18.551,elephant
-T1_S1_C2,qID-3,Yes,2024-12-10 22:42:43.259,A,1.0,Yes,35.722,elephant
-T1_S1_C1,qID-0,Continue,2024-12-10 22:45:03.965,A,1.0,Continue,140.706,elephant
-T1_S1_C1,qID-11,Yes,2024-12-10 22:45:13.050,A,0.0,No,9.085,elephant
-T1_S1_C1,qID-12,Step 5,2024-12-10 22:45:22.571,A,0.0,,9.521,elephant
-T1_S1_C1,qID-13,Open-ended Incorrect,2024-12-10 22:45:55.589,A,0.0,,33.018,elephant
-T1_S1_C1,qID-2,Yes,2024-12-10 22:46:43.621,A,1.0,Yes,48.032,elephant
-T1_S1_C1,qID-3,No,2024-12-10 22:47:48.025,A,1.0,No,64.404,elephant
-T1_S1_IN3,qID-0,Continue,2024-12-10 22:49:11.743,A,1.0,Continue,83.718,elephant
-T1_S1_IN3,qID-11,Yes,2024-12-10 22:49:14.664,A,1.0,Yes,2.921,elephant
-T1_S1_IN3,qID-12,Step 4,2024-12-10 22:49:23.504,A,1.0,Step 4,8.84,elephant
-T1_S1_IN3,qID-13,Open-ended Correct,2024-12-10 22:50:18.705,A,1.0,Open-ended Correct,55.201,elephant
-T1_S1_IN3,qID-3,Yes,2024-12-10 22:50:29.663,A,1.0,Yes,10.958,elephant
-T1_S2_IN2,qID-0,Continue,2024-12-10 22:52:31.354,A,1.0,Continue,121.691,elephant
-T1_S2_IN2,qID-11,Yes,2024-12-10 22:52:33.341,A,1.0,Yes,1.987,elephant
-T1_S2_IN2,qID-12,Step 7,2024-12-10 22:52:41.537,A,1.0,Step 7,8.196,elephant
-T1_S2_IN2,qID-13,Open-ended Correct,2024-12-10 22:53:04.596,A,1.0,Open-ended Correct,23.059,elephant
-T1_S2_IN2,qID-1,No,2024-12-10 22:53:39.208,A,1.0,No,34.612,elephant
-T1_S2_IN2,qID-2,No,2024-12-10 22:54:03.740,A,1.0,No,24.532,elephant
-T1_S2_IN1,qID-0,Continue,2024-12-10 22:56:22.300,A,1.0,Continue,138.56,elephant
-T1_S2_IN1,qID-11,Yes,2024-12-10 22:56:27.393,A,1.0,Yes,5.093,elephant
-T1_S2_IN1,qID-12,Step 8,2024-12-10 22:56:33.078,A,1.0,Step 8,5.685,elephant
-T1_S2_IN1,qID-13,Open-ended Correct,2024-12-10 22:57:30.105,A,1.0,Open-ended Correct,57.027,elephant
-T1_S2_IN1,qID-2,No,2024-12-10 22:57:45.891,A,1.0,No,15.786,elephant
-T1_S2_C2,qID-0,Continue,2024-12-10 23:00:14.990,A,1.0,Continue,149.099,elephant
-T1_S2_C2,qID-11,No,2024-12-10 23:00:38.151,A,3.0,No,23.161,elephant
-T1_S2_C2,qID-1,No,2024-12-10 23:03:10.726,A,1.0,No,152.575,elephant
-T1_S2_C2,qID-2,No,2024-12-10 23:03:43.321,A,1.0,No,32.595,elephant
-SUS,0,3,2024-12-10 23:07:34.445,undefined,,,231.124,elephant
-SUS,1,1,2024-12-10 23:07:34.445,undefined,,,0.0,elephant
-SUS,2,5,2024-12-10 23:07:34.445,undefined,,,0.0,elephant
-SUS,3,1,2024-12-10 23:07:34.445,undefined,,,0.0,elephant
-SUS,8,5,2024-12-10 23:07:34.446,undefined,,,0.001,elephant
-SUS,4,5,2024-12-10 23:07:34.446,undefined,,,0.0,elephant
-SUS,5,1,2024-12-10 23:07:34.446,undefined,,,0.0,elephant
-SUS,6,5,2024-12-10 23:07:34.446,undefined,,,0.0,elephant
-SUS,7,1,2024-12-10 23:07:34.446,undefined,,,0.0,elephant
-SUS,9,1,2024-12-10 23:07:34.446,undefined,,,0.0,elephant
+pageName,question,answer,time,version,score,key,order,delta,participant
+Background Questions,2,10,2024-12-10 22:17:43.212,undefined,,,0,0.0,elephant
+Background Questions,1,2025,2024-12-10 22:17:43.212,undefined,,,0,0.0,elephant
+Background Questions,0,15,2024-12-10 22:17:43.212,undefined,,,0,0.0,elephant
+Background Questions,3,regular,2024-12-10 22:17:43.213,undefined,,,0,0.001,elephant
+P1,qID-2,MN,2024-12-10 22:19:05.953,B,1.0,MN,0,82.74,elephant
+P1,qID-3,HJ,2024-12-10 22:19:16.486,B,1.0,HJ,0,10.533,elephant
+P1,qID-1,BC,2024-12-10 22:19:25.840,B,1.0,BC,0,9.354,elephant
+P2,qID-3,Angle NQP,2024-12-10 22:19:34.824,B,1.0,Angle NQP,0,8.984,elephant
+P2,qID-2,Angle DEF,2024-12-10 22:19:43.208,B,1.0,Angle DEF,0,8.384,elephant
+P2,qID-1,Angle GHJ,2024-12-10 22:19:50.241,B,1.0,Angle GHJ,0,7.033,elephant
+P4,qID-1,SSS (Side-Side-Side),2024-12-10 22:19:58.178,B,1.0,SSS (Side-Side-Side),0,7.937,elephant
+P4,qID-13,No,2024-12-10 22:20:05.154,B,1.0,No,0,6.976,elephant
+P4,qID-12,No,2024-12-10 22:20:13.034,B,1.0,No,0,7.88,elephant
+P4,qID-11,"be the same shape and size, can be mirror images of each other",2024-12-10 22:21:16.860,B,1.0,"be the same shape and size, can be mirror images of each other",0,63.826,elephant
+P5,qID-1,AAS (Angle-Angle-Side),2024-12-10 22:21:34.787,B,1.0,AAS (Angle-Angle-Side),0,17.927,elephant
+P6,qID-1,ASA (Angle-Side-Angle),2024-12-10 22:21:43.241,B,1.0,ASA (Angle-Side-Angle),0,8.454,elephant
+P3,qID-1,SAS (Side-Angle-Side),2024-12-10 22:21:51.648,B,1.0,SAS (Side-Angle-Side),0,8.407,elephant
+P7,qID-1,RHL (Right-Hypotenuse-Leg),2024-12-10 22:22:17.929,B,1.0,RHL (Right-Hypotenuse-Leg),0,26.281,elephant
+TutorialProof1,qID-1,Yes,2024-12-10 22:25:03.844,A,,,0,165.915,elephant
+TutorialProof1,qID-2,No,2024-12-10 22:25:56.814,A,,,0,52.97,elephant
+TutorialProof2,qID-1,No,2024-12-10 22:28:31.438,A,,,0,154.624,elephant
+S1_IN1,qID-0,Continue,2024-12-10 22:32:03.787,A,0.0,,0,212.349,elephant
+S1_IN1,qID-11,Yes,2024-12-10 22:32:12.269,A,1.0,Yes,1,8.482,elephant
+S1_IN1,qID-12,Step 4,2024-12-10 22:33:08.403,A,1.0,Step 4,1,56.134,elephant
+S1_IN1,qID-13,Open-ended Correct,2024-12-10 22:33:39.736,A,1.0,Open-ended Correct,1,31.333,elephant
+S1_IN1,qID-2,No,2024-12-10 22:34:09.931,A,1.0,No,1,30.195,elephant
+S1_IN1,qID-3,No,2024-12-10 22:34:50.710,A,1.0,No,1,40.779,elephant
+S1_IN2,qID-0,Continue,2024-12-10 22:36:31.686,A,0.0,,1,100.976,elephant
+S1_IN2,qID-11,Yes,2024-12-10 22:36:34.770,A,1.0,Yes,2,3.084,elephant
+S1_IN2,qID-12,Step 4,2024-12-10 22:36:44.400,A,0.0,Step 5,2,9.63,elephant
+S1_IN2,qID-13,Open-ended Incorrect,2024-12-10 22:37:49.008,A,0.0,Open-ended Correct,2,64.608,elephant
+S1_IN2,qID-2,No,2024-12-10 22:38:03.820,A,1.0,No,2,14.812,elephant
+S1_IN2,qID-1,Yes,2024-12-10 22:39:08.824,A,1.0,Yes,2,65.004,elephant
+S1_C2,qID-0,Continue,2024-12-10 22:41:02.882,A,0.0,,2,114.058,elephant
+S1_C2,qID-11,No,2024-12-10 22:41:48.986,A,3.0,No,3,46.104,elephant
+S1_C2,qID-4,Yes,2024-12-10 22:42:07.537,A,1.0,Yes,3,18.551,elephant
+S1_C2,qID-3,Yes,2024-12-10 22:42:43.259,A,1.0,Yes,3,35.722,elephant
+S1_C1,qID-0,Continue,2024-12-10 22:45:03.965,A,0.0,,3,140.706,elephant
+S1_C1,qID-11,Yes,2024-12-10 22:45:13.050,A,0.0,No,4,9.085,elephant
+S1_C1,qID-12,Step 5,2024-12-10 22:45:22.571,A,0.0,,4,9.521,elephant
+S1_C1,qID-13,Open-ended Incorrect,2024-12-10 22:45:55.589,A,0.0,,4,33.018,elephant
+S1_C1,qID-2,Yes,2024-12-10 22:46:43.621,A,1.0,Yes,4,48.032,elephant
+S1_C1,qID-3,No,2024-12-10 22:47:48.025,A,1.0,No,4,64.404,elephant
+S1_IN3,qID-0,Continue,2024-12-10 22:49:11.743,A,0.0,,4,83.718,elephant
+S1_IN3,qID-11,Yes,2024-12-10 22:49:14.664,A,1.0,Yes,5,2.921,elephant
+S1_IN3,qID-12,Step 4,2024-12-10 22:49:23.504,A,1.0,Step 4,5,8.84,elephant
+S1_IN3,qID-13,Open-ended Correct,2024-12-10 22:50:18.705,A,1.0,Open-ended Correct,5,55.201,elephant
+S1_IN3,qID-3,Yes,2024-12-10 22:50:29.663,A,1.0,Yes,5,10.958,elephant
+S2_IN2,qID-0,Continue,2024-12-10 22:52:31.354,A,0.0,,5,121.691,elephant
+S2_IN2,qID-11,Yes,2024-12-10 22:52:33.341,A,1.0,Yes,6,1.987,elephant
+S2_IN2,qID-12,Step 7,2024-12-10 22:52:41.537,A,1.0,Step 7,6,8.196,elephant
+S2_IN2,qID-13,Open-ended Correct,2024-12-10 22:53:04.596,A,1.0,Open-ended Correct,6,23.059,elephant
+S2_IN2,qID-1,No,2024-12-10 22:53:39.208,A,1.0,No,6,34.612,elephant
+S2_IN2,qID-2,No,2024-12-10 22:54:03.740,A,1.0,No,6,24.532,elephant
+S2_IN1,qID-0,Continue,2024-12-10 22:56:22.300,A,0.0,,6,138.56,elephant
+S2_IN1,qID-11,Yes,2024-12-10 22:56:27.393,A,1.0,Yes,7,5.093,elephant
+S2_IN1,qID-12,Step 8,2024-12-10 22:56:33.078,A,1.0,Step 8,7,5.685,elephant
+S2_IN1,qID-13,Open-ended Correct,2024-12-10 22:57:30.105,A,1.0,Open-ended Correct,7,57.027,elephant
+S2_IN1,qID-2,No,2024-12-10 22:57:45.891,A,1.0,No,7,15.786,elephant
+S2_C2,qID-0,Continue,2024-12-10 23:00:14.990,A,0.0,,7,149.099,elephant
+S2_C2,qID-11,No,2024-12-10 23:00:38.151,A,3.0,No,8,23.161,elephant
+S2_C2,qID-1,No,2024-12-10 23:03:10.726,A,1.0,No,8,152.575,elephant
+S2_C2,qID-2,No,2024-12-10 23:03:43.321,A,1.0,No,8,32.595,elephant
+SUS,0,3,2024-12-10 23:07:34.445,undefined,,,8,231.124,elephant
+SUS,1,1,2024-12-10 23:07:34.445,undefined,,,8,0.0,elephant
+SUS,2,5,2024-12-10 23:07:34.445,undefined,,,8,0.0,elephant
+SUS,3,1,2024-12-10 23:07:34.445,undefined,,,8,0.0,elephant
+SUS,8,5,2024-12-10 23:07:34.446,undefined,,,8,0.001,elephant
+SUS,4,5,2024-12-10 23:07:34.446,undefined,,,8,0.0,elephant
+SUS,5,1,2024-12-10 23:07:34.446,undefined,,,8,0.0,elephant
+SUS,6,5,2024-12-10 23:07:34.446,undefined,,,8,0.0,elephant
+SUS,7,1,2024-12-10 23:07:34.446,undefined,,,8,0.0,elephant
+SUS,9,1,2024-12-10 23:07:34.446,undefined,,,8,0.0,elephant

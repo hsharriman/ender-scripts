@@ -28,7 +28,7 @@ def update_openended(df, proofs):
     return df
 
 def add_participant_timing(participant, answers_df, is_pilot, overwrite=False):
-    filename = "./out/study/per_question.csv"
+    filename = "./out/study/per_question2.csv"
     df = pd.read_csv(filename)
 
     #convert answers of participant into appropriate format
@@ -166,7 +166,7 @@ def total_score_participant(df, participant, is_pilot, overwrite=False):
     pre_score = pre["score"].sum()
 
     # max score for activity
-    mask = lambda df: df[~df['pageName'].str.startswith('P')]
+    mask = lambda df: df[~df['pageName'].str.startswith('P') & (~df['question'].str.startswith('qID-0')) & ~df['pageName'].str.startswith('Tutorial')]
     activity_df = mask(answer_key)
     #score activity
     act = mask(df)
@@ -180,7 +180,7 @@ def total_score_participant(df, participant, is_pilot, overwrite=False):
 
     # store answer in compiled CSV
     # dataframe to collect scores only, 1 new row per participant, include boolean flag if the data came from a pilot
-    filename = "./out/study/scores_df.csv"
+    filename = "./out/study/scores.csv"
     score_df = pd.read_csv(filename)
     row = pd.DataFrame({
         "id": participant, 
@@ -239,16 +239,16 @@ if __name__ == "__main__":
     INCR = "Open-ended Incorrect"
 
     # change these before adding each new student
-    participant = "seal"
+    participant = "elephant"
     is_pilot = False
     proofs = {
-        "S1_C1" : CR, 
+        "S1_C1" : INCR, 
         "S1_C2" : CR, 
-        "S1_IN1": INCR, 
+        "S1_IN1": CR, 
         "S1_IN2": INCR, 
-        "S1_IN3" : INCR, 
+        "S1_IN3" : CR, 
         "S2_C2": CR,
-        "S2_IN1": INCR,
+        "S2_IN1": CR,
         "S2_IN2": CR,
     }
 
@@ -259,7 +259,7 @@ if __name__ == "__main__":
     timing_df_compiled = add_participant_timing(participant, df, is_pilot, overwrite=True)
     compiled = combine_qual(timing_df_compiled, "./out/study/think-aloud-13.csv")
     compiled = add_question_type(compiled)
-    compiled.to_csv("./out/study/combined3.csv", index=False)
+    compiled.to_csv("./out/study/combined4.csv", index=False)
 
     # df = pd.read_csv("./out/study/combined.csv")
     # for index, row in df.iterrows():
