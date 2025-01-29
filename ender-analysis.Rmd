@@ -10,91 +10,144 @@ library(broom)
 library(car)
 library(lme4)
 library(lmerTest)
+library(tidyverse)
 ```
+
+## Relevant Experiment Design Information
 
 ## Overall Scores Setup
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+df attribute summary:
+
+-   id = 1 unique id per participant (and 1 row per participant)
+
+-   version = "A" or "B" depending on which version of the test the participant completed (this is the independent var)
+
+-   sus = 0-100 indicating the System-Usability Score the student gave
+
+-   pretest = 0-1, proportion of pretest answers that the student answered correctly (1 = 100% correctness)
+
+-   score = 0-1, proportion of main activity answers that student answered correctly (1 = 100% questions answered correctly). (There were 38 possible points in the test). (this is the primarily what we care about)
 
 ```{r}
 df <- read.csv("./out/study/scores_df.csv")
-summary(df)
-```
+# Replace "A" with "S" and "B" with "C"
+df$version[df$version == "A"] <- "S"
+df$version[df$version == "B"] <- "C"
 
-```{r}
-# filter out pilots
-# df <- subset(df, pilot == 0)
-# are post test scores explained by being assigned to SA or SB?
-# t.test(df[df$version == 'A', ]$score, df[df$version == 'B',]$score, alternative = "two.sided", var.equal = FALSE)
-```
-
-
-Test for equal variance using Levene's Test. Results show that there is no significant difference in variances between groups, so t-test is okay to use.
-```{r}
 # Set version as the group of the dataset
 df$version <- as.factor(df$version)
 
 # Remove outlier and pilot data
 df <- subset(df, pilot == 0)
 df <- subset(df, id != "rhino")
+summary(df)
+```
 
-leveneTest(score ~ version, data = df)
 
-leveneTest(pretest ~ version, data = df)
-
-leveneTest(sus ~ version, data = df)
+```{r}
+# testing for equal variance, do not need to report these. T-test is very robust so even if you don't have equal variance it is basically ok to use.
+#leveneTest(score ~ version, data = df)
+#leveneTest(pretest ~ version, data = df)
+#leveneTest(sus ~ version, data = df)
 ```
 
 ## T-test for Statistical Significance
-```{r}
-t.test(score ~ version, data = df, var.equal = TRUE, alternative = "greater")
 
-t.test(score ~ version, data = df, var.equal = TRUE, alternative = "two.sided")
+Answer the question: Does being assigned to version A lead to statistically significantly better performance on the activity compared to version B? Where performance is being evaluated as accuracy on test questions (score = x/38).
+
+**Question for Paulo**:
+
+-   Should I use two.sided or greater here? Answer: ALWAYS do a two-sided t-test
+
+```{r}
+# the issue with this is that it does not account for the fact that the pretest scores are the same. Looking at the two in isolation is not correct. Instead, should run a model that considers that GIVEN the lack of diff in pretest scores, there is a difference in activity scores. See next cell.
+# t.test(score ~ version, data = df, var.equal = TRUE, alternative = "two.sided")
 ```
 
 Check significance of version on pretest scores and SUS scores.
-```{r}
-t.test(pretest ~ version, data = df, var.equal = TRUE, alternative = "two.sided")
-
-t.test(sus ~ version, data = df, var.equal = TRUE, alternative = "two.sided")
-```
 
 ```{r}
-# df <- read.csv("./out/study/combined3.csv")
-# df <- subset(df, pilot == 0)
-# df <- df[!grepl("^P", df$proof), ]
-# summary(df)
+# intercept = over whole model do students have diff between each other
+# report whole versionS row
+summary(lm(score ~ version + pretest, data = df ))
+
+# t.test(pretest ~ version, data = df, var.equal = TRUE, alternative = "two.sided")
+# sd(df$pretest)
+# t.test(sus ~ version, data = df, var.equal = TRUE, alternative = "two.sided")
 ```
 
 ## Per-question analysis
+
+Time for a new dataframe:
+
+df attribute summary, contains 1 row per question TYPE that was answered, there are 5 types of questions so 5 \* 12 participants = 60 records:
+
+-   id = participant ID
+
+-   questionType = 1, 2, 3, 4, or 5 depending on the question type
+
+-   points = count of number of times the student got that question type correct
+
+-   version = "A" or "B" depending on version of the test student completed
+
+-   time = num. seconds student spent looking at the problem (measured from the time that they submit each question)
+
+-   score = proportion of each questionType that student answered correctly
+
 ```{r}
-df <- read.csv("./out/study/questionTypeData.csv")
+df <- read.csv("./out/study/questionTypeDataWithReasons.csv")
+df$version[df$version == "A"] <- "S"
+df$version[df$version == "B"] <- "C"
 summary(df)
 
 # Set version as the group of the dataset
 df$version <- as.factor(df$version)
 df$questionType <- factor(df$questionType)
 
-# Check variance for each questionType, all are not significant so equal variance is OK
-#leveneTest(score ~ version, data = subset(df, questionType == 1))
-#leveneTest(score ~ version, data = subset(df, questionType == 2))
-#leveneTest(score ~ version, data = subset(df, questionType == 3))
-#leveneTest(score ~ version, data = subset(df, questionType == 4))
-#leveneTest(score ~ version, data = subset(df, questionType == 5))
 
-leveneTest(score ~ version * questionType, data = df)
+# leveneTest(score ~ version * questionType, data = df)
 ```
+
+**For Paulo:**
+
+-   I want to know which of the 5 types of questions students were significantly better at answering with version A than with version B. 
+
 ```{r}
-lmm_model <- lmer(score ~ version * questionType + (1 | id), data = df)
+#lmm_model <- lmer(score ~ version * questionType + pretest + (1 | id), data = df)
+#summary(lmm_model)
+
+#anova(lmm_model)
+```
+
+```{r}
+lmm_model <- lmer(score ~ version * relevel(questionType, ref = 5) + pretest + (1 | id), data = df)
 summary(lmm_model)
 
-# To check if version significantly affects the score for each questionType
 anova(lmm_model)
 ```
 
+```{r}
+# Calculate mean score for each questionType and version
+mean_scores <- df %>%
+  group_by(questionType, version) %>%
+  summarise(mean_score = mean(score), .groups = 'drop')
+
+# Create the plot
+ggplot(mean_scores, aes(x = questionType, y = mean_score, fill = version)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Mean Scores by Question Type for Version A and Version B",
+    x = "Question Type",
+    y = "Mean Score"
+  ) +
+  theme_minimal() +
+  scale_fill_manual(values = c("S" = "#619CFF", "C" = "#F8766D"))
+```
+
+The residuals for this data seem to be looking good:
 
 ```{r}
-
 # Extract residuals
 lmm_residuals <- residuals(lmm_model)
 
@@ -103,45 +156,36 @@ qqnorm(lmm_residuals)
 qqline(lmm_residuals, col = "red")
 ```
 
-# Check significance of performance on individual questions
-Check significance of performing better on "does this proof have a mistake?" questions
+
+## Evaluating Reasoning
+
+**For Paulo:**
+
+Besides the analysis I've currently got here, I'm also interested in answering the questions:
+
+1.  How often are students answering questions with correct reasoning? This should be almost perfectly correlated to the answer that they picked (students generally got the answer right whenever they had the correct reasoning and vice versa, although sometimes the student guessed the right answer without appropriate justification). I am not confident that what I've attempted here is valid at all.
+
+New dataframe with attributes:
+
+-   id = participant
+
+-   questionType = 1, 2, 3,4 or 5
+
+-   points = count of number of each questionType that student got right (5 entries per participant)
+
+-   version = either "A" or "B"
+
+-   time = mean time-on-task for each participant for each question type (5 entries per participant).
+
+-   reason = count of times student answered each questionType with correct reasoning (either out of 7 or 8 depending on the question type)
+
+-   score = proportion of each questionType student correctly answers
+
+-   reasoning = proportion of each questionType student justifies correctly
+
 ```{r}
-t.test(score ~ version, data = subset(df, questionType==1), var.equal = TRUE, alternative = "two.sided")
-
-# test significance of time taken
-t.test(time ~ version, data = subset(df, questionType==1), var.equal = TRUE, alternative = "two.sided")
-```
-Check significance of performing better on "which step is wrong?" questions
-```{r}
-t.test(score ~ version, data = subset(df, questionType==2), var.equal = TRUE, alternative = "two.sided")
-
-# test significance of time taken
-t.test(time ~ version, data = subset(df, questionType==2), var.equal = TRUE, alternative = "two.sided")
-```
-
-Significance of "correct the proof" questions
-```{r}
-t.test(score ~ version, data = subset(df, questionType==3), var.equal = TRUE, alternative = "two.sided")
-
-# test significance of time taken
-t.test(time ~ version, data = subset(df, questionType==3), var.equal = TRUE, alternative = "two.sided")
-```
-
-Check significance of performing better on "must X be congruent to Y?" questions
-```{r}
-t.test(score ~ version, data = subset(df, questionType==4), var.equal = TRUE, alternative = "two.sided")
-
-# test significance of time taken
-t.test(time ~ version, data = subset(df, questionType==4), var.equal = TRUE, alternative = "two.sided")
-```
-
-Check significance of performing better on "is reason X correctly applied?" questions
-```{r}
-t.test(score ~ version, data = subset(df, questionType==5), var.equal = TRUE, alternative = "two.sided")
-
-# test significance of time taken
-t.test(time ~ version, data = subset(df, questionType==5), var.equal = TRUE, alternative = "two.sided")
+# run correlation test between
+cor.test(df$score, df$reasoning)
 ```
 
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
