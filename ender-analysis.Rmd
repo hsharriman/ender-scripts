@@ -184,8 +184,12 @@ New dataframe with attributes:
 -   reasoning = proportion of each questionType student justifies correctly
 
 ```{r}
+df <- read.csv("out/study/questionTypeReason1RowEach.csv")
 # run correlation test between
-cor.test(df$score, df$reasoning)
+cor.test(df[df$version=="A",]$score, df[df$version=="A",]$reason)
+cor.test(df[df$version=="B",]$score, df[df$version=="B",]$reason)
+
+cor.test(df$score, df$reason)
 ```
 
 
