@@ -73,8 +73,7 @@ Check significance of version on pretest scores and SUS scores.
 summary(lm(score ~ version + pretest, data = df ))
 
 # t.test(pretest ~ version, data = df, var.equal = TRUE, alternative = "two.sided")
-# sd(df$pretest)
-# t.test(sus ~ version, data = df, var.equal = TRUE, alternative = "two.sided")
+# sd(df$pretest)# t.test(sus ~ version, data = df, var.equal = TRUE, alternative = "two.sided")
 ```
 
 ## Per-question analysis
@@ -114,10 +113,10 @@ df$questionType <- factor(df$questionType)
 -   I want to know which of the 5 types of questions students were significantly better at answering with version A than with version B. 
 
 ```{r}
-#lmm_model <- lmer(score ~ version * questionType + pretest + (1 | id), data = df)
-#summary(lmm_model)
+lmm_model <- lmer(score ~ version + pretest + (1 | id), data = df)
+summary(lmm_model)
 
-#anova(lmm_model)
+anova(lmm_model)
 ```
 
 ```{r}
